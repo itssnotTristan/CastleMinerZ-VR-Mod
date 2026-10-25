@@ -14,6 +14,9 @@ STUB=Path(os.environ['CMZ_ADB_STUB'])
 PS=Path(os.environ.get('CMZ_TEST_PS',r'C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe'))
 BASE=Path(os.environ['CMZ_TEST_WORK'])
 BASE.mkdir(parents=True,exist_ok=True)
+identity=subprocess.run([str(STUB),'--cmz-test-double-identity'],capture_output=True,text=True,timeout=5)
+if identity.returncode or identity.stdout.strip()!='CMZ_ADB_TEST_DOUBLE_V1':
+    raise RuntimeError('CMZ_ADB_STUB must be the compiled inert AdbStub.exe, never real adb.exe')
 
 def digest(path):return hashlib.sha256(path.read_bytes()).hexdigest()
 def quoted(value):return "'"+str(value).replace("'","''")+"'"

@@ -1,0 +1,13 @@
+{
+  "apk": "CastleMinerZVR-Quest2-v0.58.1-PublicUpdate.apk",
+  "package": "org.codex.castleminerzvr",
+  "versionCode": 62,
+  "versionName": "0.58.1-installer-hud",
+  "signerSha256": "90feab64d6f679f199c4e39a9407e25f17d038de58ff3a047dcecae01ae1e737",
+  "commit": "5b4ef054a071fb9457e533089d68a06b961fc9f6",
+  "runId": "40196945217",
+  "bytes": 11731918,
+  "sha256": "a8ef28f26544ac415f0303c897704b0919ee3cf9f39f23fa60122aaa5a38674b",
+  "sourceArchiveSha256": "1f5e3955d41531578048a1bd61f0230796b7481e89004ea6c26cfcc26424c164",
+  "assetChecklistSha256": "2c1334c9778f52d93b251461519577b717d6ead737d249c9033db8a185e984fa"
+}

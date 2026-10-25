@@ -1,5 +1,6 @@
 param([Parameter(Mandatory=$true)][string]$Stub,[Parameter(Mandatory=$true)][string]$Log)
 $ErrorActionPreference='Stop'
+if((& $Stub --cmz-test-double-identity) -cne 'CMZ_ADB_TEST_DOUBLE_V1'){throw 'Use the inert AdbStub.exe, never real adb.exe.'}
 $env:CMZ_ADB_LOG=$Log
 $env:CMZ_ADB_MODE='argv'
 $Adb=$Stub

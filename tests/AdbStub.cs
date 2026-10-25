@@ -4,6 +4,9 @@ using System.IO;
 using System.Web.Script.Serialization;
 class AdbStub {
     static int Main(string[] args) {
+        if(args.Length==1&&args[0]=="--cmz-test-double-identity"){
+            Console.WriteLine("CMZ_ADB_TEST_DOUBLE_V1");return 0;
+        }
         var json=new JavaScriptSerializer();
         File.AppendAllText(Environment.GetEnvironmentVariable("CMZ_ADB_LOG"),json.Serialize(args)+"\n");
         string mode=Environment.GetEnvironmentVariable("CMZ_ADB_MODE")??"ok";
