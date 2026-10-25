@@ -1,0 +1,4611 @@
+{
+  "schemaVersion": 1,
+  "sourceGameVersion": "1.9.9.8",
+  "files": [
+    {
+      "path": "CastleMinerZ.exe",
+      "bytes": 846848,
+      "sha256": "45d951391f204a20803c5e249d7f43fec0acbf320f5cf6c3e42ccccfe778cea3"
+    },
+    {
+      "path": "Content/Aurora2_0.xnb",
+      "bytes": 13574,
+      "sha256": "37a9be3afc26a4a89d6f4a83a6391aa181bf666ba47c257d531d3dd71b85d434"
+    },
+    {
+      "path": "Content/Billboard.xnb",
+      "bytes": 1096,
+      "sha256": "f37e60af6c2bf072c3a2b7fab5be0cfecaceaf1c57699b329c3e3d14649cb1ac"
+    },
+    {
+      "path": "Content/Character/Animation/Faint.xnb",
+      "bytes": 29706,
+      "sha256": "ae1d1c4abcc639a52e6c7710cb33d24a794c94625f9597108c03326ae63eb50f"
+    },
+    {
+      "path": "Content/Character/Animation/GenericIdle.xnb",
+      "bytes": 1078,
+      "sha256": "c88c6bb53475ec5377f19d3ed3b3a91f1c7f0c3926447ffb4101ddd1a1c83f95"
+    },
+    {
+      "path": "Content/Character/Animation/GenericUse.xnb",
+      "bytes": 3564,
+      "sha256": "eb189ef43eeb2216e922114c861ac197e825e3aa2fb434e3f6ccb2104b7a951f"
+    },
+    {
+      "path": "Content/Character/Animation/GenericWalk.xnb",
+      "bytes": 6616,
+      "sha256": "24c18f7d913659517fce053638285f425f6ef393ea44860df94323216553c028"
+    },
+    {
+      "path": "Content/Character/Animation/MaleIdleLookAround.xnb",
+      "bytes": 177724,
+      "sha256": "4386645845b0d173f0daad176a91726119f59b92976d9e6279ed23218f9c50e3"
+    },
+    {
+      "path": "Content/Character/Animation/Run.xnb",
+      "bytes": 14538,
+      "sha256": "d062cddba8ab27829e0cca5297a0cd0bcad6970b44ec9b301fefba4b3dc1aa06"
+    },
+    {
+      "path": "Content/Character/Animation/Stand0.xnb",
+      "bytes": 66890,
+      "sha256": "6c22c77bc4cc96bdc3ddfb372684822e362ed3f080a4f2457ef04001c64a3537"
+    },
+    {
+      "path": "Content/Character/Animation/Swim Underwater.xnb",
+      "bytes": 16510,
+      "sha256": "10d172217677a16c78c01002173c281cce268db35b06558cec9e5a4adcdffc20"
+    },
+    {
+      "path": "Content/Character/Animation/Tilt.xnb",
+      "bytes": 27182,
+      "sha256": "7a91e46549383ff6bde1b3fd99cef85bff5510704fbd6957a9ab02a0d7d3aad3"
+    },
+    {
+      "path": "Content/Character/Animation/Walk.xnb",
+      "bytes": 16924,
+      "sha256": "cc58650c4d880851959cf44cc342e421985f121145a97cc239d0782e84af5d5a"
+    },
+    {
+      "path": "Content/Character/Animation/Wave.xnb",
+      "bytes": 86006,
+      "sha256": "3c165c768d277dc45db72e571b54bdad6b59f51e7f1628a2a69d9f6a69219cbe"
+    },
+    {
+      "path": "Content/CircleBlend_0.xnb",
+      "bytes": 7166,
+      "sha256": "6916e6875033f041c419ffd90a01d2622d209606bc2ff8f6eeae415a9e96b100"
+    },
+    {
+      "path": "Content/CrackBox.xnb",
+      "bytes": 680,
+      "sha256": "71b79e133ba12b88a09ff92201c1b48a854999f14e857e14f5c6ff0d9d9306a5"
+    },
+    {
+      "path": "Content/CrackEffect_0.xnb",
+      "bytes": 1052,
+      "sha256": "9be9586196397f802c97de38e32165cb3f9c079d43f9eb3e478dc887a8e1ec8b"
+    },
+    {
+      "path": "Content/CracksAll_0.xnb",
+      "bytes": 7080,
+      "sha256": "9f8748232a8f4967c70b0742f0f5591ee138eaaf5c1938bd234e775811e920bb"
+    },
+    {
+      "path": "Content/Cylinder.xnb",
+      "bytes": 1186,
+      "sha256": "ebaafb592fc13e99752fc0ccb3a2474871ffd1489875beadbb6bc03b53945cb9"
+    },
+    {
+      "path": "Content/Debug.xnb",
+      "bytes": 5034,
+      "sha256": "8287c737b96951a463d2d3bb363757d3d20daf045efd68b391037d4a0f24f0a8"
+    },
+    {
+      "path": "Content/DiffuseAnimUV_0.xnb",
+      "bytes": 810,
+      "sha256": "c89f73e937480eaf8371f242cb0e573862e37145a29709f0c482f6a6459bd987"
+    },
+    {
+      "path": "Content/DistortSkinnedEffect.xnb",
+      "bytes": 1742,
+      "sha256": "e06bc71b82dd86e6e8b61d10e0a47cfafb9c8a17060f69cc5565df4f194de7e9"
+    },
+    {
+      "path": "Content/Enemies/Alien/Alien.xnb",
+      "bytes": 267182,
+      "sha256": "621d2f1aef8f35d60fee54a23f50e99d2e7130461f669b2e89ff2a21945eed9d"
+    },
+    {
+      "path": "Content/Enemies/Alien/Diffuse_0.xnb",
+      "bytes": 417540,
+      "sha256": "d88a790aa94b620dbfcc8d21116f753b2b8e57bc6b3794f32366f24493d0637d"
+    },
+    {
+      "path": "Content/Enemies/Alien/Diffuse_0_L2.xnb",
+      "bytes": 124988,
+      "sha256": "6a4bf0c5a1fa51d25bd497db0b4fc37eaaf4a7c4de5ad816287abc2e4e8c5d94"
+    },
+    {
+      "path": "Content/Enemies/Alien/Diffuse_0_L3.xnb",
+      "bytes": 37288,
+      "sha256": "eb890598752276c047998e88379037db9f91b50c9e4e20897d4f6d74dac93678"
+    },
+    {
+      "path": "Content/Enemies/Alien/Normal_0.xnb",
+      "bytes": 422222,
+      "sha256": "00f43701a87372bf40edf547b56b124f01639603a8a537366f83841409beeeb8"
+    },
+    {
+      "path": "Content/Enemies/Alien/Normal_0_L2.xnb",
+      "bytes": 119860,
+      "sha256": "f79e6e9f6c7d5efa95a6e19f6d4537d7362b0e2cf8db1c278df7f42cc172c0a3"
+    },
+    {
+      "path": "Content/Enemies/Alien/Normal_0_L3.xnb",
+      "bytes": 33472,
+      "sha256": "5e7174b2f9988b6b4ca8e1c14165231898cf16b1679246aff4e8fe8925caf0d9"
+    },
+    {
+      "path": "Content/Enemies/Alien/Specular_0.xnb",
+      "bytes": 315180,
+      "sha256": "a6feef89d4d71012c7255e042fa2cc7d678b2c98eac8f27908c11c0ba7198090"
+    },
+    {
+      "path": "Content/Enemies/Alien/Specular_0_L2.xnb",
+      "bytes": 94904,
+      "sha256": "b1d06c2068062960675a7f78c309ff5334969ac5ee3380b17391b6f64077607e"
+    },
+    {
+      "path": "Content/Enemies/Alien/Specular_0_L3.xnb",
+      "bytes": 27576,
+      "sha256": "5feb3df06335d1471483529d2a6193696d8039afb6f9a8c421de678cbec66763"
+    },
+    {
+      "path": "Content/Enemies/Demon/Demon.xnb",
+      "bytes": 612716,
+      "sha256": "3b8e4efc7191cd1299fff862985b1ca3f1ac4a7f73fe0c4f05e13680d046288d"
+    },
+    {
+      "path": "Content/Enemies/Demon/Diffuse_0.xnb",
+      "bytes": 494268,
+      "sha256": "c688acfb8788086401da157f9aecfd7cb5026f3867f42259e5b5ebe40f6a9d96"
+    },
+    {
+      "path": "Content/Enemies/Demon/Diffuse_0_L2.xnb",
+      "bytes": 130590,
+      "sha256": "8eb6dd0dba894c26dddf3664f91a0ff3f8221778a45fce9a023462695f21708b"
+    },
+    {
+      "path": "Content/Enemies/Demon/Diffuse_0_L3.xnb",
+      "bytes": 36014,
+      "sha256": "deb5f707a4b64e40d2f860fdb6cc4961a077ea591e4dcccd26de715adb1e0b31"
+    },
+    {
+      "path": "Content/Enemies/Demon/Normal_0.xnb",
+      "bytes": 537258,
+      "sha256": "aabf5663a5592b38dc8aef430232bc1fa7c34f50d310c38344b0cfcc7eb660aa"
+    },
+    {
+      "path": "Content/Enemies/Demon/Normal_0_L2.xnb",
+      "bytes": 143160,
+      "sha256": "6a5a911a4ed2a9520939553fe6170c11cc33a1f7038d97e6056c4fd27a723496"
+    },
+    {
+      "path": "Content/Enemies/Demon/Normal_0_L3.xnb",
+      "bytes": 37694,
+      "sha256": "6d9375c7791188fc8192ff1dfda1a09e507a82b74eb7dfdd0c6055f5160462f7"
+    },
+    {
+      "path": "Content/Enemies/Demon/Specular_0.xnb",
+      "bytes": 318036,
+      "sha256": "222cad045616ebb33aa5361f5addf19ad221270e9d5fc3064a8d36372c687c43"
+    },
+    {
+      "path": "Content/Enemies/Demon/Specular_0_L2.xnb",
+      "bytes": 96956,
+      "sha256": "c8f1af046605fbeabbf9ce978473f64aa50c2f8edd87fcd7d184f766523ffdd7"
+    },
+    {
+      "path": "Content/Enemies/Demon/Specular_0_L3.xnb",
+      "bytes": 28268,
+      "sha256": "c8e2ff7636b7d5e0f27845a0436a0b005356d2a59cf5e20063b3d52db94c4a88"
+    },
+    {
+      "path": "Content/Enemies/Dragon/dragon-01_0.xnb",
+      "bytes": 570198,
+      "sha256": "9dd3a2f0daf071cdcee9e4648711f290cbcc1698bfa9c5cd4311cf5788eb7b1b"
+    },
+    {
+      "path": "Content/Enemies/Dragon/dragon-01_0_L2.xnb",
+      "bytes": 144286,
+      "sha256": "dd81cad36200c226735f089505afb8759f0e925cef36f3faa50c4fb76cf596c9"
+    },
+    {
+      "path": "Content/Enemies/Dragon/dragon-01_0_L3.xnb",
+      "bytes": 37126,
+      "sha256": "0d6c1c4c020bd1aee3cc772a473b5ad4c5cd95398082e97a6296166160b8370f"
+    },
+    {
+      "path": "Content/Enemies/Dragon/dragon-09.xnb",
+      "bytes": 567892,
+      "sha256": "8c4189c791273140e8946de2f361b62c726235dd5a6cdd1a10115be8dbbb90d6"
+    },
+    {
+      "path": "Content/Enemies/Dragon/dragon-09_L2.xnb",
+      "bytes": 146318,
+      "sha256": "c896f140185bbae21aa5656a0f718672151d1cf9db3c384c9e78c1a223a94ced"
+    },
+    {
+      "path": "Content/Enemies/Dragon/dragon-09_L3.xnb",
+      "bytes": 37762,
+      "sha256": "dd64396b78327d56ff725ef8bcbde8766cffc4bac84f32f30cc6affc4d0a5449"
+    },
+    {
+      "path": "Content/Enemies/Dragon/dragon-25.xnb",
+      "bytes": 644478,
+      "sha256": "4a8f619ff26e9b036598ddbb225ad884fdf06f5186654559297a5df7d4ba702d"
+    },
+    {
+      "path": "Content/Enemies/Dragon/dragon-25_L2.xnb",
+      "bytes": 162836,
+      "sha256": "422a42c457adaf3c44fb6bbf8dbe81718ac66dee61e6265dfe84e8074769b4f9"
+    },
+    {
+      "path": "Content/Enemies/Dragon/dragon-25_L3.xnb",
+      "bytes": 41116,
+      "sha256": "4c433129bf6300afbbb536bc589a29d06ce3c63c5f41f494eb5ff40acd91dfdd"
+    },
+    {
+      "path": "Content/Enemies/Dragon/dragon-27.xnb",
+      "bytes": 621958,
+      "sha256": "ed8892d7540dd42c49b70f8a2f782450c45f65e837123c2bef433373062dd47f"
+    },
+    {
+      "path": "Content/Enemies/Dragon/dragon-27_L2.xnb",
+      "bytes": 155842,
+      "sha256": "ca0c1d4d6e0b1a430af7bdda8555ac8acc296a8e41f444ec391a55f5c8a8149c"
+    },
+    {
+      "path": "Content/Enemies/Dragon/dragon-27_L3.xnb",
+      "bytes": 39318,
+      "sha256": "aca98619caea9ce70049ec40cf600aa8622207cd821c4e0ad8e1a350d5e9d66d"
+    },
+    {
+      "path": "Content/Enemies/Dragon/dragon-35.xnb",
+      "bytes": 528972,
+      "sha256": "212c2f1d3b7a59b0405264844e55debd3ce7993b0e522acf44953ed98ed4918f"
+    },
+    {
+      "path": "Content/Enemies/Dragon/dragon-35_L2.xnb",
+      "bytes": 131216,
+      "sha256": "8bd4fae6ea6e7211f526d58e811b66a91996fe186d842956dcb5dfbe571f9b28"
+    },
+    {
+      "path": "Content/Enemies/Dragon/dragon-35_L3.xnb",
+      "bytes": 33722,
+      "sha256": "1e854da69649ad481ca523ec3cb49e0d6072a73373e4e983806abf66a414d608"
+    },
+    {
+      "path": "Content/Enemies/Dragon/DragonBodyHigh.xnb",
+      "bytes": 702768,
+      "sha256": "9f8e3326952160410a3961ccc9af69c9c41b91828e896d9ef39191f812b35c8a"
+    },
+    {
+      "path": "Content/Enemies/Dragon/DragonFeetHigh.xnb",
+      "bytes": 200324,
+      "sha256": "0ea2dcf1f8ec5471d38ed516e20934cd07691ddd96210ea8480f1c5b01ea6bb3"
+    },
+    {
+      "path": "Content/Enemies/Dragon/Normal_0.xnb",
+      "bytes": 568814,
+      "sha256": "6a2e5f79d823251db73a123923b1fe74d83ca5ccc5b003cd633a8ab485bb7601"
+    },
+    {
+      "path": "Content/Enemies/Dragon/Normal_0_L2.xnb",
+      "bytes": 146744,
+      "sha256": "ce0e8670653a0266bf3e7941edc955eef70790be9cec4c460c45cdc0c104e623"
+    },
+    {
+      "path": "Content/Enemies/Dragon/Normal_0_L3.xnb",
+      "bytes": 37734,
+      "sha256": "af9719786cb29566e4b394efe9c8ae512460f318f41dd891d3e9504b2dd7c3ae"
+    },
+    {
+      "path": "Content/Enemies/Dragon/Specular_0.xnb",
+      "bytes": 407554,
+      "sha256": "a71c1cc158ee31b94943754ff6ae2b123c67786e33f3f193dd3afb06dd82c94a"
+    },
+    {
+      "path": "Content/Enemies/Dragon/Specular_0_L2.xnb",
+      "bytes": 114528,
+      "sha256": "493844e7d5a02bfe1a902d6f51c54408269fd411e382a63870c5fbc7798fc83d"
+    },
+    {
+      "path": "Content/Enemies/Dragon/Specular_0_L3.xnb",
+      "bytes": 30984,
+      "sha256": "69a7d5eb0c9acd18bccc3886d92651a1dadf099dda896d7c78400cc46ecac2f7"
+    },
+    {
+      "path": "Content/Enemies/Skeletons/Diffuse01_0.xnb",
+      "bytes": 630044,
+      "sha256": "94a932baa3585fdda09d2225a4bc5b24a553c045fe2fc397932eb9cc77d2bea1"
+    },
+    {
+      "path": "Content/Enemies/Skeletons/Diffuse01_0_L2.xnb",
+      "bytes": 164418,
+      "sha256": "164ad189d94c0badd9223b4c0ff7cb96e79664fb574f246a5efa008e6e884fd0"
+    },
+    {
+      "path": "Content/Enemies/Skeletons/Diffuse01_0_L3.xnb",
+      "bytes": 42352,
+      "sha256": "aff19c71c5e9aeb8255d1249faba83be4cc7ff17cc2d3be30ec0d4fda10b053d"
+    },
+    {
+      "path": "Content/Enemies/Skeletons/Diffuse04.xnb",
+      "bytes": 613696,
+      "sha256": "03654fe3043d219c00604f7d256b33daf048fdbb2677d5bb94bc906d1ce4d24d"
+    },
+    {
+      "path": "Content/Enemies/Skeletons/Diffuse04_L2.xnb",
+      "bytes": 154778,
+      "sha256": "411a44780891414b71955de742a4f008591b472a171c52fced1660624c37dd68"
+    },
+    {
+      "path": "Content/Enemies/Skeletons/Diffuse04_L3.xnb",
+      "bytes": 40256,
+      "sha256": "0472e9f01fcd6e85faebccb9229b7725e8a64c82322565d1016fd12435953240"
+    },
+    {
+      "path": "Content/Enemies/Skeletons/Diffuse05.xnb",
+      "bytes": 580300,
+      "sha256": "2d0d964fef79f601327ef1876d8f1fdc1f1ba12e1b69c58d3bff92feb6c363fb"
+    },
+    {
+      "path": "Content/Enemies/Skeletons/Diffuse05_L2.xnb",
+      "bytes": 150350,
+      "sha256": "275a47d56e5f65358dbe535796c81e91c12e0be3dc0542d60c2f54b7318f56d1"
+    },
+    {
+      "path": "Content/Enemies/Skeletons/Diffuse05_L3.xnb",
+      "bytes": 39754,
+      "sha256": "6124fc9d7cb29fd6edb645f1e30e8884283fc24e13a9f58e5775c8a29961f2e4"
+    },
+    {
+      "path": "Content/Enemies/Skeletons/Diffuse06.xnb",
+      "bytes": 577198,
+      "sha256": "4f2c90c80c4300d92b8a865305605a4e40f80de204243eb133ffc758fa6820e3"
+    },
+    {
+      "path": "Content/Enemies/Skeletons/Diffuse06_L2.xnb",
+      "bytes": 150130,
+      "sha256": "131f17f2d90b1fa637c3279273d2d1d99543399aeb2bf98632ce5957435c2936"
+    },
+    {
+      "path": "Content/Enemies/Skeletons/Diffuse06_L3.xnb",
+      "bytes": 39848,
+      "sha256": "3578df521e6f464e9cbe4bda3405fe25b8d9286575470c0f6415e4b93de37fcd"
+    },
+    {
+      "path": "Content/Enemies/Skeletons/Diffuse07.xnb",
+      "bytes": 624176,
+      "sha256": "e069df08798c4998a77c409d02315c9407d98e393dc833eb5595595590fd18a2"
+    },
+    {
+      "path": "Content/Enemies/Skeletons/Diffuse07_L2.xnb",
+      "bytes": 161534,
+      "sha256": "f94ebd03a5221f55106fc9188128ee210fe69be53175779bfdf695fbe3dc2756"
+    },
+    {
+      "path": "Content/Enemies/Skeletons/Diffuse07_L3.xnb",
+      "bytes": 42488,
+      "sha256": "d50ac85149a7f31c2c60e28a2091c6f329d76ca4be4b20256f3d568fb46affd1"
+    },
+    {
+      "path": "Content/Enemies/Skeletons/Normal_0.xnb",
+      "bytes": 544662,
+      "sha256": "b2d7b845ff10258ca5429a3361c832c9db1837644a124c70014b508a6ec3d022"
+    },
+    {
+      "path": "Content/Enemies/Skeletons/Normal_0_L2.xnb",
+      "bytes": 143844,
+      "sha256": "b4fcc826264e23e7f334a7a0f755b91182e2b0bfd439daf560a5fce342261492"
+    },
+    {
+      "path": "Content/Enemies/Skeletons/Normal_0_L3.xnb",
+      "bytes": 37280,
+      "sha256": "1e4a0baeedf9501040e73d26910a832607a69026547258aaa28099b1bd5de5a1"
+    },
+    {
+      "path": "Content/Enemies/Skeletons/SkeletonArcher.xnb",
+      "bytes": 761424,
+      "sha256": "bfc891e033bca156e6ed91432e4d89a5e7f500e823ab5d33c77c4373e2144f59"
+    },
+    {
+      "path": "Content/Enemies/Skeletons/SkeletonAxes.xnb",
+      "bytes": 722330,
+      "sha256": "d3a30a668bae14a7939f9ade006e6f37ad2c57dcc33841607b4a5f78d84bb8d4"
+    },
+    {
+      "path": "Content/Enemies/Skeletons/SkeletonSword.xnb",
+      "bytes": 673052,
+      "sha256": "4b420f6b9e555b32e1398f5e96eb67694941941d596e7e09a7e7f1a4a66d04f6"
+    },
+    {
+      "path": "Content/Enemies/Skeletons/SkeletonZombie.xnb",
+      "bytes": 662968,
+      "sha256": "2624be1f0b71f759859ba4040d7901e310ca139ec3f9f6a36ab92c9db42782c0"
+    },
+    {
+      "path": "Content/Enemies/Skeletons/Specular_0.xnb",
+      "bytes": 401980,
+      "sha256": "370a89c354ee49649f4a4c85c775581761e8f505b93200e8a221f8b005489937"
+    },
+    {
+      "path": "Content/Enemies/Skeletons/Specular_0_L2.xnb",
+      "bytes": 114586,
+      "sha256": "3d3d760cb92dfba7e88c104b83c4b291a5f3c556c5fcd66bcb548f332c46e8c5"
+    },
+    {
+      "path": "Content/Enemies/Skeletons/Specular_0_L3.xnb",
+      "bytes": 31232,
+      "sha256": "ea7c8d78137744d5c71d3b451d4d38faf3ad34eceb99b7fab516b3679405b7b4"
+    },
+    {
+      "path": "Content/Enemies/Zombies/Diffuse01_0.xnb",
+      "bytes": 601282,
+      "sha256": "99cc5317035c54b9ea740bfb80c2ccd86bc232aea9e844395c31afd9097dbf9e"
+    },
+    {
+      "path": "Content/Enemies/Zombies/Diffuse01_0_L2.xnb",
+      "bytes": 157450,
+      "sha256": "288d455b9596f4692b8812cec529b5ddbfa7cb684c67f61cfe237837f38a5c57"
+    },
+    {
+      "path": "Content/Enemies/Zombies/Diffuse01_0_L3.xnb",
+      "bytes": 41860,
+      "sha256": "07b96d0e23bd9226bc73d7fea6635fba7630436dc60270a0adf8655f840f8d0f"
+    },
+    {
+      "path": "Content/Enemies/Zombies/Diffuse06.xnb",
+      "bytes": 652300,
+      "sha256": "c72e257c78a6ad694d6b0e87d709233b3270c89bb71f33be71a84adad1306984"
+    },
+    {
+      "path": "Content/Enemies/Zombies/Diffuse06_L2.xnb",
+      "bytes": 164516,
+      "sha256": "40989d371aac49cdfd364996f6a88c867c438d014608c49163c32fd12e20b7a4"
+    },
+    {
+      "path": "Content/Enemies/Zombies/Diffuse06_L3.xnb",
+      "bytes": 42424,
+      "sha256": "c0e59d5667959c7361c4cd6f011c42b67ea983a51d370f2027c65cd24db004f1"
+    },
+    {
+      "path": "Content/Enemies/Zombies/Diffuse10.xnb",
+      "bytes": 600050,
+      "sha256": "2dcd426572d7dc71bbe3cc74a7a8dbdbc5f67cb5f535f0fbfc18e15a5a7dc1db"
+    },
+    {
+      "path": "Content/Enemies/Zombies/Diffuse10_L2.xnb",
+      "bytes": 155098,
+      "sha256": "ca530b80a659bc8f1637da016162ddeb655eea4c789f8c88ac7ac7c4afd60fe7"
+    },
+    {
+      "path": "Content/Enemies/Zombies/Diffuse10_L3.xnb",
+      "bytes": 40906,
+      "sha256": "99e0d03e09e8ccec13217938aff0e31964a5ef62c5009502e135a9e689212cc6"
+    },
+    {
+      "path": "Content/Enemies/Zombies/Diffuse11.xnb",
+      "bytes": 645804,
+      "sha256": "88a7c16c15aa2af2707d600abed9fe6e8bdbc5413d7823f8db441180828ef681"
+    },
+    {
+      "path": "Content/Enemies/Zombies/Diffuse11_L2.xnb",
+      "bytes": 164038,
+      "sha256": "6067a77f79128b13abcf951a9c8e62a59158004c32740ba0dc2c6f8018df4295"
+    },
+    {
+      "path": "Content/Enemies/Zombies/Diffuse11_L3.xnb",
+      "bytes": 42424,
+      "sha256": "288b83dbfbf0c62263cffd73275ef0a264339fb25ea0d84b15ced3f8c144e886"
+    },
+    {
+      "path": "Content/Enemies/Zombies/Diffuse13.xnb",
+      "bytes": 539698,
+      "sha256": "5fec086f6f5b60c1834eca9456dd80769704a0b47b4398c8059d55a104ef0cec"
+    },
+    {
+      "path": "Content/Enemies/Zombies/Diffuse13_L2.xnb",
+      "bytes": 143172,
+      "sha256": "dd094f9312b48cdaff79d88fb6773ba60771e6db31e3727feeb7ece870f7a112"
+    },
+    {
+      "path": "Content/Enemies/Zombies/Diffuse13_L3.xnb",
+      "bytes": 38834,
+      "sha256": "7f0d04de6c087d8eb26242d92eb6bca0691c6da7aa772fc274bc4b8e263bebea"
+    },
+    {
+      "path": "Content/Enemies/Zombies/Diffuse14.xnb",
+      "bytes": 693000,
+      "sha256": "6bcea1e00ac5da8673b641d49040df2813f7f5823d2eaea48daa8e70994cdcba"
+    },
+    {
+      "path": "Content/Enemies/Zombies/Diffuse14_L2.xnb",
+      "bytes": 170672,
+      "sha256": "52d09129a9cbb9c30e89a445d36e8602971b7996e5aaf483b871c871cd4fa731"
+    },
+    {
+      "path": "Content/Enemies/Zombies/Diffuse14_L3.xnb",
+      "bytes": 43666,
+      "sha256": "da6199fdb7a6f909a31300f08694df4265c1b72edba484290c4f30d41e239c43"
+    },
+    {
+      "path": "Content/Enemies/Zombies/Diffuse17.xnb",
+      "bytes": 601660,
+      "sha256": "bf2fa3ade33da0359c3a95dccde089a3a12aab83dfa108209a32a9de77bf65d4"
+    },
+    {
+      "path": "Content/Enemies/Zombies/Diffuse17_L2.xnb",
+      "bytes": 154918,
+      "sha256": "24f23a2e987ce3de324787c1837e99e24e9614b01e119e3dcf87c95fb62d19c7"
+    },
+    {
+      "path": "Content/Enemies/Zombies/Diffuse17_L3.xnb",
+      "bytes": 40978,
+      "sha256": "39c2a4f777497d038291237eeb44f63e72537b0ab28dd844d41c45e72307fc61"
+    },
+    {
+      "path": "Content/Enemies/Zombies/Normal_0.xnb",
+      "bytes": 548380,
+      "sha256": "08148f12763ae2f427f082bea25ea7c1ccbe27c95bb751c3744ab3e2644f09a6"
+    },
+    {
+      "path": "Content/Enemies/Zombies/Normal_0_L2.xnb",
+      "bytes": 146444,
+      "sha256": "26e978a6889de12948f49a0354caca4a28cc5af3f9cd5981ce69a9c788e45c6d"
+    },
+    {
+      "path": "Content/Enemies/Zombies/Normal_0_L3.xnb",
+      "bytes": 38364,
+      "sha256": "28935a5e00d997f2723dd17d5e1f69d98476caad3db72271fc2ceaa577dd0804"
+    },
+    {
+      "path": "Content/Enemies/Zombies/Specular_0.xnb",
+      "bytes": 327404,
+      "sha256": "cc04ee8f4926ecd13aa45ce5060eb75b7e31e558dd1ceffdd64ac65937066c78"
+    },
+    {
+      "path": "Content/Enemies/Zombies/Specular_0_L2.xnb",
+      "bytes": 99770,
+      "sha256": "9cbc7ff2301c40a3db5cb999d69214353cc025ffef82e5a6b8c8a6aa044b15c7"
+    },
+    {
+      "path": "Content/Enemies/Zombies/Specular_0_L3.xnb",
+      "bytes": 28772,
+      "sha256": "76799ac0fd91d763ad063611c9973d050e6ba85c13c3a73ba9402897c9e140e6"
+    },
+    {
+      "path": "Content/Enemies/Zombies/Zombie.xnb",
+      "bytes": 1399254,
+      "sha256": "f8b2bb4c23e4a5a333bddc51542d8dd726bcd7e709f4463207b7f4894cb74f32"
+    },
+    {
+      "path": "Content/EnemyShader_0.xnb",
+      "bytes": 2522,
+      "sha256": "303729119209ddcab2841d5da635f791dfeb1545fe48ed12dbc394110e703d52"
+    },
+    {
+      "path": "Content/Fonts/ConsoleFont.ja.xnb",
+      "bytes": 318408,
+      "sha256": "6addb4ce2ad290a42d20b188a53ab5ca24c6291f31a29cf6ab491fd7922cdba4"
+    },
+    {
+      "path": "Content/Fonts/ConsoleFont.ru.xnb",
+      "bytes": 32556,
+      "sha256": "bc19d211e008a52e7365ce0d1a48885ec6b28bce2012e0198982076816a7003a"
+    },
+    {
+      "path": "Content/Fonts/ConsoleFont.xnb",
+      "bytes": 12320,
+      "sha256": "b8ff34611afda55382d29fe2792d679c6b634bba964486c64530510fd4f5b38c"
+    },
+    {
+      "path": "Content/Fonts/LargeFont.ja.xnb",
+      "bytes": 126848,
+      "sha256": "4f0efd714074380d818b5244d9aaa832ae3eeb4e2087780f7ad087fd1055fb6b"
+    },
+    {
+      "path": "Content/Fonts/LargeFont.ru.xnb",
+      "bytes": 57972,
+      "sha256": "9c5eec24c3a055be9befe597816b943fd24c457f7e445d9d2d052527ed53d1e4"
+    },
+    {
+      "path": "Content/Fonts/LargeFont.xnb",
+      "bytes": 21702,
+      "sha256": "00b2955ebcacd17eee9a8373ed60d41844678973d0e16a0f521047812b2a7a2a"
+    },
+    {
+      "path": "Content/Fonts/MedFont.ja.xnb",
+      "bytes": 65772,
+      "sha256": "c318b475f17ded91f7debda2b2cd58302daaaa3cac678f2221bf8e0a17fcb843"
+    },
+    {
+      "path": "Content/Fonts/MedFont.ru.xnb",
+      "bytes": 31692,
+      "sha256": "3472ade3066db91733a317e5e20d3d977ce4cb3ba435fd4794fbcac19c828148"
+    },
+    {
+      "path": "Content/Fonts/MedFont.xnb",
+      "bytes": 13382,
+      "sha256": "954645fb7c2e36f8e8a0295be970f6fcd97640479180c5b77536ff75d8b7f06b"
+    },
+    {
+      "path": "Content/Fonts/MedLargeFont.ja.xnb",
+      "bytes": 89828,
+      "sha256": "a26ea62654f2a5a05bb77b2914fb7c7ed4fd9ec52a33aeb892dbac653da71258"
+    },
+    {
+      "path": "Content/Fonts/MedLargeFont.ru.xnb",
+      "bytes": 40854,
+      "sha256": "e7d8ceb606debccb92ffb05ccafbc11d5ced46c981d80e6c2529df17350843d9"
+    },
+    {
+      "path": "Content/Fonts/MedLargeFont.xnb",
+      "bytes": 15410,
+      "sha256": "46bbd0cc3f365f2a3e748bfa1c0d56299a2919a492d402425bb05905e12b213d"
+    },
+    {
+      "path": "Content/Fonts/MyriadLarge.ja.xnb",
+      "bytes": 126848,
+      "sha256": "4f0efd714074380d818b5244d9aaa832ae3eeb4e2087780f7ad087fd1055fb6b"
+    },
+    {
+      "path": "Content/Fonts/MyriadLarge.ru.xnb",
+      "bytes": 57972,
+      "sha256": "9c5eec24c3a055be9befe597816b943fd24c457f7e445d9d2d052527ed53d1e4"
+    },
+    {
+      "path": "Content/Fonts/MyriadLarge.xnb",
+      "bytes": 27534,
+      "sha256": "6946e8120968e9b038d7ef0b8b6fb9dbefebe953912c2602e3f83a351962ac19"
+    },
+    {
+      "path": "Content/Fonts/MyriadMedium.ja.xnb",
+      "bytes": 363166,
+      "sha256": "c069476b7af55bb620cfd4624059bbd8ab5de189fd894cbdca2331c4702a1654"
+    },
+    {
+      "path": "Content/Fonts/MyriadMedium.ru.xnb",
+      "bytes": 35880,
+      "sha256": "f7a1b25736973a2206a702c66b3657421a35459938ba807ffb21254abf716b91"
+    },
+    {
+      "path": "Content/Fonts/MyriadMedium.xnb",
+      "bytes": 15544,
+      "sha256": "f045e55b122d76478fff97ea59ad6279c3f3ec5b7233c795d9770f84c90e6492"
+    },
+    {
+      "path": "Content/Fonts/MyriadSmall.ja.xnb",
+      "bytes": 27982,
+      "sha256": "5ab3714f6212305099d18995d7d455fe7433af70770ff9be0ff47566c9656747"
+    },
+    {
+      "path": "Content/Fonts/MyriadSmall.ru.xnb",
+      "bytes": 25804,
+      "sha256": "601a53990d409f3bb7d9ab34a7c9dd9fc08f869f85d9e9cb73bb755845c6b115"
+    },
+    {
+      "path": "Content/Fonts/MyriadSmall.xnb",
+      "bytes": 6606,
+      "sha256": "49ea86995f4046e9fa48dc35bfa4baf160c8b77dc61f656263e0eda529de51cb"
+    },
+    {
+      "path": "Content/Fonts/NameTagFont.ja.xnb",
+      "bytes": 303660,
+      "sha256": "47ccf7f6ad17da41ccccc858c3ff97d0cd7ff6d1fd9d60c7ae65757da7ecf387"
+    },
+    {
+      "path": "Content/Fonts/NameTagFont.ru.xnb",
+      "bytes": 29502,
+      "sha256": "2fae1b1ab0e614aec4e4d52a8e3106ff0d17dbb943171c2822abdbdcd179e5be"
+    },
+    {
+      "path": "Content/Fonts/NameTagFont.xnb",
+      "bytes": 13052,
+      "sha256": "0959455b1d971171fec018ac71292694763610cbdb9deacca05f7ced480f6070"
+    },
+    {
+      "path": "Content/Fonts/SmallFont.ja.xnb",
+      "bytes": 22750,
+      "sha256": "d0d62d3a322e2cea7704f22288383671cac80173afa05e1380e89c0bf37a35ae"
+    },
+    {
+      "path": "Content/Fonts/SmallFont.ru.xnb",
+      "bytes": 20978,
+      "sha256": "582363d90a4c6200ba01847dd40e498364d5af1e3db1f140fc8eb9251e196cc4"
+    },
+    {
+      "path": "Content/Fonts/SmallFont.xnb",
+      "bytes": 9246,
+      "sha256": "92c94882ff6ae970cff298b3572b89bc222533f03df0e751471b55c98a2de537"
+    },
+    {
+      "path": "Content/Fonts/System.ja.xnb",
+      "bytes": 62286,
+      "sha256": "5d4fae0d6197fd32e2deac5d31e50579a7dfe6011bd4ed8d58b93a6f6e9c3a84"
+    },
+    {
+      "path": "Content/Fonts/System.ru.xnb",
+      "bytes": 29502,
+      "sha256": "2fae1b1ab0e614aec4e4d52a8e3106ff0d17dbb943171c2822abdbdcd179e5be"
+    },
+    {
+      "path": "Content/Fonts/System.xnb",
+      "bytes": 12868,
+      "sha256": "1e7f6b0dfebb12b4ab366534c9e02caa9324bb86f823f0986cb26979cb996236"
+    },
+    {
+      "path": "Content/Frame_0.xnb",
+      "bytes": 1156,
+      "sha256": "1890c39ad309149482a3fbc554657c6e5ec5e4f1adf7a3b2414a28f09c6c5281"
+    },
+    {
+      "path": "Content/FX_Tile01_0.xnb",
+      "bytes": 7620,
+      "sha256": "dcd0386970ea8eab4b468cb87f3a5ba84dedf910f86fd43fb4a5d8860e526712"
+    },
+    {
+      "path": "Content/HeatHaze.xnb",
+      "bytes": 1176,
+      "sha256": "0eb63e0f1f60e3e10979441ddf7128cc162ac383be720d91ba8ca74d2cabab3b"
+    },
+    {
+      "path": "Content/HeatNormal.xnb",
+      "bytes": 42574,
+      "sha256": "cfc949ecc28e954c321236c11b06cd9470d414c30521413de9246c6daadbf2b8"
+    },
+    {
+      "path": "Content/HiDefContent/Ash2_0.xnb",
+      "bytes": 7920,
+      "sha256": "e0a9edd7a0ffb95b3db28c92715b13f109a1a4faa2597e6175b595b903a9f338"
+    },
+    {
+      "path": "Content/HiDefContent/Ash2_0_L2.xnb",
+      "bytes": 2186,
+      "sha256": "e6755af1d90fca440fff6dd9afddfc28bb4aa0f73a416e7464f042ff0d3760a0"
+    },
+    {
+      "path": "Content/HiDefContent/Ash2_0_L3.xnb",
+      "bytes": 750,
+      "sha256": "891578da3c49e9381f219e307bf1e2c9b69d7479e27d9fec04b53a0198de7df6"
+    },
+    {
+      "path": "Content/HiDefContent/Bolt_0.xnb",
+      "bytes": 4152,
+      "sha256": "6e689ddeaf2034bb97feade5e7eb53701133a143fa481fbfc754915b81a9d016"
+    },
+    {
+      "path": "Content/HiDefContent/Bolt_0_L2.xnb",
+      "bytes": 1510,
+      "sha256": "4a15a23f7aaf684bbb248a71dee7c2c0f572729b61392ce44bc5efd518807c6d"
+    },
+    {
+      "path": "Content/HiDefContent/Bolt_0_L3.xnb",
+      "bytes": 660,
+      "sha256": "adb1f2408631dfeca5a526cdcdda72fba682776eabe4fa399d9c6c05736048c5"
+    },
+    {
+      "path": "Content/HiDefContent/Character/SWATMale.xnb",
+      "bytes": 242352,
+      "sha256": "5bcec5dcbc06378e788054a26fd341bc58a6ddbd241036814ccd03bc0bf30536"
+    },
+    {
+      "path": "Content/HiDefContent/CharactorShader_hidef_0.xnb",
+      "bytes": 2698,
+      "sha256": "d068809520c41b32d7d0443cfa0cf8dae2181fa82f4ee3c2b1b6b2e6fbd1d5a4"
+    },
+    {
+      "path": "Content/HiDefContent/CompassDiffuse_0.xnb",
+      "bytes": 23568,
+      "sha256": "737c333d64bafe31d8e0555f55addf6c53acbbd65d933ea141751cbdbe7de853"
+    },
+    {
+      "path": "Content/HiDefContent/CompassDiffuse_0_L2.xnb",
+      "bytes": 6594,
+      "sha256": "dd2f74c1b24179343bf97662e9c72a038466e1682d484e4bf53b8a69fabbfd72"
+    },
+    {
+      "path": "Content/HiDefContent/CompassDiffuse_0_L3.xnb",
+      "bytes": 2156,
+      "sha256": "3c27c3b0b00f6144539e954f2e68cf9d777d9d264688d1fbda870bfb34dd367d"
+    },
+    {
+      "path": "Content/HiDefContent/CompassNormal_hidef_0.xnb",
+      "bytes": 21412,
+      "sha256": "f984425871246fae936b3f79054cb536c1c0f18cc24ef5d51c27bcd02a64f91a"
+    },
+    {
+      "path": "Content/HiDefContent/CompassNormal_hidef_0_L2.xnb",
+      "bytes": 5904,
+      "sha256": "218a3611045f9eef0ecab9600a1b59ec559975d2aad20e84c9ba371fbd5d6fe1"
+    },
+    {
+      "path": "Content/HiDefContent/CompassNormal_hidef_0_L3.xnb",
+      "bytes": 1806,
+      "sha256": "52b10bc451c11f0c9536ca85ccf7a45cc79b00f243b87fe0f99b01662ccd6781"
+    },
+    {
+      "path": "Content/HiDefContent/CompassSpecular_hidef_0.xnb",
+      "bytes": 13800,
+      "sha256": "a004c899cd0bcbed021481d2f2c0976559b6ab812941a11cb32f29ea72901d8e"
+    },
+    {
+      "path": "Content/HiDefContent/CompassSpecular_hidef_0_L2.xnb",
+      "bytes": 3926,
+      "sha256": "b29ec0a028565827bf283a24e365ac4db5689811af9a7cf2f280b7b3035a136b"
+    },
+    {
+      "path": "Content/HiDefContent/CompassSpecular_hidef_0_L3.xnb",
+      "bytes": 1274,
+      "sha256": "58508fd645c3f1c5db384c0eab84d8770c20c6b8f62e7ad9482c19906e380c4e"
+    },
+    {
+      "path": "Content/HiDefContent/Diffuse2_0.xnb",
+      "bytes": 30780,
+      "sha256": "f592e3e009b88411cccf1b5095b43c98a42476955d7c1d13c56663ca99710b37"
+    },
+    {
+      "path": "Content/HiDefContent/Diffuse2_0_L2.xnb",
+      "bytes": 8914,
+      "sha256": "4df24cc5b70ae5b76bb30551523765dd980b8e0dd32ccf69c63bee363d74285c"
+    },
+    {
+      "path": "Content/HiDefContent/Diffuse2_0_L3.xnb",
+      "bytes": 2712,
+      "sha256": "92dce27adab6a97762dfc550d1ed41a0079702ed0476609af13b5208dfac1bc5"
+    },
+    {
+      "path": "Content/HiDefContent/Diffuse_0.xnb",
+      "bytes": 355406,
+      "sha256": "a56e5f683812901cebca9c062e5148df412bc82d271f443b2864482c43540697"
+    },
+    {
+      "path": "Content/HiDefContent/Diffuse_0_L2.xnb",
+      "bytes": 95302,
+      "sha256": "eabb49ca5b20365241b5b14fa8ce232a8224e070570a703e03942be80615ac13"
+    },
+    {
+      "path": "Content/HiDefContent/Diffuse_0_L3.xnb",
+      "bytes": 26510,
+      "sha256": "8150aed60c3f854cb852890dc5ab550452c7c6b232cfc1a1a79f1b1392a9378d"
+    },
+    {
+      "path": "Content/HiDefContent/Diffuse_1.xnb",
+      "bytes": 122702,
+      "sha256": "c54f3d5c95c25d3b6aa87ca76007c72bc04a6a03a64147ad71dbd9f84ced51d3"
+    },
+    {
+      "path": "Content/HiDefContent/Diffuse_10.xnb",
+      "bytes": 402444,
+      "sha256": "86f5ce887754719470f8d1e242abf941a3443da5274b163ca92c511a1fec1a9b"
+    },
+    {
+      "path": "Content/HiDefContent/Diffuse_10_L2.xnb",
+      "bytes": 108224,
+      "sha256": "41e103c9495e95d8a80be50bf7e58a4cd8ae16a9d05550efedf196a3fc8fc252"
+    },
+    {
+      "path": "Content/HiDefContent/Diffuse_10_L3.xnb",
+      "bytes": 29910,
+      "sha256": "9933b2db1e4f357fdf815eabc992170c33f77f7c12dd26306e22387051072c85"
+    },
+    {
+      "path": "Content/HiDefContent/Diffuse_11.xnb",
+      "bytes": 32646,
+      "sha256": "d80e68a97237abadd0d2fc3d297ab499f4333f98250c7c3a0ab496bb2e5726bf"
+    },
+    {
+      "path": "Content/HiDefContent/Diffuse_11_L2.xnb",
+      "bytes": 8918,
+      "sha256": "19b27274e19e398086ad349cccd3fecafd4cc0ce5faaa278a48738f83a409600"
+    },
+    {
+      "path": "Content/HiDefContent/Diffuse_11_L3.xnb",
+      "bytes": 2762,
+      "sha256": "1d443956d8980b384333668aa7e1ffbcb8420eff4d617ba24ec6df5aa38af62b"
+    },
+    {
+      "path": "Content/HiDefContent/Diffuse_12.xnb",
+      "bytes": 90492,
+      "sha256": "333dff230bec9d07c6bf7c16c65d6e2958fa7bd50c1a560c6a6f6ade2416b4d6"
+    },
+    {
+      "path": "Content/HiDefContent/Diffuse_12_L2.xnb",
+      "bytes": 23162,
+      "sha256": "530bc99ad2f6291d7c7bb8cd2eb955abb596723e0b796778d30c46f0c6a707e7"
+    },
+    {
+      "path": "Content/HiDefContent/Diffuse_12_L3.xnb",
+      "bytes": 6258,
+      "sha256": "19b80dbe229d99793cf202ed47252aaf0aac15feede62b96967365055ee55186"
+    },
+    {
+      "path": "Content/HiDefContent/Diffuse_13.xnb",
+      "bytes": 772576,
+      "sha256": "6130ff4d05fb5cdd640a9cb4939d83cab804391f1b6459cd7bdf5b36959be9fc"
+    },
+    {
+      "path": "Content/HiDefContent/Diffuse_13_L2.xnb",
+      "bytes": 190088,
+      "sha256": "bf45a14bdcaa72454803aadf1636c1e59d85def79b76a7c3143262ee082b0e52"
+    },
+    {
+      "path": "Content/HiDefContent/Diffuse_13_L3.xnb",
+      "bytes": 49320,
+      "sha256": "627d63db79c39b601ce3fe5284e279db8a1f1a8c8fb270421e835bb42d26d1d2"
+    },
+    {
+      "path": "Content/HiDefContent/Diffuse_14.xnb",
+      "bytes": 521816,
+      "sha256": "bffd76d29183077b0b6ac9e5052b5eaff518f3a60e7d28cc151f9e39137cc292"
+    },
+    {
+      "path": "Content/HiDefContent/Diffuse_14_L2.xnb",
+      "bytes": 133690,
+      "sha256": "bf7097122668419d14cdabdd82544c05ff94eb2d7b1a9fbaa75b3883fb2f3856"
+    },
+    {
+      "path": "Content/HiDefContent/Diffuse_14_L3.xnb",
+      "bytes": 34920,
+      "sha256": "f6a343ac29da24050f97da33357ef615719557a8261273a089fb0fddbbac538a"
+    },
+    {
+      "path": "Content/HiDefContent/Diffuse_15.xnb",
+      "bytes": 450826,
+      "sha256": "649b36de1f6e378d524312b3618a041520c238a0919c798d9d47ee357bdf7332"
+    },
+    {
+      "path": "Content/HiDefContent/Diffuse_15_L2.xnb",
+      "bytes": 113866,
+      "sha256": "32e51fe9f88e92f4797e5997cdcf6802f28d343734e147ee9b2a2bdda08f6650"
+    },
+    {
+      "path": "Content/HiDefContent/Diffuse_15_L3.xnb",
+      "bytes": 29662,
+      "sha256": "f41ed28648771f8f56fc09bd710d0225a7c07082162f1c3eec69988d8c7765f9"
+    },
+    {
+      "path": "Content/HiDefContent/Diffuse_16.xnb",
+      "bytes": 100046,
+      "sha256": "3c1222b2d8a578101128aee8bf022dc481649266e0ee5a588bfdbc1a97542e5e"
+    },
+    {
+      "path": "Content/HiDefContent/Diffuse_16_L2.xnb",
+      "bytes": 25684,
+      "sha256": "09f8209d7a2a56ce1a4ccad45506c54ff2df2307264843ed3ba69c663619fe23"
+    },
+    {
+      "path": "Content/HiDefContent/Diffuse_16_L3.xnb",
+      "bytes": 7212,
+      "sha256": "2149f1b58722038ac1a7ced045a3faa9eeca89951ae4a650bf29a4ee317bfdaa"
+    },
+    {
+      "path": "Content/HiDefContent/Diffuse_17.xnb",
+      "bytes": 402542,
+      "sha256": "8603eb6316ba4513b05228e0351365b9cb3f54939d49b5991e61d3570f016739"
+    },
+    {
+      "path": "Content/HiDefContent/Diffuse_17_L2.xnb",
+      "bytes": 112358,
+      "sha256": "26c9e766bd0b5b036b4981d3700fdb864c999f27c841191ff6ede69c413fc52b"
+    },
+    {
+      "path": "Content/HiDefContent/Diffuse_17_L3.xnb",
+      "bytes": 33184,
+      "sha256": "a3eb1e9d31aca49179a05f160da2ccbd5e4a5df444444c49f1d9b44a04a3cca9"
+    },
+    {
+      "path": "Content/HiDefContent/Diffuse_18.xnb",
+      "bytes": 464472,
+      "sha256": "d9852d2ddcd8808da1556014d97706ae2b6653678123a1368d8c44b1e7db715c"
+    },
+    {
+      "path": "Content/HiDefContent/Diffuse_18_L2.xnb",
+      "bytes": 133278,
+      "sha256": "d181afd7809f91d78c8c29ff420d8c1f041e74c29f0cdef1cfa88050944c4726"
+    },
+    {
+      "path": "Content/HiDefContent/Diffuse_18_L3.xnb",
+      "bytes": 39288,
+      "sha256": "e5e26c92003b0eede6bcc4c3926113b04d45f8f588815c034ecd30a1c73d0d4c"
+    },
+    {
+      "path": "Content/HiDefContent/Diffuse_19.xnb",
+      "bytes": 408406,
+      "sha256": "0fde304e2241126130110a92a94f9eef2a8245bb59cf77940333fcfa5dc7f6e4"
+    },
+    {
+      "path": "Content/HiDefContent/Diffuse_19_L2.xnb",
+      "bytes": 116438,
+      "sha256": "256252835e4b0c7aff090f205171bae18621af4bb1a38e89b88f4bcd3f012a02"
+    },
+    {
+      "path": "Content/HiDefContent/Diffuse_19_L3.xnb",
+      "bytes": 33612,
+      "sha256": "a2866c0ac52c18ce7a59a4139f182a858c59cb9f41ac6ead0873c0207a0aad7e"
+    },
+    {
+      "path": "Content/HiDefContent/Diffuse_1_L2.xnb",
+      "bytes": 31434,
+      "sha256": "9de5d2dfa208631a90acff8da9593e9307521bfa9f892aaba7a517faa5a68615"
+    },
+    {
+      "path": "Content/HiDefContent/Diffuse_1_L3.xnb",
+      "bytes": 8518,
+      "sha256": "5143a6b40363da78341eadca02fcc1e6327f1ed7e8aa2f3f02e9be5160d64fa6"
+    },
+    {
+      "path": "Content/HiDefContent/Diffuse_2.xnb",
+      "bytes": 28134,
+      "sha256": "1b9cc542ca41729820f3c95de0146a55559c1d8eb7b5cbdb29c3a4408063cad9"
+    },
+    {
+      "path": "Content/HiDefContent/Diffuse_20.xnb",
+      "bytes": 424298,
+      "sha256": "0a17cf1090783bbdd8127999260b3bfe10b23cf38ed3a36195893ebf7193d707"
+    },
+    {
+      "path": "Content/HiDefContent/Diffuse_20_L2.xnb",
+      "bytes": 117442,
+      "sha256": "3885f19d75edbf628c7c0a0701e75e46ca774945d5be9d873b7b0ffe7ee9c723"
+    },
+    {
+      "path": "Content/HiDefContent/Diffuse_20_L3.xnb",
+      "bytes": 33032,
+      "sha256": "927827ba9f400965f356b330b4b638c36e332f7678ba821b1cbb98e17a18fce0"
+    },
+    {
+      "path": "Content/HiDefContent/Diffuse_21.xnb",
+      "bytes": 399706,
+      "sha256": "4d91ba6843eb8065fa24ec9228c9d1578cbeeef761a0ef8eb1a1ef5875875b5a"
+    },
+    {
+      "path": "Content/HiDefContent/Diffuse_21_L2.xnb",
+      "bytes": 114626,
+      "sha256": "f7f6ac246ae7ea44b39139203fc715b1e8c533a8b626f424e865660786c78bd6"
+    },
+    {
+      "path": "Content/HiDefContent/Diffuse_21_L3.xnb",
+      "bytes": 33526,
+      "sha256": "e68bb63861526f6299f2c514fa41cd349c77b745b81e784a2ba16eb96884fd60"
+    },
+    {
+      "path": "Content/HiDefContent/Diffuse_22.xnb",
+      "bytes": 416878,
+      "sha256": "5dbcf9a0aafa1f0027a7257d233c0c9067b72059c05ffa46f43c7142ae9c7114"
+    },
+    {
+      "path": "Content/HiDefContent/Diffuse_22_L2.xnb",
+      "bytes": 118896,
+      "sha256": "cbf3170d6d4b2988a4f7c21ac87a8061c0f416b594e38051bf0239b7ec15d04b"
+    },
+    {
+      "path": "Content/HiDefContent/Diffuse_22_L3.xnb",
+      "bytes": 34524,
+      "sha256": "10bba36c24cedb3a0af00f337a0077fe460544c5a358d10023b5f620aebbad72"
+    },
+    {
+      "path": "Content/HiDefContent/Diffuse_23.xnb",
+      "bytes": 122680,
+      "sha256": "a1199432df4f4bb76147911ebf0cd73fe9c969d36aa962e4d5907320a246cd33"
+    },
+    {
+      "path": "Content/HiDefContent/Diffuse_23_L2.xnb",
+      "bytes": 30894,
+      "sha256": "d7fabb6de33ca996a1ed3b668966420fdf1050fed1be80bb23acaee16554bb78"
+    },
+    {
+      "path": "Content/HiDefContent/Diffuse_23_L3.xnb",
+      "bytes": 8160,
+      "sha256": "7bd614710e9604fbab03fd671fb1e3fffb76b3eb9007bedbf7cae9043705209b"
+    },
+    {
+      "path": "Content/HiDefContent/Diffuse_24.xnb",
+      "bytes": 16748,
+      "sha256": "fb0193c5a83ab0ea6d13e8f0e05540e3498ea435f9ce7a753af7ee90d398fcc5"
+    },
+    {
+      "path": "Content/HiDefContent/Diffuse_24_L2.xnb",
+      "bytes": 4586,
+      "sha256": "b1d5155dbae99bd04f82de0f6b2458b09c53dce1543f898dcf0536b44431cc52"
+    },
+    {
+      "path": "Content/HiDefContent/Diffuse_24_L3.xnb",
+      "bytes": 1450,
+      "sha256": "9ebb153a33ec84f1ef831a3f8d9bf6504096cc3776b173ce7c5edde287f476fe"
+    },
+    {
+      "path": "Content/HiDefContent/Diffuse_25.xnb",
+      "bytes": 38868,
+      "sha256": "892809fb5a72718d750e2dd3ee53767cd96c4030d432863f7996c727b4b36a41"
+    },
+    {
+      "path": "Content/HiDefContent/Diffuse_26.xnb",
+      "bytes": 125570,
+      "sha256": "d016dcc7646ebded23283b28b44f7b5aa5efafe815024d90a333674ea0213e99"
+    },
+    {
+      "path": "Content/HiDefContent/Diffuse_26_L2.xnb",
+      "bytes": 33628,
+      "sha256": "c1d1c3d6999c48585ecc9188f09d6bfe4ba41781af75c22239df3fbeaa5b0802"
+    },
+    {
+      "path": "Content/HiDefContent/Diffuse_26_L3.xnb",
+      "bytes": 9482,
+      "sha256": "fe552e35529ea9a87cb46ae889a4a002ce8127858354057a54113d9bf7aea286"
+    },
+    {
+      "path": "Content/HiDefContent/Diffuse_27.xnb",
+      "bytes": 125570,
+      "sha256": "d016dcc7646ebded23283b28b44f7b5aa5efafe815024d90a333674ea0213e99"
+    },
+    {
+      "path": "Content/HiDefContent/Diffuse_28.xnb",
+      "bytes": 107862,
+      "sha256": "f2416cb9b41702d1600c53bc749a5e7227057dd33537750ccb92820f4136591f"
+    },
+    {
+      "path": "Content/HiDefContent/Diffuse_28_L2.xnb",
+      "bytes": 31910,
+      "sha256": "ef5b4fdbdbb2f2db0c916a1cc0f2971665f2ea4b12818c9600bd10e8f856fd2e"
+    },
+    {
+      "path": "Content/HiDefContent/Diffuse_28_L3.xnb",
+      "bytes": 9956,
+      "sha256": "757950b16b0a31de13215f535380da7d3c6ab0802e48b332bfecb4099ab58f73"
+    },
+    {
+      "path": "Content/HiDefContent/Diffuse_29.xnb",
+      "bytes": 140672,
+      "sha256": "f64a99eb91d635a7239f138bce6059f0f82c24327b0c2bd5debf6ab4fc738b7c"
+    },
+    {
+      "path": "Content/HiDefContent/Diffuse_29_L2.xnb",
+      "bytes": 35606,
+      "sha256": "3af3896e08bb5375e06d2a19b423dd4ab394722aa59792916150f1401d3e74f2"
+    },
+    {
+      "path": "Content/HiDefContent/Diffuse_29_L3.xnb",
+      "bytes": 9422,
+      "sha256": "01e110cde557e9af1a1701fe15b8304114d97f0ac0e9679817ec76b2de6aa868"
+    },
+    {
+      "path": "Content/HiDefContent/Diffuse_2_L2.xnb",
+      "bytes": 7478,
+      "sha256": "73df516bc871c05febbf1376b102f7a23368a6585e08327a0fb09ca90fa0b728"
+    },
+    {
+      "path": "Content/HiDefContent/Diffuse_2_L3.xnb",
+      "bytes": 2230,
+      "sha256": "aed5fb208a843a7610b6280b229f2675edc37929f34d4a9b5f4e0a082783597a"
+    },
+    {
+      "path": "Content/HiDefContent/Diffuse_3.xnb",
+      "bytes": 32784,
+      "sha256": "c26c0259cbfca05a2acc2f20b799e2b4c3a11b56fd9085dd263cd2235b7b306c"
+    },
+    {
+      "path": "Content/HiDefContent/Diffuse_30.xnb",
+      "bytes": 125570,
+      "sha256": "d016dcc7646ebded23283b28b44f7b5aa5efafe815024d90a333674ea0213e99"
+    },
+    {
+      "path": "Content/HiDefContent/Diffuse_30_L2.xnb",
+      "bytes": 33628,
+      "sha256": "c1d1c3d6999c48585ecc9188f09d6bfe4ba41781af75c22239df3fbeaa5b0802"
+    },
+    {
+      "path": "Content/HiDefContent/Diffuse_30_L3.xnb",
+      "bytes": 9482,
+      "sha256": "fe552e35529ea9a87cb46ae889a4a002ce8127858354057a54113d9bf7aea286"
+    },
+    {
+      "path": "Content/HiDefContent/Diffuse_31.xnb",
+      "bytes": 118034,
+      "sha256": "ce6ecd4592851a183da95fc469d02da8dd7f5f6bfc5fb8bc3016940238fc3f53"
+    },
+    {
+      "path": "Content/HiDefContent/Diffuse_3_L2.xnb",
+      "bytes": 8588,
+      "sha256": "bf18ff0ddff36c8c680296727d375b649d6ca02b5574baa4fdbb5bde7f4a2741"
+    },
+    {
+      "path": "Content/HiDefContent/Diffuse_3_L3.xnb",
+      "bytes": 2494,
+      "sha256": "95827a6993eaedb1d66e6fdf910f0bd6190eda35d97ace6235fa123515e7b588"
+    },
+    {
+      "path": "Content/HiDefContent/Diffuse_4.xnb",
+      "bytes": 24518,
+      "sha256": "23498b7af48ec4999b3bfb22138af63101fbdc5a3fc1cf652b3b60dcfeeee11f"
+    },
+    {
+      "path": "Content/HiDefContent/Diffuse_4_L2.xnb",
+      "bytes": 7318,
+      "sha256": "e6f7a44e777f5d6857cc328c7a3ff1281604ea44a2c752fc704eb11cbe729031"
+    },
+    {
+      "path": "Content/HiDefContent/Diffuse_4_L3.xnb",
+      "bytes": 2286,
+      "sha256": "811ce8faa140e74ce626ffe35d78008017c6f5148dbb6e62e256c0bdec4a2ad1"
+    },
+    {
+      "path": "Content/HiDefContent/Diffuse_5.xnb",
+      "bytes": 126384,
+      "sha256": "c01aeef75e97560cd613553f26ac6c045f1d0177a8b54386ef89032627e557a4"
+    },
+    {
+      "path": "Content/HiDefContent/Diffuse_5_L2.xnb",
+      "bytes": 32270,
+      "sha256": "ff61a4932f4f221ebaad325ea0660c9094cad35bc2b91892f3c2a7597cd781f7"
+    },
+    {
+      "path": "Content/HiDefContent/Diffuse_5_L3.xnb",
+      "bytes": 8544,
+      "sha256": "2c3ba2098f0f18a661edf0b273876d76ad20eeecb6953259f8b77e407159b884"
+    },
+    {
+      "path": "Content/HiDefContent/Diffuse_6.xnb",
+      "bytes": 11920,
+      "sha256": "fffca4ecb423dd7befd4c9cf9888379762fb6243acbfb739e1f7a98b294cfd54"
+    },
+    {
+      "path": "Content/HiDefContent/Diffuse_6_L2.xnb",
+      "bytes": 4148,
+      "sha256": "0922ac04b7be3b069ec75b570124c93aea96cd41e3e36f3ca3136b5c38c067b2"
+    },
+    {
+      "path": "Content/HiDefContent/Diffuse_6_L3.xnb",
+      "bytes": 1610,
+      "sha256": "269f52923fc0281df26155e3d86ed46a921c3e68229cd0d35a0cfe09c5846017"
+    },
+    {
+      "path": "Content/HiDefContent/Diffuse_7.xnb",
+      "bytes": 23322,
+      "sha256": "9639ce9a4ab034bb9cc576ae1a80b5f5cd82117a41cb3ef1ca8977794897f503"
+    },
+    {
+      "path": "Content/HiDefContent/Diffuse_7_L2.xnb",
+      "bytes": 6324,
+      "sha256": "dbac74ac52ea1100746e28b4a55e8c35d16bc18beeae80af33cea9fdddd4e0ab"
+    },
+    {
+      "path": "Content/HiDefContent/Diffuse_7_L3.xnb",
+      "bytes": 2014,
+      "sha256": "2b4fe0bcc845508613af2284fb60d1b78358646d37e283df1942ee91552f1b16"
+    },
+    {
+      "path": "Content/HiDefContent/Diffuse_8.xnb",
+      "bytes": 99576,
+      "sha256": "3175e0caea0397d911786dba6bb347c6536d4cbcf0ebfa5c249f7778d8b9c178"
+    },
+    {
+      "path": "Content/HiDefContent/Diffuse_8_L2.xnb",
+      "bytes": 26278,
+      "sha256": "476e490844efa654a67540f81f1ec83c11690d4e35aa702f1f15cad56a5dc5ce"
+    },
+    {
+      "path": "Content/HiDefContent/Diffuse_8_L3.xnb",
+      "bytes": 7666,
+      "sha256": "a3090e4f39cb0cd38af9999d2fdae63ea098671b0c40b17aa0e7d2b4786a7423"
+    },
+    {
+      "path": "Content/HiDefContent/Diffuse_9.xnb",
+      "bytes": 84444,
+      "sha256": "0f9908ae6f52f1243cbb74302b49bbf6ac40c46b5c6d0fa2b7d2c8c76e47d7c4"
+    },
+    {
+      "path": "Content/HiDefContent/Diffuse_9_L2.xnb",
+      "bytes": 22368,
+      "sha256": "eac480f596402daeb3970e42c7f4ae115ab4cd6074510cc138daad0ad22c72be"
+    },
+    {
+      "path": "Content/HiDefContent/Diffuse_9_L3.xnb",
+      "bytes": 6652,
+      "sha256": "cbbd883125cb25f9fe3b7c89952ceb314958aed9cf39ec1468cebcf465282e41"
+    },
+    {
+      "path": "Content/HiDefContent/GemDiffuse_0.xnb",
+      "bytes": 243,
+      "sha256": "7cce7464d1e5ef529ba52f77138fff525c4bfc3dd98f2365be1feec3df74273d"
+    },
+    {
+      "path": "Content/HiDefContent/GemDiffuse_0_L2.xnb",
+      "bytes": 243,
+      "sha256": "7cce7464d1e5ef529ba52f77138fff525c4bfc3dd98f2365be1feec3df74273d"
+    },
+    {
+      "path": "Content/HiDefContent/GemDiffuse_0_L3.xnb",
+      "bytes": 243,
+      "sha256": "7cce7464d1e5ef529ba52f77138fff525c4bfc3dd98f2365be1feec3df74273d"
+    },
+    {
+      "path": "Content/HiDefContent/GemNormal_0.xnb",
+      "bytes": 340,
+      "sha256": "5fe84b85376d310ca9e96d2549d01b6b273b5c277c54f332357efede706e5b9c"
+    },
+    {
+      "path": "Content/HiDefContent/GemNormal_0_L2.xnb",
+      "bytes": 286,
+      "sha256": "a38a5d7109e9a6125eb46ef8bc1f2f531288433184adad916bba9f7e6b8bddb5"
+    },
+    {
+      "path": "Content/HiDefContent/GemNormal_0_L3.xnb",
+      "bytes": 264,
+      "sha256": "45a1ed227ae816198907b5da0051d6c7a6e8286d4eba1b28875286994d26e43e"
+    },
+    {
+      "path": "Content/HiDefContent/GemSpecular_0.xnb",
+      "bytes": 342,
+      "sha256": "9026918f1f25cb39be0d0ad4d82a29195cbf7ca25a91d7f5192ff94ce142ca85"
+    },
+    {
+      "path": "Content/HiDefContent/GemSpecular_0_L2.xnb",
+      "bytes": 288,
+      "sha256": "e723d34eab17aebb3aed89a59375285838699c2a06b0e3dcc1d239c776bd8675"
+    },
+    {
+      "path": "Content/HiDefContent/GemSpecular_0_L3.xnb",
+      "bytes": 268,
+      "sha256": "47379502656e9035fa99c00f64fb5a9b4746e0553d78ec1ba107a8310e250333"
+    },
+    {
+      "path": "Content/HiDefContent/Normal_0.xnb",
+      "bytes": 219,
+      "sha256": "245f0a7dfe3ce2a78be4e7a55d485177c70624fa87e721b6ebf63e9e452b273e"
+    },
+    {
+      "path": "Content/HiDefContent/Normal_0_L2.xnb",
+      "bytes": 219,
+      "sha256": "245f0a7dfe3ce2a78be4e7a55d485177c70624fa87e721b6ebf63e9e452b273e"
+    },
+    {
+      "path": "Content/HiDefContent/Normal_0_L3.xnb",
+      "bytes": 219,
+      "sha256": "245f0a7dfe3ce2a78be4e7a55d485177c70624fa87e721b6ebf63e9e452b273e"
+    },
+    {
+      "path": "Content/HiDefContent/Normal_hidef_0.xnb",
+      "bytes": 389814,
+      "sha256": "2b44b2abfadf9fa1a4c5c9dd08308c46f8f172c4f622cf8c20b6f34180da1932"
+    },
+    {
+      "path": "Content/HiDefContent/Normal_hidef_0_L2.xnb",
+      "bytes": 106250,
+      "sha256": "30487edd862824ca50018f7b8f508ad093abdc7d191a85cf51b80d90a7957aca"
+    },
+    {
+      "path": "Content/HiDefContent/Normal_hidef_0_L3.xnb",
+      "bytes": 29816,
+      "sha256": "7bd1f7885e1aac0f5da741f50008e707d698bf68abfefc158354fbf4e8004888"
+    },
+    {
+      "path": "Content/HiDefContent/Normal_hidef_1.xnb",
+      "bytes": 25342,
+      "sha256": "3878b21321599e8f485907aa79878e6232e290ca1e771598dfc18fd73ce70f62"
+    },
+    {
+      "path": "Content/HiDefContent/Normal_hidef_10.xnb",
+      "bytes": 100966,
+      "sha256": "9b10cc4a4b770a0ff3db60833bfb661433b027872a1b59d2db1313672243d860"
+    },
+    {
+      "path": "Content/HiDefContent/Normal_hidef_10_L2.xnb",
+      "bytes": 28082,
+      "sha256": "cf1bda56cf0576c63907def50afae84eba32752777deb32a24f4837ac53babcf"
+    },
+    {
+      "path": "Content/HiDefContent/Normal_hidef_10_L3.xnb",
+      "bytes": 7746,
+      "sha256": "f337564e9e56ae393561e1db1f4cd6b3a96223e061c118dd30993a581ff22355"
+    },
+    {
+      "path": "Content/HiDefContent/Normal_hidef_11.xnb",
+      "bytes": 823478,
+      "sha256": "d766bf9c5aa970f6af16db0af6fccc6eb23ade4b4eef408c42739629ed500b76"
+    },
+    {
+      "path": "Content/HiDefContent/Normal_hidef_11_L2.xnb",
+      "bytes": 196224,
+      "sha256": "485a27d7fefec82efc2a720fca692dfcb3b8912b5228526b4fe983db7c1c4b46"
+    },
+    {
+      "path": "Content/HiDefContent/Normal_hidef_11_L3.xnb",
+      "bytes": 48842,
+      "sha256": "38cbd4dd5f043583551ae378b1c6f551b0c7d2131c3e64fe9d1ff8ea97fd6b3e"
+    },
+    {
+      "path": "Content/HiDefContent/Normal_hidef_12.xnb",
+      "bytes": 425810,
+      "sha256": "99012ed13f90c76bc52896e73c115ddbb2dd8276ac1db5d2cfda9d0db2d5e62c"
+    },
+    {
+      "path": "Content/HiDefContent/Normal_hidef_12_L2.xnb",
+      "bytes": 108906,
+      "sha256": "d8e1ba162d43b82cd1e03288bb1c9878d6bf3b130a703ef0d418e6b306e2b4b2"
+    },
+    {
+      "path": "Content/HiDefContent/Normal_hidef_12_L3.xnb",
+      "bytes": 27426,
+      "sha256": "25892b4c7f595f8ff832e571c87b94fe4c830c77ee85e9ad1552bc96ff9af8bc"
+    },
+    {
+      "path": "Content/HiDefContent/Normal_hidef_13.xnb",
+      "bytes": 570466,
+      "sha256": "bc6c51ab8c9eac70c15058ed342abc8ce8d08ef170cacad21de0c6ef18117883"
+    },
+    {
+      "path": "Content/HiDefContent/Normal_hidef_13_L2.xnb",
+      "bytes": 142368,
+      "sha256": "bafe7ecd247da94992aaea7770146d3cb46b7de2cc43ee4a3f0add2a00e9454f"
+    },
+    {
+      "path": "Content/HiDefContent/Normal_hidef_13_L3.xnb",
+      "bytes": 36320,
+      "sha256": "73cfa2b1283f000015241e6deb0b5952ccbfd0d59a0d5ba4a5cf293921b57cd1"
+    },
+    {
+      "path": "Content/HiDefContent/Normal_hidef_14.xnb",
+      "bytes": 118186,
+      "sha256": "abbe563bfa7668b8f0b8e9bb7a36997b8143038d3c193fbbee0e332bccc60f6e"
+    },
+    {
+      "path": "Content/HiDefContent/Normal_hidef_14_L2.xnb",
+      "bytes": 31116,
+      "sha256": "9fd2858a1507787b6370bcf02031b1ecf4b7728220b88ccd5fbdc8fb03a24e63"
+    },
+    {
+      "path": "Content/HiDefContent/Normal_hidef_14_L3.xnb",
+      "bytes": 8496,
+      "sha256": "d4adefee6fceb4b5d465a7af9c0a83094e00f60929e22679b92d9b35a9f382f6"
+    },
+    {
+      "path": "Content/HiDefContent/Normal_hidef_15.xnb",
+      "bytes": 404970,
+      "sha256": "bc9677cfa9ab5809268f6077866afeff38773e1c46c58acf4d067b1eb9f3526d"
+    },
+    {
+      "path": "Content/HiDefContent/Normal_hidef_15_L2.xnb",
+      "bytes": 102066,
+      "sha256": "21d38802091a77e96395f49d71bf81713ab6ad856d8dbee9bbc73fdbfc00de4c"
+    },
+    {
+      "path": "Content/HiDefContent/Normal_hidef_15_L3.xnb",
+      "bytes": 26560,
+      "sha256": "819f7cafda1db2ac52ebc175e5fc4afed3c3e0704c515dd5b97ccb3c7dedbcfa"
+    },
+    {
+      "path": "Content/HiDefContent/Normal_hidef_16.xnb",
+      "bytes": 131118,
+      "sha256": "8cb20dc1311ff0595e73e59fb2284247c9a330b3a758dd1fc96b809fee408cbf"
+    },
+    {
+      "path": "Content/HiDefContent/Normal_hidef_16_L2.xnb",
+      "bytes": 32074,
+      "sha256": "9e2b5b9a4f2ada0f3964017fbeff249a2f0cdf57a6d54ad5be3bad8a1450a481"
+    },
+    {
+      "path": "Content/HiDefContent/Normal_hidef_16_L3.xnb",
+      "bytes": 8410,
+      "sha256": "4e474e8420ae9582dc032ce81e9c9d04a2458be6b57d220b7b1f01e3740cb70d"
+    },
+    {
+      "path": "Content/HiDefContent/Normal_hidef_17.xnb",
+      "bytes": 10954,
+      "sha256": "fcd52f743920eec9e91325065df2a909c038ae01c44b687db3997efd1a509a54"
+    },
+    {
+      "path": "Content/HiDefContent/Normal_hidef_17_L2.xnb",
+      "bytes": 2944,
+      "sha256": "d80c5f2db794ab40e80d1ec322c437cbf9f69268057fa32fbe7df3607464be7c"
+    },
+    {
+      "path": "Content/HiDefContent/Normal_hidef_17_L3.xnb",
+      "bytes": 1040,
+      "sha256": "a5d0f33365583d181a5f34080c1c3303e70d139d89b0f7d24215161fb03eb12b"
+    },
+    {
+      "path": "Content/HiDefContent/Normal_hidef_18.xnb",
+      "bytes": 30658,
+      "sha256": "25c6c1173cf188dbe940817dfdeec3e43f565a8c1646334b062bc670240e7622"
+    },
+    {
+      "path": "Content/HiDefContent/Normal_hidef_19.xnb",
+      "bytes": 72638,
+      "sha256": "4e348a76c6a3fd8a0cdf9d81cce52ebb482979d4804fc2be0965d3f0fe2f1317"
+    },
+    {
+      "path": "Content/HiDefContent/Normal_hidef_19_L2.xnb",
+      "bytes": 21288,
+      "sha256": "5b5f1c2a09708783f5684077030a4613acea80410b71f92ec2fa0f82cf33fc06"
+    },
+    {
+      "path": "Content/HiDefContent/Normal_hidef_19_L3.xnb",
+      "bytes": 6440,
+      "sha256": "38fd6add07d69c904ae9f7c0ba594ac426c0ee2e2233c8a71a425b4d24865a92"
+    },
+    {
+      "path": "Content/HiDefContent/Normal_hidef_1_L2.xnb",
+      "bytes": 8436,
+      "sha256": "48d3e644f0e2185f202787d36e64e3878fb41fa0574fa20cb2d6415f1c9c2163"
+    },
+    {
+      "path": "Content/HiDefContent/Normal_hidef_1_L3.xnb",
+      "bytes": 3174,
+      "sha256": "10f08bcbc1fbf0125712830b1b11150416dac0ceb13bd44bda6f684ea24e9439"
+    },
+    {
+      "path": "Content/HiDefContent/Normal_hidef_2.xnb",
+      "bytes": 32614,
+      "sha256": "51b6341f23931a6841f238e7ae855d06fa6999605a21e026b25d9a1546f87eb8"
+    },
+    {
+      "path": "Content/HiDefContent/Normal_hidef_20.xnb",
+      "bytes": 72638,
+      "sha256": "4e348a76c6a3fd8a0cdf9d81cce52ebb482979d4804fc2be0965d3f0fe2f1317"
+    },
+    {
+      "path": "Content/HiDefContent/Normal_hidef_21.xnb",
+      "bytes": 404970,
+      "sha256": "bc9677cfa9ab5809268f6077866afeff38773e1c46c58acf4d067b1eb9f3526d"
+    },
+    {
+      "path": "Content/HiDefContent/Normal_hidef_21_L2.xnb",
+      "bytes": 102066,
+      "sha256": "21d38802091a77e96395f49d71bf81713ab6ad856d8dbee9bbc73fdbfc00de4c"
+    },
+    {
+      "path": "Content/HiDefContent/Normal_hidef_21_L3.xnb",
+      "bytes": 26560,
+      "sha256": "819f7cafda1db2ac52ebc175e5fc4afed3c3e0704c515dd5b97ccb3c7dedbcfa"
+    },
+    {
+      "path": "Content/HiDefContent/Normal_hidef_22.xnb",
+      "bytes": 118550,
+      "sha256": "c1ed924772b1a76811c01c2eff10d662b690f2566a464180b3cebf61a38507fe"
+    },
+    {
+      "path": "Content/HiDefContent/Normal_hidef_22_L2.xnb",
+      "bytes": 30716,
+      "sha256": "3c7ed916ac7ce7b792d1973f4b7193ddb103b562a132b41f4248d18bff06fd30"
+    },
+    {
+      "path": "Content/HiDefContent/Normal_hidef_22_L3.xnb",
+      "bytes": 8042,
+      "sha256": "467d71e2942f54fdd4c9d9335b6fb1142dea2edf28fb7a72f140e1304ce173cf"
+    },
+    {
+      "path": "Content/HiDefContent/Normal_hidef_23.xnb",
+      "bytes": 72638,
+      "sha256": "4e348a76c6a3fd8a0cdf9d81cce52ebb482979d4804fc2be0965d3f0fe2f1317"
+    },
+    {
+      "path": "Content/HiDefContent/Normal_hidef_23_L2.xnb",
+      "bytes": 21288,
+      "sha256": "5b5f1c2a09708783f5684077030a4613acea80410b71f92ec2fa0f82cf33fc06"
+    },
+    {
+      "path": "Content/HiDefContent/Normal_hidef_23_L3.xnb",
+      "bytes": 6440,
+      "sha256": "38fd6add07d69c904ae9f7c0ba594ac426c0ee2e2233c8a71a425b4d24865a92"
+    },
+    {
+      "path": "Content/HiDefContent/Normal_hidef_2_L2.xnb",
+      "bytes": 8692,
+      "sha256": "b10c9c141cc7b0a6ad606e449428b29b84408a14af51922b2abccde2582314fa"
+    },
+    {
+      "path": "Content/HiDefContent/Normal_hidef_2_L3.xnb",
+      "bytes": 2520,
+      "sha256": "e99787567e6afcad7b1bd9222ec57974c530f1c859588a6bcc79340398d25141"
+    },
+    {
+      "path": "Content/HiDefContent/Normal_hidef_3.xnb",
+      "bytes": 34706,
+      "sha256": "45f040b00cb97ec7593937a471c1801fab3cd68973f8075cc8d7a7edb1c37637"
+    },
+    {
+      "path": "Content/HiDefContent/Normal_hidef_3_L2.xnb",
+      "bytes": 9048,
+      "sha256": "884e816872ba8d20f65dba74c07d0aa69f43d76864e299191da34a1a6574afc1"
+    },
+    {
+      "path": "Content/HiDefContent/Normal_hidef_3_L3.xnb",
+      "bytes": 2576,
+      "sha256": "529fcb002924585b79544e30c5a4370a18b691c64704d1e0c41dc4abfc168a1d"
+    },
+    {
+      "path": "Content/HiDefContent/Normal_hidef_4.xnb",
+      "bytes": 29214,
+      "sha256": "2337fe675f421f212935a49ffa83fe40998a14bfa05fa46ed9d70d35a74e4a2f"
+    },
+    {
+      "path": "Content/HiDefContent/Normal_hidef_4_L2.xnb",
+      "bytes": 7992,
+      "sha256": "43beb42aaeb3ec5b1c216c51fdec958e65dcd85bba58fbbbeb4022ae02975529"
+    },
+    {
+      "path": "Content/HiDefContent/Normal_hidef_4_L3.xnb",
+      "bytes": 2352,
+      "sha256": "f17cb580c2a25b4173d18343343006ea9908fe4aca882034fc8603c125d23fda"
+    },
+    {
+      "path": "Content/HiDefContent/Normal_hidef_5.xnb",
+      "bytes": 102474,
+      "sha256": "3fae38ca9fc0ba83bd7c4d8edc38a582bb41a93a2cfa7d2d598813dd7eaf090a"
+    },
+    {
+      "path": "Content/HiDefContent/Normal_hidef_5_L2.xnb",
+      "bytes": 27336,
+      "sha256": "5eafb1379cc6a3396a2d9cbde6999f27512bce0c923a00f3059577c5d44d0e5a"
+    },
+    {
+      "path": "Content/HiDefContent/Normal_hidef_5_L3.xnb",
+      "bytes": 7462,
+      "sha256": "7f5304b6ae9204f57f0786b859b017e88ebf271da7bf3ac114ec7746e8fefcce"
+    },
+    {
+      "path": "Content/HiDefContent/Normal_hidef_6.xnb",
+      "bytes": 132810,
+      "sha256": "571a01953200cecb5c8d5098f05082b352c954c91f43d5d086b84d3c2c22ac1f"
+    },
+    {
+      "path": "Content/HiDefContent/Normal_hidef_6_L2.xnb",
+      "bytes": 32302,
+      "sha256": "05020e0cbf4218c2135df038e0c587aef92ac0761425ad1e9d8969bbe721d155"
+    },
+    {
+      "path": "Content/HiDefContent/Normal_hidef_6_L3.xnb",
+      "bytes": 8034,
+      "sha256": "c64ab43c46fd7cc498974d92378e0e4aff5385b0d941ad67fb6c0252f205ea97"
+    },
+    {
+      "path": "Content/HiDefContent/Normal_hidef_7.xnb",
+      "bytes": 131436,
+      "sha256": "1cd08bdf4a45cdd7877207895d0dc204ccf28ac04c66a828d49fb88c8f77bfdb"
+    },
+    {
+      "path": "Content/HiDefContent/Normal_hidef_7_L2.xnb",
+      "bytes": 33574,
+      "sha256": "b2e7fb41cf7a547ad11db20886a82ffbacf7667f55dbc2c5f83f42e8f51f47d1"
+    },
+    {
+      "path": "Content/HiDefContent/Normal_hidef_7_L3.xnb",
+      "bytes": 8850,
+      "sha256": "10e71e39ad0f8411b92170b6cd656469f043d7d30b1b1a9e52720b4176cb17c5"
+    },
+    {
+      "path": "Content/HiDefContent/Normal_hidef_8.xnb",
+      "bytes": 378514,
+      "sha256": "baeb43b64be59b0c882c1b915a4db3288006575d3a1fff1e61717d6b6df61da8"
+    },
+    {
+      "path": "Content/HiDefContent/Normal_hidef_8_L2.xnb",
+      "bytes": 101194,
+      "sha256": "9e9883c11067b1f684e444915ea33a00f9e99265bd60b0f6f27b43d17cd45d42"
+    },
+    {
+      "path": "Content/HiDefContent/Normal_hidef_8_L3.xnb",
+      "bytes": 27840,
+      "sha256": "ab7e6705453a885ba31653e50c65523aabc4b24583d51d6aed6ff5ac21b81a86"
+    },
+    {
+      "path": "Content/HiDefContent/Normal_hidef_9.xnb",
+      "bytes": 31002,
+      "sha256": "58588e0f5b4da79bd810587be199f71bef11149776276ccbd42839b7424c8ee1"
+    },
+    {
+      "path": "Content/HiDefContent/Normal_hidef_9_L2.xnb",
+      "bytes": 8250,
+      "sha256": "a5d13a0502867a2dc5e549adb04d08ccc3133ce7301f3a1d2651683c827d082d"
+    },
+    {
+      "path": "Content/HiDefContent/Normal_hidef_9_L3.xnb",
+      "bytes": 2344,
+      "sha256": "0317507cea986976cb4e8955b4d5dceef0aabf341e205cd61038a02092a879ed"
+    },
+    {
+      "path": "Content/HiDefContent/PistolNormal_0.xnb",
+      "bytes": 467326,
+      "sha256": "8e6b6266dc71797c2b7899b4d3da6ffaaddcb847b6a56c6a07fd6e32ec54f1ca"
+    },
+    {
+      "path": "Content/HiDefContent/PistolNormal_0_L2.xnb",
+      "bytes": 118132,
+      "sha256": "0c83865516a0dfa1262c08f375210bc49b5d971fcc1bd08fe4be4462f7649b81"
+    },
+    {
+      "path": "Content/HiDefContent/PistolNormal_0_L3.xnb",
+      "bytes": 30090,
+      "sha256": "fdedb1ba2005580a3d452a4ed3379dfbc3f750d6ba55a59a79a7d6374e6c2d0f"
+    },
+    {
+      "path": "Content/HiDefContent/Props/Items/Ammo/Model.xnb",
+      "bytes": 6718,
+      "sha256": "70a25bbcbf4a50c2db9634077fe1caf6d6ad1deb57df4bf52381f43617146947"
+    },
+    {
+      "path": "Content/HiDefContent/Props/Items/Bars/Model.xnb",
+      "bytes": 5614,
+      "sha256": "d6717f21853054411cc0bea2f08052a6cfefb396e1eac09fb51e5450085c1a28"
+    },
+    {
+      "path": "Content/HiDefContent/Props/Items/Diamond/Door/Model.xnb",
+      "bytes": 6828,
+      "sha256": "2c0185bd8bc4ba26bea1e3ab06337435c9e27573cc5e7a21d571622c49fb9595"
+    },
+    {
+      "path": "Content/HiDefContent/Props/Items/DiamondDoor/Model.xnb",
+      "bytes": 13948,
+      "sha256": "89c73df1386686957d245a846526eb7f7900d392c10db4fe6502cc3cab85484d"
+    },
+    {
+      "path": "Content/HiDefContent/Props/Items/Door/Model.xnb",
+      "bytes": 13950,
+      "sha256": "b8da8fd69a7ddc972c0dc96573c57d84548fedcb9e9a81de1e24dcf264072348"
+    },
+    {
+      "path": "Content/HiDefContent/Props/Items/Gems/Model.xnb",
+      "bytes": 16074,
+      "sha256": "c3ec281d58de5e6f77484069a4f584ae1f139562996fa1bb8b7694db2ac55b2f"
+    },
+    {
+      "path": "Content/HiDefContent/Props/Items/GunPowder/Model.xnb",
+      "bytes": 6586,
+      "sha256": "8881db4e7f892c9196116a12a5113f32b9df3fbad863df936c7d1dcf10911c4c"
+    },
+    {
+      "path": "Content/HiDefContent/Props/Items/IronDoor/Model.xnb",
+      "bytes": 13948,
+      "sha256": "0c46dddcbdce0ee2a13ae626038d128160ff3c2d136aa0d5cdc7aec7b92c7da1"
+    },
+    {
+      "path": "Content/HiDefContent/Props/Items/Ore/Model.xnb",
+      "bytes": 36404,
+      "sha256": "ee8bd5fe3136f008ba23837ef03a6b84346a0566c64a4a6d5be39cc1976c6664"
+    },
+    {
+      "path": "Content/HiDefContent/Props/Items/TechDoor/Model.xnb",
+      "bytes": 13956,
+      "sha256": "d6bfed8d05f7ecd5093137722ae9a262a1e0372b2706de80532ae876333d023c"
+    },
+    {
+      "path": "Content/HiDefContent/Props/Items/Torch/Model.xnb",
+      "bytes": 14640,
+      "sha256": "b07d70b6457cdd1c76b7404a16e04d92bd1472e3f313281038de3898a7112e0a"
+    },
+    {
+      "path": "Content/HiDefContent/Props/Tools/Axe/Model.xnb",
+      "bytes": 15896,
+      "sha256": "cc71308cb69b5c498c8e93ff85827ba7754fb6b10bd3d708cace69fcee7acab9"
+    },
+    {
+      "path": "Content/HiDefContent/Props/Tools/Chainsaw/Model.xnb",
+      "bytes": 73726,
+      "sha256": "924e66291045f824bd049df36896c6dbaa751d37932b432b1da089ec896f6c7b"
+    },
+    {
+      "path": "Content/HiDefContent/Props/Tools/Clock/Model.xnb",
+      "bytes": 16782,
+      "sha256": "b3c26ad425cbf8767c9c1618e02b742e2c583344eb9b4e075ba2d8235e469286"
+    },
+    {
+      "path": "Content/HiDefContent/Props/Tools/Compass/Model.xnb",
+      "bytes": 16638,
+      "sha256": "43df4ab4a9cd6be4f85b763e0033be1e90c680e72a333ee3e04c65a3767d6575"
+    },
+    {
+      "path": "Content/HiDefContent/Props/Tools/Drill/Model.xnb",
+      "bytes": 183078,
+      "sha256": "541e8c7986668504c723efeec068d686d235925eaeeecab079a334e880adcdbf"
+    },
+    {
+      "path": "Content/HiDefContent/Props/Tools/Locator/Model.xnb",
+      "bytes": 16790,
+      "sha256": "9300272fdea3510a889e870ec8ab8950da4817cebecdab40e7fb1716a7314fc1"
+    },
+    {
+      "path": "Content/HiDefContent/Props/Tools/PickAxe/Model.xnb",
+      "bytes": 35800,
+      "sha256": "4606c18f8a7a63100630de9283710886fb4cfd4d377a698ef32766b259f98040"
+    },
+    {
+      "path": "Content/HiDefContent/Props/Tools/Spade/Model.xnb",
+      "bytes": 119114,
+      "sha256": "3acf093352a23108e19440a11c84cab0dc6f638ce2c4b261eebfa2f4dde49c4c"
+    },
+    {
+      "path": "Content/HiDefContent/Props/Tools/Teleporter/Model.xnb",
+      "bytes": 16788,
+      "sha256": "c8f5a6b440a381aba635324585e1b66b69ed355c7e79e5453d708b2524685746"
+    },
+    {
+      "path": "Content/HiDefContent/Props/Weapons/Conventional/AR/Model.xnb",
+      "bytes": 73914,
+      "sha256": "1e1ba068a217a1e680ad9f443c5f2024646877f207063a93c24e46502a4c857f"
+    },
+    {
+      "path": "Content/HiDefContent/Props/Weapons/Conventional/Grenade/Model.xnb",
+      "bytes": 58610,
+      "sha256": "a64628877b767d40a9ec8f27def63b200ab6107abc2ff684820609eea8c669e8"
+    },
+    {
+      "path": "Content/HiDefContent/Props/Weapons/Conventional/Knife/Model.xnb",
+      "bytes": 19122,
+      "sha256": "630a35c7362ad0d8dd1e0f7229ff828ef629a9b6be6005c261ad5f0f8c33884b"
+    },
+    {
+      "path": "Content/HiDefContent/Props/Weapons/Conventional/Launcher/Model.xnb",
+      "bytes": 28470,
+      "sha256": "732791c90a10be0da9fc3ccf26bee2ce39f46a293b912d52abb8c73c7ae0e53b"
+    },
+    {
+      "path": "Content/HiDefContent/Props/Weapons/Conventional/Launcher/RPGGrenade.xnb",
+      "bytes": 5226,
+      "sha256": "272ea867c299e8968bd0da6b3af336d167cd7caabad242b30d607c7fc05c9077"
+    },
+    {
+      "path": "Content/HiDefContent/Props/Weapons/Conventional/LMG/Model.xnb",
+      "bytes": 99452,
+      "sha256": "1c130f3e601c8deaed98f064dd7634def33ef1e8dcf865c370e86a04fdaf9349"
+    },
+    {
+      "path": "Content/HiDefContent/Props/Weapons/Conventional/Pistol/Model.xnb",
+      "bytes": 65158,
+      "sha256": "c164568d189eb3db6f7a9360a301c1706346635cf6d352cc8dc8febd61da0dee"
+    },
+    {
+      "path": "Content/HiDefContent/Props/Weapons/Conventional/Rifle/Model.xnb",
+      "bytes": 60022,
+      "sha256": "bab0eace36820abf144ba380b987747a8a9b8c32a7b8b0fddc2bed7f656cb748"
+    },
+    {
+      "path": "Content/HiDefContent/Props/Weapons/Conventional/RPG/Model.xnb",
+      "bytes": 77736,
+      "sha256": "b7c955898c791044db9d93efafaf690ab192c3f35c97352963cc7d2bed707dba"
+    },
+    {
+      "path": "Content/HiDefContent/Props/Weapons/Conventional/RPG/RPGGrenade.xnb",
+      "bytes": 13778,
+      "sha256": "e092db58e4ebd5e40005bc091a129b10956717fb404ae566945195b4b7c9ce80"
+    },
+    {
+      "path": "Content/HiDefContent/Props/Weapons/Conventional/Shotgun/Model.xnb",
+      "bytes": 41394,
+      "sha256": "645224a2363c10e13e3f93436e0780dffa5cf2dfacf701af3f4d2de771c0c1d4"
+    },
+    {
+      "path": "Content/HiDefContent/Props/Weapons/Conventional/SMG/Model.xnb",
+      "bytes": 62364,
+      "sha256": "fde560854fa94d2ab8b2c4a902c6fea4c81c22d00bf6a78227aaff82ec3de6fe"
+    },
+    {
+      "path": "Content/HiDefContent/Props/Weapons/Space/AR/Model.xnb",
+      "bytes": 183074,
+      "sha256": "75d4cfd11281e2a0d83957037b070708eea56b95dfd6eee4f53ee7faf44284d9"
+    },
+    {
+      "path": "Content/HiDefContent/Props/Weapons/Space/LMG/Model.xnb",
+      "bytes": 210962,
+      "sha256": "9b2d7f3031c9b303ab7674c880c2dab86cfb7f7ff700c1ad3b5acc20e1432118"
+    },
+    {
+      "path": "Content/HiDefContent/Props/Weapons/Space/Pistol/Model.xnb",
+      "bytes": 85274,
+      "sha256": "a5a9f8bf9e38511c36123b09a8b4479278ad7c675fd3f5ed6de4631048e03a95"
+    },
+    {
+      "path": "Content/HiDefContent/Props/Weapons/Space/Rifle/Model.xnb",
+      "bytes": 161498,
+      "sha256": "b41608dd13ab84eea946aecceb68237ff3fc062b91c383b5cade9f29818d9d3d"
+    },
+    {
+      "path": "Content/HiDefContent/Props/Weapons/Space/Saber/Model.xnb",
+      "bytes": 29168,
+      "sha256": "620ed7b239369adff25fcaa24cddf4a5e1cc13978ac7db5bf739f6f223612b69"
+    },
+    {
+      "path": "Content/HiDefContent/Props/Weapons/Space/Shotgun/Model.xnb",
+      "bytes": 106952,
+      "sha256": "002ad888accb8d85f69df2f6c8ebc2f332df35f0182b86ccd94d4f2e48bc8226"
+    },
+    {
+      "path": "Content/HiDefContent/Props/Weapons/Space/SMG/Model.xnb",
+      "bytes": 100042,
+      "sha256": "74fe209c21b877fccbffbcb7985aa22d2b63047c9751b4417b76971b6a3a6976"
+    },
+    {
+      "path": "Content/HiDefContent/PropShader_hidef_0.xnb",
+      "bytes": 2848,
+      "sha256": "f17a3c788e3ee3d1b7a51fcf6c963ff37449c8f451c73d3bfb575b0463224de2"
+    },
+    {
+      "path": "Content/HiDefContent/Reflection_0.xnb",
+      "bytes": 13056,
+      "sha256": "b1b3c21a013c34460c1a8c641802ec6e91d409cad61cf1dd284ea7fe10dd9f2c"
+    },
+    {
+      "path": "Content/HiDefContent/Reflection_0_L2.xnb",
+      "bytes": 3892,
+      "sha256": "e44d42a449b32e20c10aedd3fc6b78b0286b5a3f1cd7dde77ee9bd78ca1c7f29"
+    },
+    {
+      "path": "Content/HiDefContent/Reflection_0_L3.xnb",
+      "bytes": 1332,
+      "sha256": "c4fef2a82c8cdd626d2b55f89ac80400d421cbf26f26fa06bc1d90fc24c94d87"
+    },
+    {
+      "path": "Content/HiDefContent/Reflection_1.xnb",
+      "bytes": 13056,
+      "sha256": "b1b3c21a013c34460c1a8c641802ec6e91d409cad61cf1dd284ea7fe10dd9f2c"
+    },
+    {
+      "path": "Content/HiDefContent/Shaders/BlockEffect.xnb",
+      "bytes": 8056,
+      "sha256": "f9ff4db17a1160f633cf03caf90db8e8de336763790b7e132c45e8ac60378042"
+    },
+    {
+      "path": "Content/HiDefContent/Specular_0.xnb",
+      "bytes": 219,
+      "sha256": "07a3d8376cfd5631f98973dbba5cc4c284b867a1c566516bd06b94a74b52d8ff"
+    },
+    {
+      "path": "Content/HiDefContent/Specular_0_L2.xnb",
+      "bytes": 219,
+      "sha256": "07a3d8376cfd5631f98973dbba5cc4c284b867a1c566516bd06b94a74b52d8ff"
+    },
+    {
+      "path": "Content/HiDefContent/Specular_0_L3.xnb",
+      "bytes": 219,
+      "sha256": "07a3d8376cfd5631f98973dbba5cc4c284b867a1c566516bd06b94a74b52d8ff"
+    },
+    {
+      "path": "Content/HiDefContent/Specular_hidef_0.xnb",
+      "bytes": 522758,
+      "sha256": "c666aa583ecc68238fc98f15c1c12089e016465794dabc1bff2e0a2df0c5c9ca"
+    },
+    {
+      "path": "Content/HiDefContent/Specular_hidef_0_L2.xnb",
+      "bytes": 132864,
+      "sha256": "88f5d67591bdd0ac5f23a64edbb41c6a87b9d38d8fd8287074710bfce861545a"
+    },
+    {
+      "path": "Content/HiDefContent/Specular_hidef_0_L3.xnb",
+      "bytes": 34740,
+      "sha256": "1f1008be93f9ed837eb177920beab37d1da81572d3c28c4d4fbbede929f60bad"
+    },
+    {
+      "path": "Content/HiDefContent/Specular_hidef_1.xnb",
+      "bytes": 121530,
+      "sha256": "9c74f8355ec13b544affb04568b8e4d05b9657f12c74abe98d8da212a7fc08c2"
+    },
+    {
+      "path": "Content/HiDefContent/Specular_hidef_10.xnb",
+      "bytes": 86812,
+      "sha256": "2cc178993113a2c146bae6fe72d7553232df8b2396279f179d6dff38e745e292"
+    },
+    {
+      "path": "Content/HiDefContent/Specular_hidef_10_L2.xnb",
+      "bytes": 25188,
+      "sha256": "f5b3de60fed3fad401ab181bf282b0cf8553fe26e3093cc1c4e47ebd11c55110"
+    },
+    {
+      "path": "Content/HiDefContent/Specular_hidef_10_L3.xnb",
+      "bytes": 7138,
+      "sha256": "1cd65d93d730a65909fb480b407762451732c9e1220d7d053d1fe3a5c1c3b41f"
+    },
+    {
+      "path": "Content/HiDefContent/Specular_hidef_11.xnb",
+      "bytes": 782246,
+      "sha256": "868a0e714d28c48a0df52fa097486cd0ccbf0eb4f4a156bf367dae44ab9388a2"
+    },
+    {
+      "path": "Content/HiDefContent/Specular_hidef_11_L2.xnb",
+      "bytes": 194014,
+      "sha256": "baae39fd707afd4b13d4488c4f4ea1d21c6b8451bdd9bd12f9cc10c1371a7513"
+    },
+    {
+      "path": "Content/HiDefContent/Specular_hidef_11_L3.xnb",
+      "bytes": 50260,
+      "sha256": "21e70cf20cb6f1fdd8e316c7018dc732d76447e245af8cf7247da881abae8fd2"
+    },
+    {
+      "path": "Content/HiDefContent/Specular_hidef_12.xnb",
+      "bytes": 450216,
+      "sha256": "a3896347b80480f6749a686d5543b90c6ec2de27a547d4b78ae80deedf251e33"
+    },
+    {
+      "path": "Content/HiDefContent/Specular_hidef_12_L2.xnb",
+      "bytes": 116434,
+      "sha256": "3617e8f0a9ba49df064fdb215dac38b8dec03a685128195d2fc884a9f9701cc5"
+    },
+    {
+      "path": "Content/HiDefContent/Specular_hidef_12_L3.xnb",
+      "bytes": 30526,
+      "sha256": "d338d16788a8a527c7bc18f943e18911a9692056b14913b8370ec45f3660f20f"
+    },
+    {
+      "path": "Content/HiDefContent/Specular_hidef_13.xnb",
+      "bytes": 416770,
+      "sha256": "4c002c3aaa00c9d152835d7ef572ae6685ea7457f2a4480e3dbd20d572cb73b8"
+    },
+    {
+      "path": "Content/HiDefContent/Specular_hidef_13_L2.xnb",
+      "bytes": 104600,
+      "sha256": "f1a5713593e8ccfa174ca294e410152f8876b447af7fad8d89747cc4a4d247a3"
+    },
+    {
+      "path": "Content/HiDefContent/Specular_hidef_13_L3.xnb",
+      "bytes": 27694,
+      "sha256": "3d9b9c11a0110e61f86035cd4a26f86a85f0f77d2b2e7d546a9573ce3417edd4"
+    },
+    {
+      "path": "Content/HiDefContent/Specular_hidef_14.xnb",
+      "bytes": 100842,
+      "sha256": "46b2843940b61924dfa1e938f683782f7a84ce57f677fe9db6aac62bd0ec0122"
+    },
+    {
+      "path": "Content/HiDefContent/Specular_hidef_14_L2.xnb",
+      "bytes": 27550,
+      "sha256": "0f483ba4398a8554dc8500fc81266316d3d8da71650592757d09e09ca4ff0941"
+    },
+    {
+      "path": "Content/HiDefContent/Specular_hidef_14_L3.xnb",
+      "bytes": 7438,
+      "sha256": "568c5007e213c6e5047c6f9435d19d3e9bbaa1a2913c5056478d37cecae6d82c"
+    },
+    {
+      "path": "Content/HiDefContent/Specular_hidef_15.xnb",
+      "bytes": 384938,
+      "sha256": "56249a6430b36fd03a15a805bb16edeb756cbb3e37afff7098c587445c7b60ca"
+    },
+    {
+      "path": "Content/HiDefContent/Specular_hidef_15_L2.xnb",
+      "bytes": 108174,
+      "sha256": "dd845235c6cd11485aa04c1c4ab95842fef6dbf5c8297f97793d8b447ed04952"
+    },
+    {
+      "path": "Content/HiDefContent/Specular_hidef_15_L3.xnb",
+      "bytes": 30238,
+      "sha256": "810066d0579b5f1fb98eeda9105ee60cdb46a2b2bd408123bfeabb24bd1c069c"
+    },
+    {
+      "path": "Content/HiDefContent/Specular_hidef_16.xnb",
+      "bytes": 448866,
+      "sha256": "b566ff3d5100b41bb60239ae4cea9f8489cff5ad944a17a9acef30ebece20189"
+    },
+    {
+      "path": "Content/HiDefContent/Specular_hidef_16_L2.xnb",
+      "bytes": 123994,
+      "sha256": "5573b720c20f769199a864d6e763dbbc481be19d461a500d7c79c3bc08c8813b"
+    },
+    {
+      "path": "Content/HiDefContent/Specular_hidef_16_L3.xnb",
+      "bytes": 33652,
+      "sha256": "7044bd762c43089ad692721d54c2908f08e27059274eb19d561018ccdc1b12d2"
+    },
+    {
+      "path": "Content/HiDefContent/Specular_hidef_17.xnb",
+      "bytes": 332462,
+      "sha256": "4964d2a74ca4dcfab8b11884885c517c9db34d330bfdfc7daa45274fd7ba3747"
+    },
+    {
+      "path": "Content/HiDefContent/Specular_hidef_17_L2.xnb",
+      "bytes": 94586,
+      "sha256": "2f89e8dda7cfd7869ad036a337d9b993b5f41443c6a363887d6d2280a2ebdb03"
+    },
+    {
+      "path": "Content/HiDefContent/Specular_hidef_17_L3.xnb",
+      "bytes": 27560,
+      "sha256": "893921b9f21028ce1e592d728d66de47d8415a99c185f0aa24510e5936d72a3b"
+    },
+    {
+      "path": "Content/HiDefContent/Specular_hidef_18.xnb",
+      "bytes": 395648,
+      "sha256": "ff23a0c783ee9ce2cd5be5f8ea8f9e381ae84d0c5c3ddc21f9b4adc377020b6b"
+    },
+    {
+      "path": "Content/HiDefContent/Specular_hidef_18_L2.xnb",
+      "bytes": 111246,
+      "sha256": "cb042f123961894960ab658f2dbb7fbf65967a85caf4a0ec46864742bfff5eb4"
+    },
+    {
+      "path": "Content/HiDefContent/Specular_hidef_18_L3.xnb",
+      "bytes": 30726,
+      "sha256": "5be72d445397aab7ae59e386e0ee2cdff1206bda48dc429331d9b07e4a355214"
+    },
+    {
+      "path": "Content/HiDefContent/Specular_hidef_19.xnb",
+      "bytes": 319064,
+      "sha256": "5f767ee42b5477ad095eabf3dfe8df5d5dbdb1f8e4de0990cb554a88ac5e899a"
+    },
+    {
+      "path": "Content/HiDefContent/Specular_hidef_19_L2.xnb",
+      "bytes": 94172,
+      "sha256": "7c15428d74dbafca1d836fdbdea1b766768338da468f900cf16810f33e9917d4"
+    },
+    {
+      "path": "Content/HiDefContent/Specular_hidef_19_L3.xnb",
+      "bytes": 27748,
+      "sha256": "2dede9658ef181c0716eb49013527a54d8f69a102988ed7d8efcfcf7308f91c3"
+    },
+    {
+      "path": "Content/HiDefContent/Specular_hidef_1_L2.xnb",
+      "bytes": 31552,
+      "sha256": "39c729155543f2fcfdcc02c9309bb8f67bdcc8e241350de70ea0076e5dac00ae"
+    },
+    {
+      "path": "Content/HiDefContent/Specular_hidef_1_L3.xnb",
+      "bytes": 8544,
+      "sha256": "e41340b69fd6642d5a78d1e0ca3ce3da54ca1578ee253a831bb4ba0e5696dd0e"
+    },
+    {
+      "path": "Content/HiDefContent/Specular_hidef_2.xnb",
+      "bytes": 23718,
+      "sha256": "6b3e55d08b8e3d1154823efffff11091b751e8cc5ecb8ccc35138acf3ed92d75"
+    },
+    {
+      "path": "Content/HiDefContent/Specular_hidef_20.xnb",
+      "bytes": 363268,
+      "sha256": "9343aec857cb9f099d629c9162def821230e01d9f467ee8dd834af863f33696f"
+    },
+    {
+      "path": "Content/HiDefContent/Specular_hidef_20_L2.xnb",
+      "bytes": 103596,
+      "sha256": "2425f13b4a8bb7608a25949ff9b952d044d0beb2cd448bc09b9a6034f16bd98c"
+    },
+    {
+      "path": "Content/HiDefContent/Specular_hidef_20_L3.xnb",
+      "bytes": 29282,
+      "sha256": "87a47976a6813025a31f338cfb7e3d4b239ce5f3047b34d8175a35773108bef5"
+    },
+    {
+      "path": "Content/HiDefContent/Specular_hidef_21.xnb",
+      "bytes": 115282,
+      "sha256": "653f5c5ffdc6081056f49d1844c2f8ecc2fd9a1c36b19158c36c281c8a000fdf"
+    },
+    {
+      "path": "Content/HiDefContent/Specular_hidef_21_L2.xnb",
+      "bytes": 29326,
+      "sha256": "ecc0118aee60d07abd8eb9ee3670507815600e915e546c15b599d8b97295da9d"
+    },
+    {
+      "path": "Content/HiDefContent/Specular_hidef_21_L3.xnb",
+      "bytes": 7900,
+      "sha256": "2b48ec9bf1479f9b26ee5d86bb49dbca504d34678cfd10ffb6973acce97e1805"
+    },
+    {
+      "path": "Content/HiDefContent/Specular_hidef_22.xnb",
+      "bytes": 17192,
+      "sha256": "e9f8add9c7b4cae32e7f48bce784707191538816f77e9b38e24b220335a097f0"
+    },
+    {
+      "path": "Content/HiDefContent/Specular_hidef_22_L2.xnb",
+      "bytes": 4742,
+      "sha256": "f8d126d43711c4d6f2c33c78f9dd3017152fa9a320a651ee742870132c06f254"
+    },
+    {
+      "path": "Content/HiDefContent/Specular_hidef_22_L3.xnb",
+      "bytes": 1502,
+      "sha256": "a574c1e8e353e4827d0dbd07d2d85723eba745febd72d62416b0e6630d0090ae"
+    },
+    {
+      "path": "Content/HiDefContent/Specular_hidef_23.xnb",
+      "bytes": 31384,
+      "sha256": "29ba89ace0d4d7914f4745491a85362b63c62159d953dc3628737a038c349f67"
+    },
+    {
+      "path": "Content/HiDefContent/Specular_hidef_24.xnb",
+      "bytes": 86818,
+      "sha256": "1253b709d7434f75eb7386b8ab512685b6ccaca94ddc0f14e1fc3f1e150e6d7d"
+    },
+    {
+      "path": "Content/HiDefContent/Specular_hidef_24_L2.xnb",
+      "bytes": 22304,
+      "sha256": "97b6a6a1f7b27ec322151186651337b5be3bfde7a8281bf053d061368fd7108a"
+    },
+    {
+      "path": "Content/HiDefContent/Specular_hidef_24_L3.xnb",
+      "bytes": 6270,
+      "sha256": "1b4877fe411e078212ab2edba58331044f888a51166c19634e94068590ade14b"
+    },
+    {
+      "path": "Content/HiDefContent/Specular_hidef_25.xnb",
+      "bytes": 86818,
+      "sha256": "1253b709d7434f75eb7386b8ab512685b6ccaca94ddc0f14e1fc3f1e150e6d7d"
+    },
+    {
+      "path": "Content/HiDefContent/Specular_hidef_26.xnb",
+      "bytes": 384938,
+      "sha256": "56249a6430b36fd03a15a805bb16edeb756cbb3e37afff7098c587445c7b60ca"
+    },
+    {
+      "path": "Content/HiDefContent/Specular_hidef_26_L2.xnb",
+      "bytes": 108174,
+      "sha256": "dd845235c6cd11485aa04c1c4ab95842fef6dbf5c8297f97793d8b447ed04952"
+    },
+    {
+      "path": "Content/HiDefContent/Specular_hidef_26_L3.xnb",
+      "bytes": 30238,
+      "sha256": "810066d0579b5f1fb98eeda9105ee60cdb46a2b2bd408123bfeabb24bd1c069c"
+    },
+    {
+      "path": "Content/HiDefContent/Specular_hidef_27.xnb",
+      "bytes": 123272,
+      "sha256": "39b4363f6b01e910ed2b80102f45a84c3ff2aa7f2901f9ba2ceeec47415322b6"
+    },
+    {
+      "path": "Content/HiDefContent/Specular_hidef_27_L2.xnb",
+      "bytes": 31298,
+      "sha256": "b1c9e2aabcf98ceef1b5660255bdb2f82a0da83cf6a7a43371f6bf713e3a98ab"
+    },
+    {
+      "path": "Content/HiDefContent/Specular_hidef_27_L3.xnb",
+      "bytes": 8336,
+      "sha256": "dcab4bd172ad50241df5a31fed389a7af0793ccbfe91491209f5bacd65ace944"
+    },
+    {
+      "path": "Content/HiDefContent/Specular_hidef_28.xnb",
+      "bytes": 86818,
+      "sha256": "1253b709d7434f75eb7386b8ab512685b6ccaca94ddc0f14e1fc3f1e150e6d7d"
+    },
+    {
+      "path": "Content/HiDefContent/Specular_hidef_28_L2.xnb",
+      "bytes": 22304,
+      "sha256": "97b6a6a1f7b27ec322151186651337b5be3bfde7a8281bf053d061368fd7108a"
+    },
+    {
+      "path": "Content/HiDefContent/Specular_hidef_28_L3.xnb",
+      "bytes": 6270,
+      "sha256": "1b4877fe411e078212ab2edba58331044f888a51166c19634e94068590ade14b"
+    },
+    {
+      "path": "Content/HiDefContent/Specular_hidef_2_L2.xnb",
+      "bytes": 6546,
+      "sha256": "05b22e76e2cb3bed1109ffe3c93c88019808dec46479153eff8037178af69ce7"
+    },
+    {
+      "path": "Content/HiDefContent/Specular_hidef_2_L3.xnb",
+      "bytes": 2002,
+      "sha256": "1ef840f7338ecd4b7bf9c248d6df1790fe7292e4d68dd4d658835bb6270d5e75"
+    },
+    {
+      "path": "Content/HiDefContent/Specular_hidef_3.xnb",
+      "bytes": 31250,
+      "sha256": "14e39434542646b321a4eae9ca403ca793d303f0b32419c792a114ac3ab4954f"
+    },
+    {
+      "path": "Content/HiDefContent/Specular_hidef_3_L2.xnb",
+      "bytes": 8420,
+      "sha256": "2e12a19a052373e8f7351cfa9b6244ae719725a8d273df7065322ab6d1e54243"
+    },
+    {
+      "path": "Content/HiDefContent/Specular_hidef_3_L3.xnb",
+      "bytes": 2400,
+      "sha256": "5fb658edd5ed1b572ed089d12b6b28c7d503d2246edc395cd4686f87e9c93f38"
+    },
+    {
+      "path": "Content/HiDefContent/Specular_hidef_4.xnb",
+      "bytes": 17218,
+      "sha256": "b8640fc346b2adfffcba097f052261b070bd638c71d0294d3e14659c97fac99f"
+    },
+    {
+      "path": "Content/HiDefContent/Specular_hidef_4_L2.xnb",
+      "bytes": 6038,
+      "sha256": "7f6b58bc13e7dd9e990e99e7e5118b357bbe4980d4814169483be6b2fa6b7a3c"
+    },
+    {
+      "path": "Content/HiDefContent/Specular_hidef_4_L3.xnb",
+      "bytes": 1994,
+      "sha256": "0c13c591bc1440fb41b7f1cb97beae6db8086df6b8f303d9ca118055b4e180e4"
+    },
+    {
+      "path": "Content/HiDefContent/Specular_hidef_5.xnb",
+      "bytes": 70802,
+      "sha256": "eab3214f6d2fb0b54958ffd70dc255771110f40b01b63b46a21d20eb1184d818"
+    },
+    {
+      "path": "Content/HiDefContent/Specular_hidef_5_L2.xnb",
+      "bytes": 21712,
+      "sha256": "43a0f924ee8af70f0707b387b8631d7baad92837e68f4d44d833d65499671478"
+    },
+    {
+      "path": "Content/HiDefContent/Specular_hidef_5_L3.xnb",
+      "bytes": 5982,
+      "sha256": "d22e1dd95473bebaff090acb476b3103070de6474e97344fb9ffbcd3ee9d5af5"
+    },
+    {
+      "path": "Content/HiDefContent/Specular_hidef_6.xnb",
+      "bytes": 113574,
+      "sha256": "36a241dc335bb1f29e34e08f8b9bfae10a8a0ed1c6693ea93f5fbff10bb3d3f0"
+    },
+    {
+      "path": "Content/HiDefContent/Specular_hidef_6_L2.xnb",
+      "bytes": 29684,
+      "sha256": "300d3f82b86c2e6ed1d58bba56f37156a1ba6da243fe1171fafdfc4cd5532248"
+    },
+    {
+      "path": "Content/HiDefContent/Specular_hidef_6_L3.xnb",
+      "bytes": 7838,
+      "sha256": "42136ed62eb4a01f6daf5b539cbb73e626b52d989db9d89d1667fb81ac1b04e3"
+    },
+    {
+      "path": "Content/HiDefContent/Specular_hidef_7.xnb",
+      "bytes": 103946,
+      "sha256": "dc02bedcb51a612493a3281318ff2fc74bf81667bc73a09dc5065c03f6771eb9"
+    },
+    {
+      "path": "Content/HiDefContent/Specular_hidef_7_L2.xnb",
+      "bytes": 27180,
+      "sha256": "dff1d28c17d46c24164c3fba80a4f206f5fd095ee08aeed97a4a3b758368190f"
+    },
+    {
+      "path": "Content/HiDefContent/Specular_hidef_7_L3.xnb",
+      "bytes": 7322,
+      "sha256": "d1ceb5eeffb4152100c3a9bc5825d6abfa04658290f128db9fede067f2ea2a05"
+    },
+    {
+      "path": "Content/HiDefContent/Specular_hidef_8.xnb",
+      "bytes": 445700,
+      "sha256": "6b7dabd799e6df109382c380787f49ad360fc16a7ddbb662f95dc9a2f6eca6d7"
+    },
+    {
+      "path": "Content/HiDefContent/Specular_hidef_8_L2.xnb",
+      "bytes": 117730,
+      "sha256": "df1e2dea9cd3cd28561634baade9ecf58c5a68acadd1f91b79f7b19247152b7f"
+    },
+    {
+      "path": "Content/HiDefContent/Specular_hidef_8_L3.xnb",
+      "bytes": 31700,
+      "sha256": "c1be0bec8d373bceafd5e83e2b42a395804e76a5ae69e30095f94b3b977ab24a"
+    },
+    {
+      "path": "Content/HiDefContent/Specular_hidef_9.xnb",
+      "bytes": 30990,
+      "sha256": "3457b74e66b74eb7712c1ecec6e980e291f62b4c9c3fba6e6cf565955b418f44"
+    },
+    {
+      "path": "Content/HiDefContent/Specular_hidef_9_L2.xnb",
+      "bytes": 8620,
+      "sha256": "d23cafffdee1a8fd7bc5e18bc5544c27b6c937a9b068707ee6db3c13a0e3b06d"
+    },
+    {
+      "path": "Content/HiDefContent/Specular_hidef_9_L3.xnb",
+      "bytes": 2442,
+      "sha256": "b6c0039334599a17c6eafbb9efca840dd2312c53eac5f13a569ae337a58802c7"
+    },
+    {
+      "path": "Content/HiDefContent/SWAT_blue_D_0.xnb",
+      "bytes": 438518,
+      "sha256": "b6f3fe98b9ce70692a1c33cecb8bdf410b0c2d6e79bf9257b7e499a657d6fcef"
+    },
+    {
+      "path": "Content/HiDefContent/SWAT_blue_D_0_L2.xnb",
+      "bytes": 110426,
+      "sha256": "6c600bd6dba96c6b57c87e90d1ca117c96ba46ac6116815d9ad11fc3c551faf1"
+    },
+    {
+      "path": "Content/HiDefContent/SWAT_blue_D_0_L3.xnb",
+      "bytes": 30838,
+      "sha256": "43c362f4c2363864d19d575749a053944946e6745518221de41424bc5991faf5"
+    },
+    {
+      "path": "Content/HiDefContent/SWAT_N_hidef_0.xnb",
+      "bytes": 453088,
+      "sha256": "6bf3454f9faea51753d23b44afcb2cce76e53d4071c904afa5e52e4489c2739f"
+    },
+    {
+      "path": "Content/HiDefContent/SWAT_N_hidef_0_L2.xnb",
+      "bytes": 120962,
+      "sha256": "097ad287f6e191a159203dfd7e0f2baf0f84f6a50fd09b4f075022444f74ef7d"
+    },
+    {
+      "path": "Content/HiDefContent/SWAT_N_hidef_0_L3.xnb",
+      "bytes": 32738,
+      "sha256": "5fd812b184894c7d9201559f5f7e3313508070b3fb1bb797bbb8d8f7f7f0cc05"
+    },
+    {
+      "path": "Content/HiDefContent/SWAT_S_hidef_0.xnb",
+      "bytes": 410626,
+      "sha256": "de3f3438f05ac05506f52796fd2a18833b09584afa4e14c9228820eb4e73c4b5"
+    },
+    {
+      "path": "Content/HiDefContent/SWAT_S_hidef_0_L2.xnb",
+      "bytes": 104974,
+      "sha256": "9f45c89c58af974e15959a7f2d6641ee4383dbb6879ce407df8a76586e414110"
+    },
+    {
+      "path": "Content/HiDefContent/SWAT_S_hidef_0_L3.xnb",
+      "bytes": 28988,
+      "sha256": "761c0aae980796cb206f565f0434c770b3c9d588a308bd687baf48ee58299064"
+    },
+    {
+      "path": "Content/HiDefContent/Terrain/Textures.xnb",
+      "bytes": 18665466,
+      "sha256": "facb1474dccbc10b28e79ac4860de448b50f9897371dc143a5b7cc2ba12580a1"
+    },
+    {
+      "path": "Content/HiDefContent/Textures/Skys/ClearSky.xnb",
+      "bytes": 3235192,
+      "sha256": "5386002234c1e9d0f6c9cb97131061197793873c38525c3093a044383b7a272a"
+    },
+    {
+      "path": "Content/HiDefContent/Textures/Skys/DawnSky.xnb",
+      "bytes": 1846500,
+      "sha256": "beb60a5803851bbd38bfae9ed19e78fa1a97e11c433267120f7d4f34a0c21885"
+    },
+    {
+      "path": "Content/HiDefContent/Textures/Skys/NightSky.xnb",
+      "bytes": 1130350,
+      "sha256": "5f8477b74d10982a70775d84fb1c3ac44d92d37ba97be0c460f9de61df638766"
+    },
+    {
+      "path": "Content/HiDefContent/Textures/Skys/SunSet.xnb",
+      "bytes": 2175628,
+      "sha256": "b05026cd80709d9c80088a09532878a122446d3d6c463e92c016f0be9e27234a"
+    },
+    {
+      "path": "Content/HiDefContent/TracerShader_0.xnb",
+      "bytes": 948,
+      "sha256": "7ba5b7bd11bf72a191f73d69e18107f44069fb9001e95078e5fad5deb72eac19"
+    },
+    {
+      "path": "Content/HiDefContent/weap_chainsaw_txt_Demonhorn_0.xnb",
+      "bytes": 445522,
+      "sha256": "70c4114fd49ba5f337b23f23a78bc8bb237918b8f735883d1338ebc7ab046d2c"
+    },
+    {
+      "path": "Content/marker.xnb",
+      "bytes": 650,
+      "sha256": "433e2159210d715d843bc8e75908e791392c72da668f8c483fbe10722e87fb46"
+    },
+    {
+      "path": "Content/MousePointer.xnb",
+      "bytes": 276,
+      "sha256": "0e4c129b4cf4f783b549c0d5e33f8a27cf7f28a553c368c17437e9bbab6bfd18"
+    },
+    {
+      "path": "Content/MuzzleFlash.xnb",
+      "bytes": 846,
+      "sha256": "74515cf291b63ab988cc72698a43da7b248cc46692e88a3de87e955883b0915f"
+    },
+    {
+      "path": "Content/MuzzleFlashs_0.xnb",
+      "bytes": 16476,
+      "sha256": "a07923f47e1543f6613a378c91b72ba57451295553dbcfb4f650f726fad08899"
+    },
+    {
+      "path": "Content/ParticleEffect.xnb",
+      "bytes": 2870,
+      "sha256": "8d2f9f3a14c13dfdbda5a12b4a1b40e85205da6b559336cd662d7cafd19b7458"
+    },
+    {
+      "path": "Content/ParticleEffects/BigPuff.xnb",
+      "bytes": 494,
+      "sha256": "dc64f58452128b8162cfac1b358ac29c477ee3a902201c2e371e9a0df5a87856"
+    },
+    {
+      "path": "Content/ParticleEffects/BigRockBlast.xnb",
+      "bytes": 502,
+      "sha256": "6f2986828e409de4c26ed08ee0f491b5a71e875079dbbfc4481d9ca7ad4e6b28"
+    },
+    {
+      "path": "Content/ParticleEffects/BigSmokePuff.xnb",
+      "bytes": 498,
+      "sha256": "1ebcc413c390dd86a9c8d672b4f30754f19e12297bb75c6c60d98f08a3540849"
+    },
+    {
+      "path": "Content/ParticleEffects/BigSnowBlast.xnb",
+      "bytes": 502,
+      "sha256": "ca79d376131f054d6e2a278e5af5374e7758402608b2a856e4c77337ec1e5e75"
+    },
+    {
+      "path": "Content/ParticleEffects/BlasterFlash.xnb",
+      "bytes": 492,
+      "sha256": "d45c3e4b37587357b3de4fc02fc0d0cdbcda576504057358db11bbeb8bb8193f"
+    },
+    {
+      "path": "Content/ParticleEffects/Ember03_0.xnb",
+      "bytes": 29910,
+      "sha256": "481481ee1c257d88def6a90c44a2962aba2883273d6448a8c55f54a92d5ee610"
+    },
+    {
+      "path": "Content/ParticleEffects/Fire2_0.xnb",
+      "bytes": 35390,
+      "sha256": "388f73139d8bffb6984dd1ef0eaf97fe2e986894ce3e6525496e631875535f99"
+    },
+    {
+      "path": "Content/ParticleEffects/FireBallEffect.xnb",
+      "bytes": 480,
+      "sha256": "f64b40d756303f5cf2f3189a66732704560a0ff2b1d6e79231d1ebb8ed509425"
+    },
+    {
+      "path": "Content/ParticleEffects/FireGlow.xnb",
+      "bytes": 482,
+      "sha256": "7113282776abba7202d71381e8a1d98cbafdc696236cdf9674ae764171b2ab8e"
+    },
+    {
+      "path": "Content/ParticleEffects/FirePuff.xnb",
+      "bytes": 486,
+      "sha256": "a5197ea7ce90b869fd4d4e0c6dc2b5d79cfcfc94fdfde2f7c1dabc845aaee87b"
+    },
+    {
+      "path": "Content/ParticleEffects/FireTrail.xnb",
+      "bytes": 478,
+      "sha256": "704faf2fdcf45e9b1043fbd65959ae53784d0a48777072c598293f02715ff063"
+    },
+    {
+      "path": "Content/ParticleEffects/Flash_0.xnb",
+      "bytes": 10270,
+      "sha256": "58a4cf2ba5be9ae9d86dc4732d1f3220363a3e49f9ad35dfa9d79ee21ab5fc8e"
+    },
+    {
+      "path": "Content/ParticleEffects/FlashEffect.xnb",
+      "bytes": 494,
+      "sha256": "317764dcc784d8ffde21d33ec146a7af1b25fac5f16bca31c9eaadc35d2b262a"
+    },
+    {
+      "path": "Content/ParticleEffects/Ice_0.xnb",
+      "bytes": 30102,
+      "sha256": "a6802089202ee3047774a8880257945967fc436c6f026af48d68bfbc2053edaa"
+    },
+    {
+      "path": "Content/ParticleEffects/IceBallEffect.xnb",
+      "bytes": 478,
+      "sha256": "377ed600855b06e1f7ed16943fc009d0b1f6d0ab560010a0a3791b82b7c55037"
+    },
+    {
+      "path": "Content/ParticleEffects/IceFlash.xnb",
+      "bytes": 498,
+      "sha256": "e32d92bac49996bd5fa8e6c8b6749c38f71b2fbcc4cda8b1b9b94df692166f86"
+    },
+    {
+      "path": "Content/ParticleEffects/IceFlash_0.xnb",
+      "bytes": 10160,
+      "sha256": "806b57e1627be1dfef073aa9a107518c25a72d273b2b203a16deff4c66618c70"
+    },
+    {
+      "path": "Content/ParticleEffects/IceGlow.xnb",
+      "bytes": 484,
+      "sha256": "65031b5b1ac7c15f3f325f63d8c44d712034c534d09b66f13318b56052e3ceb9"
+    },
+    {
+      "path": "Content/ParticleEffects/IcePuff.xnb",
+      "bytes": 492,
+      "sha256": "8aa5b92724de316710957801fcab7084c32a229ae2c7dc7c062457352dc01be3"
+    },
+    {
+      "path": "Content/ParticleEffects/IceTrail.xnb",
+      "bytes": 476,
+      "sha256": "e1d013dbfb0cfe72455b5c759c03c94099fa035c8d0c91eb755e5f7cb2f66dac"
+    },
+    {
+      "path": "Content/ParticleEffects/Puff_0.xnb",
+      "bytes": 18060,
+      "sha256": "26fbd74038ef4176c1ac75f7c362f86bf6e4f0e7386fa90849777f6bb13bdd27"
+    },
+    {
+      "path": "Content/ParticleEffects/PuffTrail.xnb",
+      "bytes": 482,
+      "sha256": "f8167420480fc60fd049b930eb3a9ca34066cb37dbf85306566965a1140d4af9"
+    },
+    {
+      "path": "Content/ParticleEffects/Rock_0.xnb",
+      "bytes": 6610,
+      "sha256": "12ee27149cdf2f5e54dc19983150b2f4892cfcdbbe392b0d9571d8973be338b4"
+    },
+    {
+      "path": "Content/ParticleEffects/RocketFireTrail.xnb",
+      "bytes": 492,
+      "sha256": "c28cf56a74622fb9c000c2ad731701d043878f7fd9df0221d49984d38ca015c5"
+    },
+    {
+      "path": "Content/ParticleEffects/RocketSmokeTrail.xnb",
+      "bytes": 492,
+      "sha256": "ceeafbd319f39014740a11bfd3aea0eb0ebb943cd68cd8055a7bb95640c50cd8"
+    },
+    {
+      "path": "Content/ParticleEffects/RocksEffect.xnb",
+      "bytes": 506,
+      "sha256": "6a76fdcf2ce1a83f83b5bacc303120edebc0471d5773556ec1a45c431fbfee3f"
+    },
+    {
+      "path": "Content/ParticleEffects/Smoke2_0.xnb",
+      "bytes": 77642,
+      "sha256": "cfa6a7aa20a461e66520e692071c3d5142bc11b3916d388841b65cf8bf44fe2d"
+    },
+    {
+      "path": "Content/ParticleEffects/SmokeEffect.xnb",
+      "bytes": 502,
+      "sha256": "111c895733b237a4745b760a1488b4e299700c6fb7004df69f43be0e776f5a10"
+    },
+    {
+      "path": "Content/ParticleEffects/SmokeTrail.xnb",
+      "bytes": 486,
+      "sha256": "e70ffa69c714aabe5e13721601731f6e50a93e9c962de8d05383aa8e0a415f11"
+    },
+    {
+      "path": "Content/ParticleEffects/SnowChunk_0.xnb",
+      "bytes": 7028,
+      "sha256": "fd6fe1d315d5dbf16d4dcb5e823d31291ab7eef53fb606a1bb2a61f4c33cfd64"
+    },
+    {
+      "path": "Content/ParticleEffects/Sparkle_0.xnb",
+      "bytes": 1472,
+      "sha256": "b6f34e8efa68a906123179a6b9f6d3cc091607fbda96237364e3c5f8cba3ecd1"
+    },
+    {
+      "path": "Content/ParticleEffects/SparksEffect.xnb",
+      "bytes": 506,
+      "sha256": "26cc195cbacb8fa8565ed597f1b48243cff2f3ad69b61f77252000c8018392f1"
+    },
+    {
+      "path": "Content/ParticleEffects/StarRingEffect.xnb",
+      "bytes": 492,
+      "sha256": "2065caf6b483ee38916a51dddc837a28204b601649cc0edd3afb4ce9d3dc27e0"
+    },
+    {
+      "path": "Content/ParticleEffects/TorchFire.xnb",
+      "bytes": 492,
+      "sha256": "9a7b9e1c0e09652752648d6d00c03661cb52da6f35fa3483b32ca7808c0fdbec"
+    },
+    {
+      "path": "Content/ParticleEffects/TorchSmoke.xnb",
+      "bytes": 494,
+      "sha256": "f88c927163d251df8950f711ea262ab0908e4fa3559cea6f2c112f5ce530d68d"
+    },
+    {
+      "path": "Content/PostProcess/BloomCombine.xnb",
+      "bytes": 676,
+      "sha256": "e09d515c31e760e1ff806deb17cac186fe2b6a0361ce7035f5b5f857a03ad17f"
+    },
+    {
+      "path": "Content/PostProcess/BloomExtract.xnb",
+      "bytes": 596,
+      "sha256": "ba4ce066e8e5cdf7389944a43dacb9da428f8d9a9fa5e84dda70a79b8ff5aeec"
+    },
+    {
+      "path": "Content/PostProcess/GaussianBlur.xnb",
+      "bytes": 680,
+      "sha256": "792ddaf461e67e691c64dc28445139db5b231fa49b7229a45d1b444810d22643"
+    },
+    {
+      "path": "Content/Props/Items/Block/Animation/Idle.xnb",
+      "bytes": 1086,
+      "sha256": "5724ca8310b37941f521190aa09befe0ec1214d1e62f000df725e4479bab8bb2"
+    },
+    {
+      "path": "Content/Props/Items/Block/Animation/Use.xnb",
+      "bytes": 3728,
+      "sha256": "93ffd8aef69399a5a2fd917f8126daba59823832c8f64f7b22061ead078169f9"
+    },
+    {
+      "path": "Content/Props/Items/Block/Animation/Walk.xnb",
+      "bytes": 11388,
+      "sha256": "97ad07359301e6fe667a27ee48907e8c7eaecbf40fb0a92ad218784750af5b22"
+    },
+    {
+      "path": "Content/Props/Items/Block/Block.xnb",
+      "bytes": 626,
+      "sha256": "29442124902a9d3e4e1cec7899754c28bbed20d7ba5729143d992253025119a8"
+    },
+    {
+      "path": "Content/Props/Normal_reach_0.xnb",
+      "bytes": 219,
+      "sha256": "ebb055663320a57af5a0887e962f396362a6c2130b947c61dfaa2baef9497db6"
+    },
+    {
+      "path": "Content/Props/Normal_reach_1.xnb",
+      "bytes": 219,
+      "sha256": "ebb055663320a57af5a0887e962f396362a6c2130b947c61dfaa2baef9497db6"
+    },
+    {
+      "path": "Content/Props/Projectiles/FireBall/3241_0.xnb",
+      "bytes": 10360,
+      "sha256": "50e4d10cc6b4bc9c651537d1a14ad870e4febb8bcaa592b74a3675342690270f"
+    },
+    {
+      "path": "Content/Props/Projectiles/FireBall/FireBall.xnb",
+      "bytes": 1390,
+      "sha256": "380b3647515d80c0b3347c09cee9a44493709642bb298d97672b23dac4d4c0e7"
+    },
+    {
+      "path": "Content/Props/Projectiles/Laser/Tracer_Bolt.xnb",
+      "bytes": 568,
+      "sha256": "a3dad4528c06bfd905b1db4b5f4304d19197db50706c5faadff03efdfd76f10a"
+    },
+    {
+      "path": "Content/Props/Projectiles/SnowBall/Snowball.xnb",
+      "bytes": 1316,
+      "sha256": "a6f619194a31c1b1b4f9461174621305f4f6a2fce0503129b7033da4520a69f0"
+    },
+    {
+      "path": "Content/Props/Specular_reach_0.xnb",
+      "bytes": 219,
+      "sha256": "f4582a7ce668c9c9f198d2dfafea08640b54bf68ff0f07db2f8227ee789c6e78"
+    },
+    {
+      "path": "Content/Props/Specular_reach_1.xnb",
+      "bytes": 219,
+      "sha256": "f4582a7ce668c9c9f198d2dfafea08640b54bf68ff0f07db2f8227ee789c6e78"
+    },
+    {
+      "path": "Content/Props/Tools/Chainsaw/Animation/Chainsaw_use_in.xnb",
+      "bytes": 10168,
+      "sha256": "71b86755100e0df8bcc2376f035f72547cff12f6a7ebd206d8d814934f2b7726"
+    },
+    {
+      "path": "Content/Props/Tools/Chainsaw/Animation/Chainsaw_use_out.xnb",
+      "bytes": 10144,
+      "sha256": "05eec70b770b81d43f65492fd9b4b69a52f880ee7d0875ac1ba67ee3709e70ac"
+    },
+    {
+      "path": "Content/Props/Tools/Chainsaw/Animation/Chainsaw_use_steadyout.xnb",
+      "bytes": 10104,
+      "sha256": "a48c037552b25ab4244af07e5fe774d81f6d509d0f64003a730cad0a4b0221d9"
+    },
+    {
+      "path": "Content/Props/Tools/PickAxe/Animation/ChainsawUse.xnb",
+      "bytes": 2698,
+      "sha256": "f2fb14ce96cad5d9748750803ceb8fe85c781f7df366d8ab96e1a71f8ea0bedb"
+    },
+    {
+      "path": "Content/Props/Tools/PickAxe/Animation/Idle.xnb",
+      "bytes": 118882,
+      "sha256": "bd055675f242f2ebc0cfe37b19c2a506a2794e71bad504bb51322dec2c72c107"
+    },
+    {
+      "path": "Content/Props/Tools/PickAxe/Animation/Use.xnb",
+      "bytes": 4530,
+      "sha256": "5c54336c0eae8a4a0a8fe19785d7b68240bca0ec35255065bb9d327ec8064029"
+    },
+    {
+      "path": "Content/Props/Tools/PickAxe/Animation/Walk.xnb",
+      "bytes": 8320,
+      "sha256": "7bc545d964b16cb38465135cc8bfc66596a704ad7ec301d2a0c90a82f98bc874"
+    },
+    {
+      "path": "Content/Props/Weapons/Conventional/AR/Animation/Idle.xnb",
+      "bytes": 1200,
+      "sha256": "8440ae2253c7ad6feb7cb6a3ee7f63be4bc59e2deda5309f7fc49d65fd294ad4"
+    },
+    {
+      "path": "Content/Props/Weapons/Conventional/AR/Animation/Reload.xnb",
+      "bytes": 41316,
+      "sha256": "094667307b162a0c27768047fcc4cfb805898ebfb2ae9382b8f9852030f4ce3f"
+    },
+    {
+      "path": "Content/Props/Weapons/Conventional/AR/Animation/Shoot.xnb",
+      "bytes": 2688,
+      "sha256": "fe4e1d75598dc35445ccd59f27b8797c12fd1145eac33eb057f0f22e6ba64fc1"
+    },
+    {
+      "path": "Content/Props/Weapons/Conventional/AR/Animation/Shoulder.xnb",
+      "bytes": 2664,
+      "sha256": "266e1f450370f7a1bc568278ae2c79baa22c398be49aec9c3d84bd9c458fcaf2"
+    },
+    {
+      "path": "Content/Props/Weapons/Conventional/AR/Animation/ShoulderIdle.xnb",
+      "bytes": 1198,
+      "sha256": "ee056524f5ed725b50bd5413f89909a017574261e58b328186e1b2af832f757b"
+    },
+    {
+      "path": "Content/Props/Weapons/Conventional/AR/Animation/ShoulderShoot.xnb",
+      "bytes": 2666,
+      "sha256": "6eb74d9b773b96885e992a36c7b336a52de28324931f4335ddfdf83803451920"
+    },
+    {
+      "path": "Content/Props/Weapons/Conventional/AR/Animation/ShoulderWalk.xnb",
+      "bytes": 18686,
+      "sha256": "384c99635d601c6edb8e7c7b4e6ad194eaced6c95c9e44cf01189f7a9e18c2fe"
+    },
+    {
+      "path": "Content/Props/Weapons/Conventional/AR/Animation/Walk.xnb",
+      "bytes": 13286,
+      "sha256": "e672ac1d0c4f2b9c720b177ac3d079876993eed51ca1d5cb575122c9c088bc6b"
+    },
+    {
+      "path": "Content/Props/Weapons/Conventional/AR/Diffuse_0.xnb",
+      "bytes": 402444,
+      "sha256": "dfabc27d9c3db91f4b33395b05131e44abeda46cdd7ca9df2599a133ffadb379"
+    },
+    {
+      "path": "Content/Props/Weapons/Conventional/AR/Model.xnb",
+      "bytes": 73916,
+      "sha256": "7cb4bafdfbe4c36a06f06cd72cffedfefcf3f7959cb7a724329dc53e63939a88"
+    },
+    {
+      "path": "Content/Props/Weapons/Conventional/GemDiffuse_0.xnb",
+      "bytes": 243,
+      "sha256": "9a524a7238bbf3f443e15ed30b9cc8ef63a607102b90f723d84652394923da5e"
+    },
+    {
+      "path": "Content/Props/Weapons/Conventional/GemNormal_0.xnb",
+      "bytes": 340,
+      "sha256": "c5447869ece9bda5cee7d1bba150c2b37928340914551c8050f40bc31794ef66"
+    },
+    {
+      "path": "Content/Props/Weapons/Conventional/GemSpecular_0.xnb",
+      "bytes": 342,
+      "sha256": "6c02a6269208527113c4d05fe129aa1359b872a061baecf6d5fe2b7dd5fa0082"
+    },
+    {
+      "path": "Content/Props/Weapons/Conventional/Grenade/Animation/Cook.xnb",
+      "bytes": 11922,
+      "sha256": "c65b50aa6a4d43a29289c81fdd54ad937d65555b710b87fa31fed994d4343132"
+    },
+    {
+      "path": "Content/Props/Weapons/Conventional/Grenade/Animation/Idle.xnb",
+      "bytes": 1042,
+      "sha256": "702888c61fbfa98c10f3baaddd90cc1d9c0aa0738eadc7605eb7fd0046184a02"
+    },
+    {
+      "path": "Content/Props/Weapons/Conventional/Grenade/Animation/Release.xnb",
+      "bytes": 5474,
+      "sha256": "87f9e3abaf9789e1386ecf2629d5238dce562168065471112c85accd4f65d05b"
+    },
+    {
+      "path": "Content/Props/Weapons/Conventional/Grenade/Animation/Throw.xnb",
+      "bytes": 5718,
+      "sha256": "60929f3b6c20e3359fbaea6647cdbdba66a6e0ffad6412c88d5eea9dabfc3ed1"
+    },
+    {
+      "path": "Content/Props/Weapons/Conventional/Grenade/Animation/Walk.xnb",
+      "bytes": 6746,
+      "sha256": "8a43a43baf95238f97f7e833185ded38b3d9521f98190d2ca94a60a5ec9a1ce1"
+    },
+    {
+      "path": "Content/Props/Weapons/Conventional/Launcher/Diffuse_0.xnb",
+      "bytes": 38868,
+      "sha256": "215c6fc0f7d1fa4519dcb380f0a9fca928cc7d779448f12bd887e1cab1ce9deb"
+    },
+    {
+      "path": "Content/Props/Weapons/Conventional/Launcher/Model.xnb",
+      "bytes": 28462,
+      "sha256": "1590ed57e3c62a29b1285497a395d0ad142553b49e4c52eb2fe20bbb7c96a906"
+    },
+    {
+      "path": "Content/Props/Weapons/Conventional/LMG/Animation/Idle.xnb",
+      "bytes": 1216,
+      "sha256": "913e39954e71c947d875fadcd0b7b44fbd42e02c50185cbf62b60a361065ee24"
+    },
+    {
+      "path": "Content/Props/Weapons/Conventional/LMG/Animation/Reload.xnb",
+      "bytes": 129202,
+      "sha256": "253cdfdb0191a728f5c75e1bb7a3bf286b0f07cb43cb7c6d53bfca016e46cb85"
+    },
+    {
+      "path": "Content/Props/Weapons/Conventional/LMG/Animation/Shoot.xnb",
+      "bytes": 2680,
+      "sha256": "4517c6e9bb208a50251aab33e381267f8cf435549023046e2ae51901bda7c81e"
+    },
+    {
+      "path": "Content/Props/Weapons/Conventional/LMG/Animation/Shoulder.xnb",
+      "bytes": 4324,
+      "sha256": "52d706df18e585117b66242db2cf2798cbe8eadf809f35cba227da7536c0971b"
+    },
+    {
+      "path": "Content/Props/Weapons/Conventional/LMG/Animation/ShoulderIdle.xnb",
+      "bytes": 1208,
+      "sha256": "73b5d2ff45bf86accd5a1af2a8d2951a556c2d63392dd0332d9be6635f2c0b73"
+    },
+    {
+      "path": "Content/Props/Weapons/Conventional/LMG/Animation/ShoulderShoot.xnb",
+      "bytes": 2674,
+      "sha256": "6e73564efecc3c6b1fb6d90c9c881a7d663ab54958fc56c14ec8f1b1f21e2360"
+    },
+    {
+      "path": "Content/Props/Weapons/Conventional/LMG/Animation/ShoulderWalk.xnb",
+      "bytes": 18462,
+      "sha256": "10994e179dedd46a9c9c4efe3525d2bce32f4aa5542efa674f849d3167b49a70"
+    },
+    {
+      "path": "Content/Props/Weapons/Conventional/LMG/Animation/TakeOut.xnb",
+      "bytes": 14978,
+      "sha256": "2f445fabf444fb604423ea3037595a663329a27568fbba8382d284f77b274a40"
+    },
+    {
+      "path": "Content/Props/Weapons/Conventional/LMG/Animation/Walk.xnb",
+      "bytes": 13374,
+      "sha256": "4c7dd955dc3544763ddf0469e637187e97dcb0fd45c391d1c3b9c345153311ce"
+    },
+    {
+      "path": "Content/Props/Weapons/Conventional/Pistol/Animation/Idle.xnb",
+      "bytes": 1226,
+      "sha256": "6bdd7ec4bbd6317fec5bbab48ba4c20e2d7219b46a213d242c200fbcd1308fc5"
+    },
+    {
+      "path": "Content/Props/Weapons/Conventional/Pistol/Animation/Reload.xnb",
+      "bytes": 22152,
+      "sha256": "651e72922c37af2ab07fcac60349ec7e573a847973c9081f2d1c6484f1c5e28d"
+    },
+    {
+      "path": "Content/Props/Weapons/Conventional/Pistol/Animation/Shoot.xnb",
+      "bytes": 3188,
+      "sha256": "e5fd3e57d6f1f31c91857988486f441ceb2db2ebcfaeede0acb9fec71791437a"
+    },
+    {
+      "path": "Content/Props/Weapons/Conventional/Pistol/Animation/Shoulder.xnb",
+      "bytes": 3208,
+      "sha256": "1060d3c1975cdc85bc81a4b92964af8d8ec3b04d6f3ecd2937a1e356878c3356"
+    },
+    {
+      "path": "Content/Props/Weapons/Conventional/Pistol/Animation/ShoulderIdle.xnb",
+      "bytes": 1224,
+      "sha256": "7287806a7578c51670a0adb1de29202288891f58f37f5a547e97e519e56f5235"
+    },
+    {
+      "path": "Content/Props/Weapons/Conventional/Pistol/Animation/ShoulderShoot.xnb",
+      "bytes": 3180,
+      "sha256": "b07358ded7bb1b55866cc6677824fee059e6713aacadeeb8f0c39d3c60356544"
+    },
+    {
+      "path": "Content/Props/Weapons/Conventional/Pistol/Animation/ShoulderWalk.xnb",
+      "bytes": 13300,
+      "sha256": "4fcc164350b682f07836d478565748547f26aeabc0a8e866a1e9e36469a68d05"
+    },
+    {
+      "path": "Content/Props/Weapons/Conventional/Pistol/Animation/Walk.xnb",
+      "bytes": 13936,
+      "sha256": "6cade425bf57799b85ca488bf884b6da80897568b24548dbdc40b2543ab211d7"
+    },
+    {
+      "path": "Content/Props/Weapons/Conventional/Rifle/Animation/Idle.xnb",
+      "bytes": 1208,
+      "sha256": "afdc8bd9b6fae6b038cec7941650bf9c51fb81e90fb3ef9691f96ee5f35ec1cd"
+    },
+    {
+      "path": "Content/Props/Weapons/Conventional/Rifle/Animation/Reload.xnb",
+      "bytes": 30266,
+      "sha256": "a29a62cbf855d460ce4d11e18d1a5a9020431ebfd3f0af3383777607a80b4d2e"
+    },
+    {
+      "path": "Content/Props/Weapons/Conventional/Rifle/Animation/Shoot.xnb",
+      "bytes": 2694,
+      "sha256": "50f7aaa5ac0ef2e8a4200cf285c0b001f4e32deb5d5ca7a82e0898ec0c6a17c1"
+    },
+    {
+      "path": "Content/Props/Weapons/Conventional/Rifle/Animation/Shoulder.xnb",
+      "bytes": 2702,
+      "sha256": "927294954329c6512f44c56288778e22238b6de9f8730b2a1ff7c8a99d93234a"
+    },
+    {
+      "path": "Content/Props/Weapons/Conventional/Rifle/Animation/ShoulderIdle.xnb",
+      "bytes": 1198,
+      "sha256": "4bccddc12533ed974a310221baeb1b995fa389bd64ab73dd00087021c1f9672b"
+    },
+    {
+      "path": "Content/Props/Weapons/Conventional/Rifle/Animation/ShoulderShoot.xnb",
+      "bytes": 2672,
+      "sha256": "6f5c41c2a4cef3b1c86988379b3a979e475fff618755fa30d7918d44836b68a7"
+    },
+    {
+      "path": "Content/Props/Weapons/Conventional/Rifle/Animation/ShoulderWalk.xnb",
+      "bytes": 13104,
+      "sha256": "29e71757633861d27012ab697ecbf6ea7aea8954012f2a53232673e3acae4f99"
+    },
+    {
+      "path": "Content/Props/Weapons/Conventional/Rifle/Animation/Walk.xnb",
+      "bytes": 13284,
+      "sha256": "abe526884f05f906f7308764289aeb286c2941c6369aedfd8e9951a0f3d2cac0"
+    },
+    {
+      "path": "Content/Props/Weapons/Conventional/RPG/Animation/Idle.xnb",
+      "bytes": 1198,
+      "sha256": "6826255ff77ecb61b00c6095510545dbcf980921a4d473709d442be79fc7b1c5"
+    },
+    {
+      "path": "Content/Props/Weapons/Conventional/RPG/Animation/Shoot.xnb",
+      "bytes": 15552,
+      "sha256": "b114fdaec5dea329a3a2845dea61943686a38a1e337832ea5fa69f9e1b12590d"
+    },
+    {
+      "path": "Content/Props/Weapons/Conventional/RPG/Animation/Walk.xnb",
+      "bytes": 13442,
+      "sha256": "a568b2cf039180cf978d1d4a4af9a290601b89ec166daed3ef40ab7f0c9a4bb9"
+    },
+    {
+      "path": "Content/Props/Weapons/Conventional/Shotgun/Animation/Bolt.xnb",
+      "bytes": 19712,
+      "sha256": "27f2db622067ad50e31c7d05a8ca4f7076928b8d647faeae96770c84e179c6cf"
+    },
+    {
+      "path": "Content/Props/Weapons/Conventional/Shotgun/Animation/Idle.xnb",
+      "bytes": 1202,
+      "sha256": "edb349e856b7202fdad2f142641b14c4766bd73c2bb91bfa22b0f9afebb3f69b"
+    },
+    {
+      "path": "Content/Props/Weapons/Conventional/Shotgun/Animation/Reload.xnb",
+      "bytes": 8824,
+      "sha256": "77440b2ae991924217ccfdbb68743f1cce968e719ef4cf95202571452cc011d7"
+    },
+    {
+      "path": "Content/Props/Weapons/Conventional/Shotgun/Animation/Shoot.xnb",
+      "bytes": 21122,
+      "sha256": "45028dcc3a38a3b9f83adae38869541dfec224bda2b495ec446426271c001474"
+    },
+    {
+      "path": "Content/Props/Weapons/Conventional/Shotgun/Animation/Shoulder.xnb",
+      "bytes": 4190,
+      "sha256": "022f2725f1156424e6065417d3735fe8249e4553fb42bf915739c838f44409ad"
+    },
+    {
+      "path": "Content/Props/Weapons/Conventional/Shotgun/Animation/ShoulderIdle.xnb",
+      "bytes": 1218,
+      "sha256": "c04725fd82c483fbf2ae8d81d692cc64e1972527a164d55897c26fefc1c4c5aa"
+    },
+    {
+      "path": "Content/Props/Weapons/Conventional/Shotgun/Animation/ShoulderShoot.xnb",
+      "bytes": 17140,
+      "sha256": "7a3aaddb43bc60c03f35a51d8f056f893ba6b09434725ae6dae1b00284525f22"
+    },
+    {
+      "path": "Content/Props/Weapons/Conventional/Shotgun/Animation/ShoulderWalk.xnb",
+      "bytes": 18898,
+      "sha256": "62d013552eb214d9c5d17f9f8c1c2efb0dd1f0088e6af1f69923c39a07e6f082"
+    },
+    {
+      "path": "Content/Props/Weapons/Conventional/Shotgun/Animation/Walk.xnb",
+      "bytes": 13264,
+      "sha256": "2d64066ab410492db181d08bb2d36924efa255ca95975eee981931d492fa6e9e"
+    },
+    {
+      "path": "Content/Props/Weapons/Conventional/SMG/Animation/Idle.xnb",
+      "bytes": 1228,
+      "sha256": "82aaa14c673099cd00ca6c543837e2cca0f79993afe56dd0c7a62899cfbd09f7"
+    },
+    {
+      "path": "Content/Props/Weapons/Conventional/SMG/Animation/Reload.xnb",
+      "bytes": 28460,
+      "sha256": "8de127b58308a115ea98104c77ba0422eb678a581b6825064860c3c508735c23"
+    },
+    {
+      "path": "Content/Props/Weapons/Conventional/SMG/Animation/Shoot.xnb",
+      "bytes": 2040,
+      "sha256": "5bd197fd7f5b5581162f8fe86956a4ffe1bba581e1d38f7b6409eae9ac406739"
+    },
+    {
+      "path": "Content/Props/Weapons/Conventional/SMG/Animation/Shoulder.xnb",
+      "bytes": 1986,
+      "sha256": "2e9f8ad33161b4effe21df28902ef7319ba947e339af032a5f6ba687f446ca73"
+    },
+    {
+      "path": "Content/Props/Weapons/Conventional/SMG/Animation/ShoulderIdle.xnb",
+      "bytes": 1200,
+      "sha256": "224b44e8b26b06c919b3609652f8799363f5c67e1361051e6c71f10ffe0cfc90"
+    },
+    {
+      "path": "Content/Props/Weapons/Conventional/SMG/Animation/ShoulderShoot.xnb",
+      "bytes": 1984,
+      "sha256": "94d6e5f535b425a457beaaa69fd02f23f7cc3f54308037defbbdead0e3619fe3"
+    },
+    {
+      "path": "Content/Props/Weapons/Conventional/SMG/Animation/ShoulderWalk.xnb",
+      "bytes": 7160,
+      "sha256": "5de4313ba20f156401c69e56d830c7929020244bea2d2d0d0a7587791c5aed44"
+    },
+    {
+      "path": "Content/Props/Weapons/Conventional/SMG/Animation/Walk.xnb",
+      "bytes": 7438,
+      "sha256": "45f761cbae340f5b26912d8374531e57e56ee93823253f1382040537392f070e"
+    },
+    {
+      "path": "Content/Props/Weapons/Space/AR/Animation/Idle.xnb",
+      "bytes": 1226,
+      "sha256": "ee2d1df2257dd8f4ade81f28085be11b20dcf2debccad911750bdaf77f348f82"
+    },
+    {
+      "path": "Content/Props/Weapons/Space/AR/Animation/Reload.xnb",
+      "bytes": 40306,
+      "sha256": "3510b3be72f9137ad4f75390f56b0e96fb18d1d7f816bf390474d8d03058a02f"
+    },
+    {
+      "path": "Content/Props/Weapons/Space/AR/Animation/Shoot.xnb",
+      "bytes": 3196,
+      "sha256": "757f1f4fdab920d36f8d1cce6ebc9d4d4dd29349f9f950e887f60e674562268d"
+    },
+    {
+      "path": "Content/Props/Weapons/Space/AR/Animation/Shoulder.xnb",
+      "bytes": 3128,
+      "sha256": "43f6545a35ae847f8948f30c16774d43534e031a41edcb7fd358433be089d0f7"
+    },
+    {
+      "path": "Content/Props/Weapons/Space/AR/Animation/ShoulderIdle.xnb",
+      "bytes": 1224,
+      "sha256": "5b2ea3813f8a7c921ec9478da89befc1321fe8feb043d7b136f13af1e4b084e2"
+    },
+    {
+      "path": "Content/Props/Weapons/Space/AR/Animation/ShoulderShoot.xnb",
+      "bytes": 2262,
+      "sha256": "4f303756ad95748347ea664be1c4ad796116b8185a0a6ca71fee8f4a5b0fbb74"
+    },
+    {
+      "path": "Content/Props/Weapons/Space/AR/Animation/ShoulderWalk.xnb",
+      "bytes": 12754,
+      "sha256": "9baa3ce74986cb0fb10a677a122a7f9c7895496b07cbbe14cdd56a5c481feed7"
+    },
+    {
+      "path": "Content/Props/Weapons/Space/AR/Animation/Walk.xnb",
+      "bytes": 13356,
+      "sha256": "98e2dac401418b265a79689dcbdbf8d8eb413d03cfa291a5d906d1147c6344d3"
+    },
+    {
+      "path": "Content/Props/Weapons/Space/LMG/Animation/Idle.xnb",
+      "bytes": 1226,
+      "sha256": "ee2d1df2257dd8f4ade81f28085be11b20dcf2debccad911750bdaf77f348f82"
+    },
+    {
+      "path": "Content/Props/Weapons/Space/LMG/Animation/Reload.xnb",
+      "bytes": 94914,
+      "sha256": "bb10b5edf99a5c2f713fbd8b17585c111f2fce19d1c80e71232a30be27ec490f"
+    },
+    {
+      "path": "Content/Props/Weapons/Space/LMG/Animation/Shoot.xnb",
+      "bytes": 3196,
+      "sha256": "757f1f4fdab920d36f8d1cce6ebc9d4d4dd29349f9f950e887f60e674562268d"
+    },
+    {
+      "path": "Content/Props/Weapons/Space/LMG/Animation/Shoulder.xnb",
+      "bytes": 3128,
+      "sha256": "43f6545a35ae847f8948f30c16774d43534e031a41edcb7fd358433be089d0f7"
+    },
+    {
+      "path": "Content/Props/Weapons/Space/LMG/Animation/ShoulderIdle.xnb",
+      "bytes": 1224,
+      "sha256": "5b2ea3813f8a7c921ec9478da89befc1321fe8feb043d7b136f13af1e4b084e2"
+    },
+    {
+      "path": "Content/Props/Weapons/Space/LMG/Animation/ShoulderShoot.xnb",
+      "bytes": 2262,
+      "sha256": "4f303756ad95748347ea664be1c4ad796116b8185a0a6ca71fee8f4a5b0fbb74"
+    },
+    {
+      "path": "Content/Props/Weapons/Space/LMG/Animation/ShoulderWalk.xnb",
+      "bytes": 12754,
+      "sha256": "9baa3ce74986cb0fb10a677a122a7f9c7895496b07cbbe14cdd56a5c481feed7"
+    },
+    {
+      "path": "Content/Props/Weapons/Space/LMG/Animation/TakeOut.xnb",
+      "bytes": 14766,
+      "sha256": "00b8f8340dd6747c33c44e870440f4c08a8ab0f66590026d934cead761935ba7"
+    },
+    {
+      "path": "Content/Props/Weapons/Space/LMG/Animation/Walk.xnb",
+      "bytes": 13356,
+      "sha256": "98e2dac401418b265a79689dcbdbf8d8eb413d03cfa291a5d906d1147c6344d3"
+    },
+    {
+      "path": "Content/Props/Weapons/Space/Pistol/Animation/Idle.xnb",
+      "bytes": 1226,
+      "sha256": "2965418d236613e10c96384050a4bb2793f7a52e3a1ab9e436c0a0e11c2df324"
+    },
+    {
+      "path": "Content/Props/Weapons/Space/Pistol/Animation/Reload.xnb",
+      "bytes": 19844,
+      "sha256": "59f2073d3dacdb953a0202f46290e24f6cfba02e1da48418f3a3d636ebc0b422"
+    },
+    {
+      "path": "Content/Props/Weapons/Space/Pistol/Animation/Shoot.xnb",
+      "bytes": 3152,
+      "sha256": "9edf97850f17d6bcc9dbde49ad70160935372cc6fa7dea7f59a92b525de52b62"
+    },
+    {
+      "path": "Content/Props/Weapons/Space/Pistol/Animation/Shoulder.xnb",
+      "bytes": 3298,
+      "sha256": "8e6f8a708da151507f35bef1183a2c03a2a7c6ab05577ff5ab168e6339964d0c"
+    },
+    {
+      "path": "Content/Props/Weapons/Space/Pistol/Animation/ShoulderIdle.xnb",
+      "bytes": 1202,
+      "sha256": "c6a05dad5a334acee6a94313315e05e7e8d24cb017e974f914e78b0b8e874c3e"
+    },
+    {
+      "path": "Content/Props/Weapons/Space/Pistol/Animation/ShoulderShoot.xnb",
+      "bytes": 3118,
+      "sha256": "4bb9582ee2ebd45df3fbc18fb5749369b8394645700f6bcedcef295e706e5797"
+    },
+    {
+      "path": "Content/Props/Weapons/Space/Pistol/Animation/ShoulderWalk.xnb",
+      "bytes": 12766,
+      "sha256": "e41b69ed5e205ecc41cb029626f9334fe9e7d96985a4ab57372e8af552decf0e"
+    },
+    {
+      "path": "Content/Props/Weapons/Space/Pistol/Animation/TakeOut.xnb",
+      "bytes": 14214,
+      "sha256": "5c8d9f70df8959d3921f8a538932223e9c2642aeede81a3bbe0170e38189e5aa"
+    },
+    {
+      "path": "Content/Props/Weapons/Space/Pistol/Animation/Walk.xnb",
+      "bytes": 13080,
+      "sha256": "a5c13bb8b96f31d5de14b814bdf329693793d8e047a39be74ac1c8b45319ab5c"
+    },
+    {
+      "path": "Content/Props/Weapons/Space/Rifle/Animation/Idle.xnb",
+      "bytes": 1226,
+      "sha256": "ee2d1df2257dd8f4ade81f28085be11b20dcf2debccad911750bdaf77f348f82"
+    },
+    {
+      "path": "Content/Props/Weapons/Space/Rifle/Animation/Reload.xnb",
+      "bytes": 40306,
+      "sha256": "3510b3be72f9137ad4f75390f56b0e96fb18d1d7f816bf390474d8d03058a02f"
+    },
+    {
+      "path": "Content/Props/Weapons/Space/Rifle/Animation/Shoot.xnb",
+      "bytes": 3196,
+      "sha256": "757f1f4fdab920d36f8d1cce6ebc9d4d4dd29349f9f950e887f60e674562268d"
+    },
+    {
+      "path": "Content/Props/Weapons/Space/Rifle/Animation/Shoulder.xnb",
+      "bytes": 3128,
+      "sha256": "43f6545a35ae847f8948f30c16774d43534e031a41edcb7fd358433be089d0f7"
+    },
+    {
+      "path": "Content/Props/Weapons/Space/Rifle/Animation/ShoulderIdle.xnb",
+      "bytes": 1224,
+      "sha256": "5b2ea3813f8a7c921ec9478da89befc1321fe8feb043d7b136f13af1e4b084e2"
+    },
+    {
+      "path": "Content/Props/Weapons/Space/Rifle/Animation/ShoulderShoot.xnb",
+      "bytes": 2262,
+      "sha256": "4f303756ad95748347ea664be1c4ad796116b8185a0a6ca71fee8f4a5b0fbb74"
+    },
+    {
+      "path": "Content/Props/Weapons/Space/Rifle/Animation/ShoulderWalk.xnb",
+      "bytes": 12754,
+      "sha256": "9baa3ce74986cb0fb10a677a122a7f9c7895496b07cbbe14cdd56a5c481feed7"
+    },
+    {
+      "path": "Content/Props/Weapons/Space/Rifle/Animation/TakeOut.xnb",
+      "bytes": 14766,
+      "sha256": "00b8f8340dd6747c33c44e870440f4c08a8ab0f66590026d934cead761935ba7"
+    },
+    {
+      "path": "Content/Props/Weapons/Space/Rifle/Animation/Walk.xnb",
+      "bytes": 13356,
+      "sha256": "98e2dac401418b265a79689dcbdbf8d8eb413d03cfa291a5d906d1147c6344d3"
+    },
+    {
+      "path": "Content/Props/Weapons/Space/Shotgun/Animation/Reload.xnb",
+      "bytes": 13672,
+      "sha256": "8b090cbe98b86bd0d478d9e9fe334c2f27329d01d89c22fab6863ec790d63e31"
+    },
+    {
+      "path": "Content/Props/Weapons/Space/Shotgun/Animation/Shoot.xnb",
+      "bytes": 13118,
+      "sha256": "b0433586303a8349582cb9816c14f961d953a3f8eb826574c95a4246f6a007d5"
+    },
+    {
+      "path": "Content/Props/Weapons/Space/Shotgun/Animation/ShoulderShoot.xnb",
+      "bytes": 13016,
+      "sha256": "62c47d15c7e7f4f6c5d4fdcb155ded51f4186a576d5a59fab71ea8de2270fb1d"
+    },
+    {
+      "path": "Content/Props/Weapons/Space/SMG/Animation/Idle.xnb",
+      "bytes": 1226,
+      "sha256": "2965418d236613e10c96384050a4bb2793f7a52e3a1ab9e436c0a0e11c2df324"
+    },
+    {
+      "path": "Content/Props/Weapons/Space/SMG/Animation/Reload.xnb",
+      "bytes": 19844,
+      "sha256": "59f2073d3dacdb953a0202f46290e24f6cfba02e1da48418f3a3d636ebc0b422"
+    },
+    {
+      "path": "Content/Props/Weapons/Space/SMG/Animation/Shoot.xnb",
+      "bytes": 3152,
+      "sha256": "9edf97850f17d6bcc9dbde49ad70160935372cc6fa7dea7f59a92b525de52b62"
+    },
+    {
+      "path": "Content/Props/Weapons/Space/SMG/Animation/Shoulder.xnb",
+      "bytes": 3298,
+      "sha256": "8e6f8a708da151507f35bef1183a2c03a2a7c6ab05577ff5ab168e6339964d0c"
+    },
+    {
+      "path": "Content/Props/Weapons/Space/SMG/Animation/ShoulderIdle.xnb",
+      "bytes": 1202,
+      "sha256": "c6a05dad5a334acee6a94313315e05e7e8d24cb017e974f914e78b0b8e874c3e"
+    },
+    {
+      "path": "Content/Props/Weapons/Space/SMG/Animation/ShoulderShoot.xnb",
+      "bytes": 3118,
+      "sha256": "4bb9582ee2ebd45df3fbc18fb5749369b8394645700f6bcedcef295e706e5797"
+    },
+    {
+      "path": "Content/Props/Weapons/Space/SMG/Animation/ShoulderWalk.xnb",
+      "bytes": 12766,
+      "sha256": "e41b69ed5e205ecc41cb029626f9334fe9e7d96985a4ab57372e8af552decf0e"
+    },
+    {
+      "path": "Content/Props/Weapons/Space/SMG/Animation/Walk.xnb",
+      "bytes": 13080,
+      "sha256": "a5c13bb8b96f31d5de14b814bdf329693793d8e047a39be74ac1c8b45319ab5c"
+    },
+    {
+      "path": "Content/PropShader_reach_0.xnb",
+      "bytes": 2728,
+      "sha256": "351155b3f7ba48dde080dbf547d3a9e46afacbddd723bfa6b1baaa615c90687f"
+    },
+    {
+      "path": "Content/ReachContent/Ash2_0.xnb",
+      "bytes": 7920,
+      "sha256": "e9f974b5380e5d5e61103ce91738c98751fe7ec3d578ad2cc3f3752ad7a42a08"
+    },
+    {
+      "path": "Content/ReachContent/Ash2_0_L2.xnb",
+      "bytes": 2186,
+      "sha256": "c1ac5437eae5d55870c73d1442605326cf5bffd158a8b7d31787e15a3c508ecb"
+    },
+    {
+      "path": "Content/ReachContent/Ash2_0_L3.xnb",
+      "bytes": 750,
+      "sha256": "2f3317d5314f80326f9b1c64ad2b42a66196eef82aa341aa0e9b176de9c3a449"
+    },
+    {
+      "path": "Content/ReachContent/Bolt_0.xnb",
+      "bytes": 4152,
+      "sha256": "f54feec9361eb3c84049964cf9a6c62d90f7bbbdaed14e26ce12fd5e4c2c1b74"
+    },
+    {
+      "path": "Content/ReachContent/Bolt_0_L2.xnb",
+      "bytes": 1510,
+      "sha256": "91a1b452da99bea4ecba2f819d006834763fad17713f636f4c1d57657ff0c43d"
+    },
+    {
+      "path": "Content/ReachContent/Bolt_0_L3.xnb",
+      "bytes": 660,
+      "sha256": "0e1aac896fdca5a77516125eab1df9c0f7be27c1c0adddfe099d68ebb2d0fdcf"
+    },
+    {
+      "path": "Content/ReachContent/Character/SWATMale.xnb",
+      "bytes": 140592,
+      "sha256": "238da44f09f02e32c15513fa0f12cb88688dc591e2d0e5ec0856edf526239628"
+    },
+    {
+      "path": "Content/ReachContent/CharactorShader_reach_0.xnb",
+      "bytes": 2522,
+      "sha256": "2f0a9ece2914d72f27a93b32fe0c739c630534004525b7b83590c179974983eb"
+    },
+    {
+      "path": "Content/ReachContent/CompassDiffuse_0.xnb",
+      "bytes": 23568,
+      "sha256": "b44402586690f53c5f586f614e3f3635ebf893af9e6e62117205bd8fd06113aa"
+    },
+    {
+      "path": "Content/ReachContent/CompassDiffuse_0_L2.xnb",
+      "bytes": 6594,
+      "sha256": "55b799d4d1aa52025759a9184fef83203a7235d7490baa3c7c223819834498de"
+    },
+    {
+      "path": "Content/ReachContent/CompassDiffuse_0_L3.xnb",
+      "bytes": 2156,
+      "sha256": "8ee91818110d96945489a8c10e53a042ddb82c63d7af054d6e3e3f26ee8b63a8"
+    },
+    {
+      "path": "Content/ReachContent/CompassNormal_reach_0.xnb",
+      "bytes": 219,
+      "sha256": "ebb055663320a57af5a0887e962f396362a6c2130b947c61dfaa2baef9497db6"
+    },
+    {
+      "path": "Content/ReachContent/CompassNormal_reach_0_L2.xnb",
+      "bytes": 219,
+      "sha256": "ebb055663320a57af5a0887e962f396362a6c2130b947c61dfaa2baef9497db6"
+    },
+    {
+      "path": "Content/ReachContent/CompassNormal_reach_0_L3.xnb",
+      "bytes": 219,
+      "sha256": "ebb055663320a57af5a0887e962f396362a6c2130b947c61dfaa2baef9497db6"
+    },
+    {
+      "path": "Content/ReachContent/CompassSpecular_reach_0.xnb",
+      "bytes": 219,
+      "sha256": "f4582a7ce668c9c9f198d2dfafea08640b54bf68ff0f07db2f8227ee789c6e78"
+    },
+    {
+      "path": "Content/ReachContent/CompassSpecular_reach_0_L2.xnb",
+      "bytes": 219,
+      "sha256": "f4582a7ce668c9c9f198d2dfafea08640b54bf68ff0f07db2f8227ee789c6e78"
+    },
+    {
+      "path": "Content/ReachContent/CompassSpecular_reach_0_L3.xnb",
+      "bytes": 219,
+      "sha256": "f4582a7ce668c9c9f198d2dfafea08640b54bf68ff0f07db2f8227ee789c6e78"
+    },
+    {
+      "path": "Content/ReachContent/Diffuse2_0.xnb",
+      "bytes": 30780,
+      "sha256": "870151d4bea141d1faca68ac3611bdb3806532746f02f405de18c29a2284f1d2"
+    },
+    {
+      "path": "Content/ReachContent/Diffuse2_0_L2.xnb",
+      "bytes": 8914,
+      "sha256": "9c4eaf0aaf5d7d8f4c68106cd559c5148da6d08a528ed98fecf7fd3e37066273"
+    },
+    {
+      "path": "Content/ReachContent/Diffuse2_0_L3.xnb",
+      "bytes": 2712,
+      "sha256": "e34cbcb48dbd9b00c79e4b9821694d36fe784a5cfbc0f023dfa360478abf08d0"
+    },
+    {
+      "path": "Content/ReachContent/Diffuse_0.xnb",
+      "bytes": 355406,
+      "sha256": "e5af27ff634d90a4ebc2198bb21af616ca08a4799780045671488d22c146adba"
+    },
+    {
+      "path": "Content/ReachContent/Diffuse_0_L2.xnb",
+      "bytes": 95302,
+      "sha256": "d92f96e654175fdecc07a3a08d6b401b9c340676d065a3cff5c6dd10c28b2191"
+    },
+    {
+      "path": "Content/ReachContent/Diffuse_0_L3.xnb",
+      "bytes": 26510,
+      "sha256": "6b4736a3f6b46e33155b9d8d9ac7fa765f6b08e7bbfd9cd7ed73101c08d85400"
+    },
+    {
+      "path": "Content/ReachContent/Diffuse_1.xnb",
+      "bytes": 122702,
+      "sha256": "1dbb2c0bc85c8544eb4894dab184cf45ee15511b2424f9efa1c5e3e792ec5c5a"
+    },
+    {
+      "path": "Content/ReachContent/Diffuse_10.xnb",
+      "bytes": 402444,
+      "sha256": "dfabc27d9c3db91f4b33395b05131e44abeda46cdd7ca9df2599a133ffadb379"
+    },
+    {
+      "path": "Content/ReachContent/Diffuse_10_L2.xnb",
+      "bytes": 108224,
+      "sha256": "e3372f13a4a4d792aab166430a92878b86257a58db232079f390358fc32acf5c"
+    },
+    {
+      "path": "Content/ReachContent/Diffuse_10_L3.xnb",
+      "bytes": 29910,
+      "sha256": "d9523852f202d2af238ba9cefd021b532701bc63ad6bbc2bdb58f000364bfa4c"
+    },
+    {
+      "path": "Content/ReachContent/Diffuse_11.xnb",
+      "bytes": 32646,
+      "sha256": "2563dcbdc0efe3267fa580d05392cd37cddf2f7705149e081092387987e621f8"
+    },
+    {
+      "path": "Content/ReachContent/Diffuse_11_L2.xnb",
+      "bytes": 8918,
+      "sha256": "d7195f8dc2fa7c2e8db234e508c2e86faecf69e5a789e39b696cd77b639244b0"
+    },
+    {
+      "path": "Content/ReachContent/Diffuse_11_L3.xnb",
+      "bytes": 2762,
+      "sha256": "f712d931db7ac8bd6d2f050675daa43c48b0e0f2bd342729e87689ab07ae9790"
+    },
+    {
+      "path": "Content/ReachContent/Diffuse_12.xnb",
+      "bytes": 90492,
+      "sha256": "bd7a16f6f0166d15130092338a912357e66a26fa44e49bd08a8194c96e5e92da"
+    },
+    {
+      "path": "Content/ReachContent/Diffuse_12_L2.xnb",
+      "bytes": 23162,
+      "sha256": "0c79a93420f310a1f9ae54ad132044e52d9a2e36cb93254e3585a0a6045975e7"
+    },
+    {
+      "path": "Content/ReachContent/Diffuse_12_L3.xnb",
+      "bytes": 6258,
+      "sha256": "e2912fa7843e170004d0fbde2ac52a2718f0b57903677cc25b94d4dcc599bf6e"
+    },
+    {
+      "path": "Content/ReachContent/Diffuse_13.xnb",
+      "bytes": 772576,
+      "sha256": "1ab7045759d89116672eeb9309ee82ef97f3894d5c759bf4a6d96a02c6f16a0a"
+    },
+    {
+      "path": "Content/ReachContent/Diffuse_13_L2.xnb",
+      "bytes": 190088,
+      "sha256": "f6eb9bdcfbf087384055e0a1797ec26fbe440e278d8105aada32f7181f95e5bc"
+    },
+    {
+      "path": "Content/ReachContent/Diffuse_13_L3.xnb",
+      "bytes": 49320,
+      "sha256": "bac06cf4dec7bb6580c046b590f1f1bb1e419292b8f06b30e33f6de5b7780d22"
+    },
+    {
+      "path": "Content/ReachContent/Diffuse_14.xnb",
+      "bytes": 521816,
+      "sha256": "59439d36544691773753aae5fad11a32bba53d08a404873a7737a46a92c32e99"
+    },
+    {
+      "path": "Content/ReachContent/Diffuse_14_L2.xnb",
+      "bytes": 133690,
+      "sha256": "57aeff9c9d37870c0d8d173cb024c51c2b783111f0c4127137b150dfe8737ae2"
+    },
+    {
+      "path": "Content/ReachContent/Diffuse_14_L3.xnb",
+      "bytes": 34920,
+      "sha256": "f7c10035a458a59f38d6670d89ca661b171ee4f8bfef01400f1db8f0efcc9f95"
+    },
+    {
+      "path": "Content/ReachContent/Diffuse_15.xnb",
+      "bytes": 450826,
+      "sha256": "d097a3bf44d6cff099618d11f5daa3d6ef3dbe60b4e442d368cc8f1eabb80862"
+    },
+    {
+      "path": "Content/ReachContent/Diffuse_15_L2.xnb",
+      "bytes": 113866,
+      "sha256": "cc2982396ea93633551a806576b14c944945953aa62d3faab6ca1ca921d2fb3b"
+    },
+    {
+      "path": "Content/ReachContent/Diffuse_15_L3.xnb",
+      "bytes": 29662,
+      "sha256": "e7f0491b7ee9e15b5e57163f8cdd75d5f2dc391fc5aec7ae3413777923b6d1c7"
+    },
+    {
+      "path": "Content/ReachContent/Diffuse_16.xnb",
+      "bytes": 100046,
+      "sha256": "9968d58b89f3103f7b55290d92ebec8cec8886b79450e4b584ad3c1265352363"
+    },
+    {
+      "path": "Content/ReachContent/Diffuse_16_L2.xnb",
+      "bytes": 25684,
+      "sha256": "8fedc4a051991713991fd6744001cdf3b9e843993342ee3cbc52432068c481fa"
+    },
+    {
+      "path": "Content/ReachContent/Diffuse_16_L3.xnb",
+      "bytes": 7212,
+      "sha256": "b39faf0953fcd8899ee7ef1b06b86001fdbc978ca11fb6c1eb63472fa438d2c8"
+    },
+    {
+      "path": "Content/ReachContent/Diffuse_17.xnb",
+      "bytes": 402542,
+      "sha256": "9e77d930aff402e7ad6d2d84086d6fafceb05a473caa111850d163e915c599be"
+    },
+    {
+      "path": "Content/ReachContent/Diffuse_17_L2.xnb",
+      "bytes": 112358,
+      "sha256": "d6cab5d23d19c7bd0e47960b1d4bab0e980ac20c37c6ecbafd5bf33c805cc306"
+    },
+    {
+      "path": "Content/ReachContent/Diffuse_17_L3.xnb",
+      "bytes": 33184,
+      "sha256": "c89e6d7e811ba245c4e57497016ab19d856f2b7e7c9d73599d83f39ededc9f3b"
+    },
+    {
+      "path": "Content/ReachContent/Diffuse_18.xnb",
+      "bytes": 464472,
+      "sha256": "2e4b6d6edda7183324e97cd43df6d52549b807120317b21d949e2c125b68f780"
+    },
+    {
+      "path": "Content/ReachContent/Diffuse_18_L2.xnb",
+      "bytes": 133278,
+      "sha256": "1d80d29df3578880e8938be2ee0f00c63ce2483dcb611f808ba5aaa1c50bf8a0"
+    },
+    {
+      "path": "Content/ReachContent/Diffuse_18_L3.xnb",
+      "bytes": 39288,
+      "sha256": "731103e1b1b792f517b9f2e6df60f8848800cc0da2c678f489e788d0158a6686"
+    },
+    {
+      "path": "Content/ReachContent/Diffuse_19.xnb",
+      "bytes": 408406,
+      "sha256": "fc47a81a8a6b6abfe86716ab08be824af7c2662e34227977dd681cd276513c7d"
+    },
+    {
+      "path": "Content/ReachContent/Diffuse_19_L2.xnb",
+      "bytes": 116438,
+      "sha256": "6e2ae1d8e1fbdf75044ed8f4ef822cc0649f3659475e427e928e0bda3093e621"
+    },
+    {
+      "path": "Content/ReachContent/Diffuse_19_L3.xnb",
+      "bytes": 33612,
+      "sha256": "88ceefaae04cd2dcf51cebed103ff6575321fbfa2a8ce95fae7f32de3e79fb56"
+    },
+    {
+      "path": "Content/ReachContent/Diffuse_1_L2.xnb",
+      "bytes": 31434,
+      "sha256": "bb3e109955ae9d8a79c7d820e64716b987d737700f5c053b7d038b272f93056b"
+    },
+    {
+      "path": "Content/ReachContent/Diffuse_1_L3.xnb",
+      "bytes": 8518,
+      "sha256": "2cb7eef2fb5567fca3c18ac02512ad8dfa1dd7024cdcb452b1787b7fd5ab1617"
+    },
+    {
+      "path": "Content/ReachContent/Diffuse_2.xnb",
+      "bytes": 28134,
+      "sha256": "4a7ec4686c748988568102c4392f9a18a6ce78f830cad069f61c9c0cd9fcefa7"
+    },
+    {
+      "path": "Content/ReachContent/Diffuse_20.xnb",
+      "bytes": 424298,
+      "sha256": "3a7098c095008da11a12973f84fde286dbc9fef2b74313bdf698fdeaace5ab60"
+    },
+    {
+      "path": "Content/ReachContent/Diffuse_20_L2.xnb",
+      "bytes": 117442,
+      "sha256": "456d1b37c2cd85a27712ea252c7e54c941e61543e3cac16b12a0cee51bc85726"
+    },
+    {
+      "path": "Content/ReachContent/Diffuse_20_L3.xnb",
+      "bytes": 33032,
+      "sha256": "16c812e5131b42c0002c512c5c4f63e836bd1c583dd5f444d242d578bacc646e"
+    },
+    {
+      "path": "Content/ReachContent/Diffuse_21.xnb",
+      "bytes": 399706,
+      "sha256": "afa0b7f0d29c35c0a3e6dbc3975a7d0cce5330b52c1dd7470daa820f42045c12"
+    },
+    {
+      "path": "Content/ReachContent/Diffuse_21_L2.xnb",
+      "bytes": 114626,
+      "sha256": "44a4f508b72a0f80649678e4e32de95b2d22c1f7cb2e8bfa256ebe45bb285827"
+    },
+    {
+      "path": "Content/ReachContent/Diffuse_21_L3.xnb",
+      "bytes": 33526,
+      "sha256": "0a47d43c8c13ae84c581a5d4fb939f4d45c826a8b92eaa051633027c8b904bf6"
+    },
+    {
+      "path": "Content/ReachContent/Diffuse_22.xnb",
+      "bytes": 416878,
+      "sha256": "5bc952427beb57a1f1c3a72e646e7a06acdc2894d06ea4c58d8d86ba77f01360"
+    },
+    {
+      "path": "Content/ReachContent/Diffuse_22_L2.xnb",
+      "bytes": 118896,
+      "sha256": "b90326c8a59a62c4108bcabc6bc7260a359902502b914c80486d473e4c970432"
+    },
+    {
+      "path": "Content/ReachContent/Diffuse_22_L3.xnb",
+      "bytes": 34524,
+      "sha256": "93fc7df6fad2fa08ea9f204dc48ba358db76ffa1fb651e03ed700bcc0ac7b0ab"
+    },
+    {
+      "path": "Content/ReachContent/Diffuse_23.xnb",
+      "bytes": 122680,
+      "sha256": "707eab400fa373d918f7765705b9da86865d5b5653634102e8f7098bf3ee7034"
+    },
+    {
+      "path": "Content/ReachContent/Diffuse_23_L2.xnb",
+      "bytes": 30894,
+      "sha256": "5f945163f90e2493cdf816c5eb87fd6e6da1648beef31a3dd3298b368f91631b"
+    },
+    {
+      "path": "Content/ReachContent/Diffuse_23_L3.xnb",
+      "bytes": 8160,
+      "sha256": "de730f5daaefec719496e2337bf0225234e2db453b6fb95f55790a8112ff4109"
+    },
+    {
+      "path": "Content/ReachContent/Diffuse_24.xnb",
+      "bytes": 16748,
+      "sha256": "bad917197ba7b26d6a96089a90d14cf1fa5fa13f2205384439327d9470a7c5a7"
+    },
+    {
+      "path": "Content/ReachContent/Diffuse_24_L2.xnb",
+      "bytes": 4586,
+      "sha256": "8dcf101e9c4d5130c0ff79aff4873d7bf8c5cc63419d3da2b993fb2515d33bdb"
+    },
+    {
+      "path": "Content/ReachContent/Diffuse_24_L3.xnb",
+      "bytes": 1450,
+      "sha256": "82810c78475909c7ad4aef08547416f797a0858a2d9db51348ba4a48d4da3681"
+    },
+    {
+      "path": "Content/ReachContent/Diffuse_25.xnb",
+      "bytes": 38868,
+      "sha256": "215c6fc0f7d1fa4519dcb380f0a9fca928cc7d779448f12bd887e1cab1ce9deb"
+    },
+    {
+      "path": "Content/ReachContent/Diffuse_26.xnb",
+      "bytes": 125570,
+      "sha256": "2ebeb9fc3621fc1faea7b573e1806497dfb2439d39ecc4ef8f752be6e45e97fc"
+    },
+    {
+      "path": "Content/ReachContent/Diffuse_27.xnb",
+      "bytes": 107862,
+      "sha256": "d89479a73fa0f22b4c37f7d8264a5764d22e458897dd9b22393392f61d0d8c87"
+    },
+    {
+      "path": "Content/ReachContent/Diffuse_27_L2.xnb",
+      "bytes": 31910,
+      "sha256": "7bfd1b064e24b146395b701a1554ee456a36ea1bdadc47d5892b4d88e34493d6"
+    },
+    {
+      "path": "Content/ReachContent/Diffuse_27_L3.xnb",
+      "bytes": 9956,
+      "sha256": "9309cdad2aee010e13c337c362a92a5093d0a5a468a367db2b35e8614ae576ba"
+    },
+    {
+      "path": "Content/ReachContent/Diffuse_28.xnb",
+      "bytes": 140672,
+      "sha256": "d1e69cc4a5948086ce54086d01e22f1aac3492e4aba74375083123f9e65a2052"
+    },
+    {
+      "path": "Content/ReachContent/Diffuse_28_L2.xnb",
+      "bytes": 35606,
+      "sha256": "fbf3bc668cef7e20a10487ba6dc309700b5908f3c6d776d4eb83d57b840bd2b1"
+    },
+    {
+      "path": "Content/ReachContent/Diffuse_28_L3.xnb",
+      "bytes": 9422,
+      "sha256": "846a0907bcd62addeb6c90cd82ea5b07860bbd7b6917cc5748a975855e36b639"
+    },
+    {
+      "path": "Content/ReachContent/Diffuse_29.xnb",
+      "bytes": 125570,
+      "sha256": "2ebeb9fc3621fc1faea7b573e1806497dfb2439d39ecc4ef8f752be6e45e97fc"
+    },
+    {
+      "path": "Content/ReachContent/Diffuse_29_L2.xnb",
+      "bytes": 33628,
+      "sha256": "a26dbfe9ec5eeeba355a290967443b971c28ea2ce8385eb3cd8341a42c0c5ef2"
+    },
+    {
+      "path": "Content/ReachContent/Diffuse_29_L3.xnb",
+      "bytes": 9482,
+      "sha256": "059ec55301066f98a37c2e7618e07bb76a93788b63c3fc38da8a5d9006ef705f"
+    },
+    {
+      "path": "Content/ReachContent/Diffuse_2_L2.xnb",
+      "bytes": 7478,
+      "sha256": "c7393cee354fd9a2055a8d69cd02429e2b851dcbc4e0667c48bb66106e01b3ee"
+    },
+    {
+      "path": "Content/ReachContent/Diffuse_2_L3.xnb",
+      "bytes": 2230,
+      "sha256": "2cf8fa31031407a43cd854a79fdd55f9555a975f6d1bb33ef15cc3ff550cbd22"
+    },
+    {
+      "path": "Content/ReachContent/Diffuse_3.xnb",
+      "bytes": 32784,
+      "sha256": "25d44861c9fc0c7a7010ae835826c366523fd4cc9ba2c5bcfa61036bc3e4e8ec"
+    },
+    {
+      "path": "Content/ReachContent/Diffuse_30.xnb",
+      "bytes": 118034,
+      "sha256": "ceeef3c654bfc2314c48481d8ba4009486e860b6c4e85ebe200104fa27795510"
+    },
+    {
+      "path": "Content/ReachContent/Diffuse_3_L2.xnb",
+      "bytes": 8588,
+      "sha256": "db464ca6544a57747824a424d14a032f7f3b1031c9fda270a02e5cfe17dbc248"
+    },
+    {
+      "path": "Content/ReachContent/Diffuse_3_L3.xnb",
+      "bytes": 2494,
+      "sha256": "a957a7d180db8b3ba549f27907d4495975e331366ca04caacbb5a4ebd4e67994"
+    },
+    {
+      "path": "Content/ReachContent/Diffuse_4.xnb",
+      "bytes": 24518,
+      "sha256": "d74fba25b18071fa316ea7706567170cf978ac46a82a375709cc8d4dc2200a2d"
+    },
+    {
+      "path": "Content/ReachContent/Diffuse_4_L2.xnb",
+      "bytes": 7318,
+      "sha256": "caa4278abc729838298b2ffe707d861f77e95e75129bf550d36df3b7f4cb6869"
+    },
+    {
+      "path": "Content/ReachContent/Diffuse_4_L3.xnb",
+      "bytes": 2286,
+      "sha256": "a495b5e278e052303b3fe8fa7cef1df897ead70801171842bb9725834194d242"
+    },
+    {
+      "path": "Content/ReachContent/Diffuse_5.xnb",
+      "bytes": 126384,
+      "sha256": "b8c9d2b551e2207d36651491a4fb8496491f9fb24493cebb631232f7437effe3"
+    },
+    {
+      "path": "Content/ReachContent/Diffuse_5_L2.xnb",
+      "bytes": 32270,
+      "sha256": "d981582b987188241be3e3ee8cd39934d2320a6942905d49faa04827a788275c"
+    },
+    {
+      "path": "Content/ReachContent/Diffuse_5_L3.xnb",
+      "bytes": 8544,
+      "sha256": "8f5c91347ccbb20888559fee96ef76dcecebfae7806be73f55a89295142d5d00"
+    },
+    {
+      "path": "Content/ReachContent/Diffuse_6.xnb",
+      "bytes": 11920,
+      "sha256": "ad763f8d042b936a0f64ea820f79dd4766efbcb47014353608337281362a223a"
+    },
+    {
+      "path": "Content/ReachContent/Diffuse_6_L2.xnb",
+      "bytes": 4148,
+      "sha256": "8564ba4f7b87e76fc087f5fca77119c077786aae8206aad6b2fcd82458d9b2dd"
+    },
+    {
+      "path": "Content/ReachContent/Diffuse_6_L3.xnb",
+      "bytes": 1610,
+      "sha256": "b6e02e5709524f0475468683a11c591495974d08e8e7be372b5ac92f8972fea6"
+    },
+    {
+      "path": "Content/ReachContent/Diffuse_7.xnb",
+      "bytes": 23322,
+      "sha256": "068fb7d2d81b6bc6b1c5b9132686242891fc6389ad317726aea108a8d5a148c4"
+    },
+    {
+      "path": "Content/ReachContent/Diffuse_7_L2.xnb",
+      "bytes": 6324,
+      "sha256": "2ee11d050a232ba6f6a4b5906821ba06066768fbae889ec4098bb552514876b8"
+    },
+    {
+      "path": "Content/ReachContent/Diffuse_7_L3.xnb",
+      "bytes": 2014,
+      "sha256": "a169171b8b94af1373547e78558fd1417bfe891bbb5ab236a4a6d153609402a0"
+    },
+    {
+      "path": "Content/ReachContent/Diffuse_8.xnb",
+      "bytes": 99576,
+      "sha256": "cb075bfca0755e024462738bb0cd72b3c8708e07ca8c548ccafc6baaa90e459d"
+    },
+    {
+      "path": "Content/ReachContent/Diffuse_8_L2.xnb",
+      "bytes": 26278,
+      "sha256": "cbb21317e9fe6e779d8bded644c04f633de7fc345bd595efa84a310059218c1f"
+    },
+    {
+      "path": "Content/ReachContent/Diffuse_8_L3.xnb",
+      "bytes": 7666,
+      "sha256": "a34872ddcdf1379a8ad242d7aea5c5b48066f391c24143067dd6baf82c90b4a3"
+    },
+    {
+      "path": "Content/ReachContent/Diffuse_9.xnb",
+      "bytes": 84444,
+      "sha256": "7f2d2d1ddd242f595b51a441b66de6109c187b072373f103c7e4c9e3181a5524"
+    },
+    {
+      "path": "Content/ReachContent/Diffuse_9_L2.xnb",
+      "bytes": 22368,
+      "sha256": "0dfa9ae097ef817760eb5b6c04061ff66ee6b90e3fbb5e029c44de652d45279f"
+    },
+    {
+      "path": "Content/ReachContent/Diffuse_9_L3.xnb",
+      "bytes": 6652,
+      "sha256": "a0a896ae9f81ea38384fbf866dbb54aaead6a656e8f709a8f8372d037cbca262"
+    },
+    {
+      "path": "Content/ReachContent/GemDiffuse_0.xnb",
+      "bytes": 243,
+      "sha256": "85519ec896ec017fc88491dbb0b3dacc1a821d0ff5513466bc92d8714fd5467f"
+    },
+    {
+      "path": "Content/ReachContent/GemDiffuse_0_L2.xnb",
+      "bytes": 243,
+      "sha256": "85519ec896ec017fc88491dbb0b3dacc1a821d0ff5513466bc92d8714fd5467f"
+    },
+    {
+      "path": "Content/ReachContent/GemDiffuse_0_L3.xnb",
+      "bytes": 243,
+      "sha256": "85519ec896ec017fc88491dbb0b3dacc1a821d0ff5513466bc92d8714fd5467f"
+    },
+    {
+      "path": "Content/ReachContent/GemNormal_0.xnb",
+      "bytes": 340,
+      "sha256": "c5447869ece9bda5cee7d1bba150c2b37928340914551c8050f40bc31794ef66"
+    },
+    {
+      "path": "Content/ReachContent/GemNormal_0_L2.xnb",
+      "bytes": 286,
+      "sha256": "d0639709fbccd1e243fc335875d97de9efaafbb6ca3238a81be9a79de391da60"
+    },
+    {
+      "path": "Content/ReachContent/GemNormal_0_L3.xnb",
+      "bytes": 264,
+      "sha256": "bd91df3b445626c8d4cd054f5698c6bdcf0dc3aaea7687c8b45c604fba6a289c"
+    },
+    {
+      "path": "Content/ReachContent/GemSpecular_0.xnb",
+      "bytes": 342,
+      "sha256": "6c02a6269208527113c4d05fe129aa1359b872a061baecf6d5fe2b7dd5fa0082"
+    },
+    {
+      "path": "Content/ReachContent/GemSpecular_0_L2.xnb",
+      "bytes": 288,
+      "sha256": "c1b8fbf6f29a100a103f8367d7f3c08e5fd16d07d8dc3cec80b3cbfe200e1d8e"
+    },
+    {
+      "path": "Content/ReachContent/GemSpecular_0_L3.xnb",
+      "bytes": 268,
+      "sha256": "b2cd1095ed099d9e92efe3b37b10338890a9c8a7eee6409f1cb1f5de112d3995"
+    },
+    {
+      "path": "Content/ReachContent/Normal_0.xnb",
+      "bytes": 219,
+      "sha256": "b02944aee5cc18960da8fb2fc3b815267f21e5faee48eed8d958cd090c960729"
+    },
+    {
+      "path": "Content/ReachContent/Normal_0_L2.xnb",
+      "bytes": 219,
+      "sha256": "b02944aee5cc18960da8fb2fc3b815267f21e5faee48eed8d958cd090c960729"
+    },
+    {
+      "path": "Content/ReachContent/Normal_0_L3.xnb",
+      "bytes": 219,
+      "sha256": "b02944aee5cc18960da8fb2fc3b815267f21e5faee48eed8d958cd090c960729"
+    },
+    {
+      "path": "Content/ReachContent/Normal_reach_0.xnb",
+      "bytes": 219,
+      "sha256": "ebb055663320a57af5a0887e962f396362a6c2130b947c61dfaa2baef9497db6"
+    },
+    {
+      "path": "Content/ReachContent/Normal_reach_0_L2.xnb",
+      "bytes": 219,
+      "sha256": "ebb055663320a57af5a0887e962f396362a6c2130b947c61dfaa2baef9497db6"
+    },
+    {
+      "path": "Content/ReachContent/Normal_reach_0_L3.xnb",
+      "bytes": 219,
+      "sha256": "ebb055663320a57af5a0887e962f396362a6c2130b947c61dfaa2baef9497db6"
+    },
+    {
+      "path": "Content/ReachContent/Normal_reach_1.xnb",
+      "bytes": 219,
+      "sha256": "ebb055663320a57af5a0887e962f396362a6c2130b947c61dfaa2baef9497db6"
+    },
+    {
+      "path": "Content/ReachContent/Normal_reach_1_L2.xnb",
+      "bytes": 219,
+      "sha256": "ebb055663320a57af5a0887e962f396362a6c2130b947c61dfaa2baef9497db6"
+    },
+    {
+      "path": "Content/ReachContent/Normal_reach_1_L3.xnb",
+      "bytes": 219,
+      "sha256": "ebb055663320a57af5a0887e962f396362a6c2130b947c61dfaa2baef9497db6"
+    },
+    {
+      "path": "Content/ReachContent/Normal_reach_2.xnb",
+      "bytes": 219,
+      "sha256": "ebb055663320a57af5a0887e962f396362a6c2130b947c61dfaa2baef9497db6"
+    },
+    {
+      "path": "Content/ReachContent/Normal_reach_3.xnb",
+      "bytes": 219,
+      "sha256": "ebb055663320a57af5a0887e962f396362a6c2130b947c61dfaa2baef9497db6"
+    },
+    {
+      "path": "Content/ReachContent/Normal_reach_3_L2.xnb",
+      "bytes": 219,
+      "sha256": "ebb055663320a57af5a0887e962f396362a6c2130b947c61dfaa2baef9497db6"
+    },
+    {
+      "path": "Content/ReachContent/Normal_reach_3_L3.xnb",
+      "bytes": 219,
+      "sha256": "ebb055663320a57af5a0887e962f396362a6c2130b947c61dfaa2baef9497db6"
+    },
+    {
+      "path": "Content/ReachContent/Normal_reach_4.xnb",
+      "bytes": 219,
+      "sha256": "ebb055663320a57af5a0887e962f396362a6c2130b947c61dfaa2baef9497db6"
+    },
+    {
+      "path": "Content/ReachContent/Normal_reach_4_L2.xnb",
+      "bytes": 219,
+      "sha256": "ebb055663320a57af5a0887e962f396362a6c2130b947c61dfaa2baef9497db6"
+    },
+    {
+      "path": "Content/ReachContent/Normal_reach_4_L3.xnb",
+      "bytes": 219,
+      "sha256": "ebb055663320a57af5a0887e962f396362a6c2130b947c61dfaa2baef9497db6"
+    },
+    {
+      "path": "Content/ReachContent/PistolNormal_0.xnb",
+      "bytes": 467326,
+      "sha256": "a545839f9a77ab1d42d1cf1613aad189e6181ebc12bb78929e7052532c340a4e"
+    },
+    {
+      "path": "Content/ReachContent/PistolNormal_0_L2.xnb",
+      "bytes": 118132,
+      "sha256": "0640054fd5133077ceec142cef3ba0c4b4f00a80fb8e686869629fb2b2d6ad82"
+    },
+    {
+      "path": "Content/ReachContent/PistolNormal_0_L3.xnb",
+      "bytes": 30090,
+      "sha256": "e7a81d00614cd2f7a30cfd65f96d911a6ef364b62673fc597335b2388827cfd5"
+    },
+    {
+      "path": "Content/ReachContent/Props/Items/Ammo/Model.xnb",
+      "bytes": 3008,
+      "sha256": "87393fd02691da2119064bc99ae6ac4edb62914a56773d9c7d1689261066bd79"
+    },
+    {
+      "path": "Content/ReachContent/Props/Items/Bars/Model.xnb",
+      "bytes": 3116,
+      "sha256": "1df11f0398a3ca14f4bcb7bf0d000c57f3cadad28d04c17b5205154717731082"
+    },
+    {
+      "path": "Content/ReachContent/Props/Items/Diamond/Door/Model.xnb",
+      "bytes": 6688,
+      "sha256": "034f3dda3d42211ee69a7beff19b1a507dac11f9d1f3d29dcd6e2081f4bc7bd8"
+    },
+    {
+      "path": "Content/ReachContent/Props/Items/Door/Model.xnb",
+      "bytes": 6718,
+      "sha256": "7f4039062e596b2134c068421f9065c4efb3cd6857505594a95d33cada15c88b"
+    },
+    {
+      "path": "Content/ReachContent/Props/Items/Gems/Model.xnb",
+      "bytes": 8292,
+      "sha256": "c49bf5e1ec20e22b5182456c044f204348d55b86b22aa185ba0af420a14729ee"
+    },
+    {
+      "path": "Content/ReachContent/Props/Items/GunPowder/Model.xnb",
+      "bytes": 2754,
+      "sha256": "536d58ac1cb1b81ae97a9ad428640f99545be4c96d2737c72d6d440eef9f80b7"
+    },
+    {
+      "path": "Content/ReachContent/Props/Items/IronDoor/Model.xnb",
+      "bytes": 13944,
+      "sha256": "a8f49f138ddbe6f42f3c5e9fa2a11e74e52f1a00a3688b7c1f52dec7111d0e7e"
+    },
+    {
+      "path": "Content/ReachContent/Props/Items/Ore/Model.xnb",
+      "bytes": 21798,
+      "sha256": "bcc8c637f2bdfdca3eb622e9c1df1821efeea87f7bf88a1dbd2ad09bae0a696e"
+    },
+    {
+      "path": "Content/ReachContent/Props/Items/TechDoor/Model.xnb",
+      "bytes": 13946,
+      "sha256": "83a90dee2a9135e18ef0c773e26d65a2aed7980cb458294c6b8dddd603549d84"
+    },
+    {
+      "path": "Content/ReachContent/Props/Items/Torch/Model.xnb",
+      "bytes": 7260,
+      "sha256": "770c0beb2659a2d20d6495405d2a424ecac780225dbee9dadeff106ad33d87e9"
+    },
+    {
+      "path": "Content/ReachContent/Props/Tools/Axe/Model.xnb",
+      "bytes": 15896,
+      "sha256": "2024bf9b9d0b3ab305c4e275255b8dcc7a7d5dc08b68def8b63c934f676abfef"
+    },
+    {
+      "path": "Content/ReachContent/Props/Tools/Chainsaw/Model.xnb",
+      "bytes": 73726,
+      "sha256": "49598023b2cfacab092f4a32e3e785dbecb55885df4b55a792d65db23eacbe60"
+    },
+    {
+      "path": "Content/ReachContent/Props/Tools/Clock/Model.xnb",
+      "bytes": 8528,
+      "sha256": "5089a880ad0f32b7a658a5d8c8b30ecb5498104cec5d7e721d62b3272291dbf4"
+    },
+    {
+      "path": "Content/ReachContent/Props/Tools/Compass/Model.xnb",
+      "bytes": 8460,
+      "sha256": "908a37bad1e78712ea750595f0fa1b6aa274e94ef93d3f43c2d8ea3802e5bc86"
+    },
+    {
+      "path": "Content/ReachContent/Props/Tools/Drill/Model.xnb",
+      "bytes": 183078,
+      "sha256": "1ad283bcc22251afbc94058bdd5ddb11a9e80532c7728ed426ebdb88f0a18c5d"
+    },
+    {
+      "path": "Content/ReachContent/Props/Tools/Locator/Model.xnb",
+      "bytes": 8536,
+      "sha256": "0a458f6c117993f897fcbd66d29a04c43959493cc71b2d46a7a0577d8245dda6"
+    },
+    {
+      "path": "Content/ReachContent/Props/Tools/PickAxe/Model.xnb",
+      "bytes": 19456,
+      "sha256": "dcc4d44b2f7728d4b500eee189dc0667c330f6fa58533c16264ee0d24087a2d2"
+    },
+    {
+      "path": "Content/ReachContent/Props/Tools/Spade/Model.xnb",
+      "bytes": 60650,
+      "sha256": "ecd4c51018f14a04678ab1e437af05585d713f4a220be1de65487a5f5df51bcd"
+    },
+    {
+      "path": "Content/ReachContent/Props/Tools/Teleporter/Model.xnb",
+      "bytes": 8534,
+      "sha256": "93f5fffdea6670b9ef7b448c13085a95e597af82b8e5230f61fbd0ef00be0010"
+    },
+    {
+      "path": "Content/ReachContent/Props/Weapons/Conventional/AR/Model.xnb",
+      "bytes": 35374,
+      "sha256": "ec3cb2a310f4d0509bfb73271d72a719c82b263453703b38d1c450e6caa080c5"
+    },
+    {
+      "path": "Content/ReachContent/Props/Weapons/Conventional/Grenade/Model.xnb",
+      "bytes": 28214,
+      "sha256": "56ece3e884db5870e2b629a1cf37d8d26d2de80c14ad5ddeae8d18d4f2fd8c32"
+    },
+    {
+      "path": "Content/ReachContent/Props/Weapons/Conventional/Knife/Model.xnb",
+      "bytes": 10210,
+      "sha256": "ffadf039a4932620d0b48283d7aa60c624f0826ef52f0e47057bef8045d89200"
+    },
+    {
+      "path": "Content/ReachContent/Props/Weapons/Conventional/Launcher/Model.xnb",
+      "bytes": 28460,
+      "sha256": "aa4940fd2b8424af410baae4a4bb6e738f41f9421d80abdce6e643e2c0311cf8"
+    },
+    {
+      "path": "Content/ReachContent/Props/Weapons/Conventional/Launcher/RPGGrenade.xnb",
+      "bytes": 5226,
+      "sha256": "2461e20614cdfec32a104abbed707638c0b94ef30a46ed4b58acb740020dc27a"
+    },
+    {
+      "path": "Content/ReachContent/Props/Weapons/Conventional/LMG/Model.xnb",
+      "bytes": 45940,
+      "sha256": "c9cd46561caf7e5cc1dc6f24ab09d65fce47dda853cf48796ab66d8dbecac233"
+    },
+    {
+      "path": "Content/ReachContent/Props/Weapons/Conventional/Pistol/Model.xnb",
+      "bytes": 32604,
+      "sha256": "0695e3a75891159824ca7127621a1494a91c1c369e166c78481608ecc47f4807"
+    },
+    {
+      "path": "Content/ReachContent/Props/Weapons/Conventional/Rifle/Model.xnb",
+      "bytes": 31656,
+      "sha256": "80c153ac032308f1fa65fbe6c4535be868b9d9abdc63c448f39be27e749e7324"
+    },
+    {
+      "path": "Content/ReachContent/Props/Weapons/Conventional/RPG/Model.xnb",
+      "bytes": 28754,
+      "sha256": "1560c043d0e7506d6e3390d5a7018908016c0889a62f9e252e8c17a963936729"
+    },
+    {
+      "path": "Content/ReachContent/Props/Weapons/Conventional/RPG/RPGGrenade.xnb",
+      "bytes": 5424,
+      "sha256": "d0ad24f77437aed25f3340166d485d3389f249ca762a0d3162c4c8feeab00443"
+    },
+    {
+      "path": "Content/ReachContent/Props/Weapons/Conventional/Shotgun/Model.xnb",
+      "bytes": 20018,
+      "sha256": "02e1f0531436c761025f5e2831e3264a5b4360e1cab346672a3ab9058b516fed"
+    },
+    {
+      "path": "Content/ReachContent/Props/Weapons/Conventional/SMG/Model.xnb",
+      "bytes": 32024,
+      "sha256": "7c04e17530e1211d5b8f31b16fe14edcb4dd1e22c00eeb3f5a56b31ab470a06c"
+    },
+    {
+      "path": "Content/ReachContent/Props/Weapons/Space/AR/Model.xnb",
+      "bytes": 183070,
+      "sha256": "739bde838be77800ff59a327b92bd5ef4be56ce0ced3881ea4ec399165562515"
+    },
+    {
+      "path": "Content/ReachContent/Props/Weapons/Space/LMG/Model.xnb",
+      "bytes": 210962,
+      "sha256": "6359d1ee58b1c400ebf46da1272b110775a924681d982a5c7f4ea17597bb5481"
+    },
+    {
+      "path": "Content/ReachContent/Props/Weapons/Space/Pistol/Model.xnb",
+      "bytes": 85270,
+      "sha256": "f5c21085ba8f7d3b4ce591cf19d2ef3c8defdc5f25e1d9904964d10c14e7d7b3"
+    },
+    {
+      "path": "Content/ReachContent/Props/Weapons/Space/Rifle/Model.xnb",
+      "bytes": 161494,
+      "sha256": "d22035ca634b914278424591e94586e85c4e38d4b7361bd7a2cd64ce20881d94"
+    },
+    {
+      "path": "Content/ReachContent/Props/Weapons/Space/Saber/Model.xnb",
+      "bytes": 29166,
+      "sha256": "fbdcf06ae44b448d2809e693bb483adb2d465707b38909e5003e3cff1575700c"
+    },
+    {
+      "path": "Content/ReachContent/Props/Weapons/Space/Shotgun/Model.xnb",
+      "bytes": 106954,
+      "sha256": "3064763e61a2aad0ff20abd38e0122143eefbbf3947e8de6fce8d3de05f22151"
+    },
+    {
+      "path": "Content/ReachContent/Props/Weapons/Space/SMG/Model.xnb",
+      "bytes": 100042,
+      "sha256": "dbfed918a9959879fd0be0d86ba0a019c381a1e568d1a7f3e141be663203b715"
+    },
+    {
+      "path": "Content/ReachContent/PropShader_reach_0.xnb",
+      "bytes": 2746,
+      "sha256": "02dc27676a96b51730e1e22472ab3ef97871f4b839fece1649dc68aa5c39c573"
+    },
+    {
+      "path": "Content/ReachContent/Reflection_0.xnb",
+      "bytes": 13056,
+      "sha256": "b7f31738fac6cefd896bdae1e7a33ca44dd87d2e5aa06a3ba189e649951267d1"
+    },
+    {
+      "path": "Content/ReachContent/Reflection_0_L2.xnb",
+      "bytes": 3892,
+      "sha256": "3b013a05ee3dec4007221adda669ab13ea8ecfce6ec3d076a75ebe8071dd599e"
+    },
+    {
+      "path": "Content/ReachContent/Reflection_0_L3.xnb",
+      "bytes": 1332,
+      "sha256": "441979c5437e019c94d6830cce0e29fd6e1f617d70261dd28b9b7eca7363d698"
+    },
+    {
+      "path": "Content/ReachContent/Reflection_1.xnb",
+      "bytes": 13056,
+      "sha256": "b7f31738fac6cefd896bdae1e7a33ca44dd87d2e5aa06a3ba189e649951267d1"
+    },
+    {
+      "path": "Content/ReachContent/Reflection_2.xnb",
+      "bytes": 13056,
+      "sha256": "b7f31738fac6cefd896bdae1e7a33ca44dd87d2e5aa06a3ba189e649951267d1"
+    },
+    {
+      "path": "Content/ReachContent/Reflection_2_L2.xnb",
+      "bytes": 3892,
+      "sha256": "3b013a05ee3dec4007221adda669ab13ea8ecfce6ec3d076a75ebe8071dd599e"
+    },
+    {
+      "path": "Content/ReachContent/Reflection_2_L3.xnb",
+      "bytes": 1332,
+      "sha256": "441979c5437e019c94d6830cce0e29fd6e1f617d70261dd28b9b7eca7363d698"
+    },
+    {
+      "path": "Content/ReachContent/Shaders/BlockEffect.xnb",
+      "bytes": 4868,
+      "sha256": "1d9a863ec553611a38ae7c6cfdecf40ecb8c629146f9c8acb861ca929bce613a"
+    },
+    {
+      "path": "Content/ReachContent/Specular_0.xnb",
+      "bytes": 219,
+      "sha256": "789cc7e039f5d750474e0751b43a03739c2fa66edf3dda20d52bd30597ef3a8c"
+    },
+    {
+      "path": "Content/ReachContent/Specular_0_L2.xnb",
+      "bytes": 219,
+      "sha256": "789cc7e039f5d750474e0751b43a03739c2fa66edf3dda20d52bd30597ef3a8c"
+    },
+    {
+      "path": "Content/ReachContent/Specular_0_L3.xnb",
+      "bytes": 219,
+      "sha256": "789cc7e039f5d750474e0751b43a03739c2fa66edf3dda20d52bd30597ef3a8c"
+    },
+    {
+      "path": "Content/ReachContent/Specular_reach_0.xnb",
+      "bytes": 219,
+      "sha256": "f4582a7ce668c9c9f198d2dfafea08640b54bf68ff0f07db2f8227ee789c6e78"
+    },
+    {
+      "path": "Content/ReachContent/Specular_reach_0_L2.xnb",
+      "bytes": 219,
+      "sha256": "f4582a7ce668c9c9f198d2dfafea08640b54bf68ff0f07db2f8227ee789c6e78"
+    },
+    {
+      "path": "Content/ReachContent/Specular_reach_0_L3.xnb",
+      "bytes": 219,
+      "sha256": "f4582a7ce668c9c9f198d2dfafea08640b54bf68ff0f07db2f8227ee789c6e78"
+    },
+    {
+      "path": "Content/ReachContent/Specular_reach_1.xnb",
+      "bytes": 219,
+      "sha256": "f4582a7ce668c9c9f198d2dfafea08640b54bf68ff0f07db2f8227ee789c6e78"
+    },
+    {
+      "path": "Content/ReachContent/Specular_reach_1_L2.xnb",
+      "bytes": 219,
+      "sha256": "f4582a7ce668c9c9f198d2dfafea08640b54bf68ff0f07db2f8227ee789c6e78"
+    },
+    {
+      "path": "Content/ReachContent/Specular_reach_1_L3.xnb",
+      "bytes": 219,
+      "sha256": "f4582a7ce668c9c9f198d2dfafea08640b54bf68ff0f07db2f8227ee789c6e78"
+    },
+    {
+      "path": "Content/ReachContent/Specular_reach_2.xnb",
+      "bytes": 219,
+      "sha256": "f4582a7ce668c9c9f198d2dfafea08640b54bf68ff0f07db2f8227ee789c6e78"
+    },
+    {
+      "path": "Content/ReachContent/Specular_reach_3.xnb",
+      "bytes": 219,
+      "sha256": "f4582a7ce668c9c9f198d2dfafea08640b54bf68ff0f07db2f8227ee789c6e78"
+    },
+    {
+      "path": "Content/ReachContent/Specular_reach_3_L2.xnb",
+      "bytes": 219,
+      "sha256": "f4582a7ce668c9c9f198d2dfafea08640b54bf68ff0f07db2f8227ee789c6e78"
+    },
+    {
+      "path": "Content/ReachContent/Specular_reach_3_L3.xnb",
+      "bytes": 219,
+      "sha256": "f4582a7ce668c9c9f198d2dfafea08640b54bf68ff0f07db2f8227ee789c6e78"
+    },
+    {
+      "path": "Content/ReachContent/Specular_reach_4.xnb",
+      "bytes": 219,
+      "sha256": "f4582a7ce668c9c9f198d2dfafea08640b54bf68ff0f07db2f8227ee789c6e78"
+    },
+    {
+      "path": "Content/ReachContent/Specular_reach_4_L2.xnb",
+      "bytes": 219,
+      "sha256": "f4582a7ce668c9c9f198d2dfafea08640b54bf68ff0f07db2f8227ee789c6e78"
+    },
+    {
+      "path": "Content/ReachContent/Specular_reach_4_L3.xnb",
+      "bytes": 219,
+      "sha256": "f4582a7ce668c9c9f198d2dfafea08640b54bf68ff0f07db2f8227ee789c6e78"
+    },
+    {
+      "path": "Content/ReachContent/SWAT_blue_D_0.xnb",
+      "bytes": 438518,
+      "sha256": "8d982601a3693d3d9cf1185c5063419cde627baccd91f7742d78ddc7346d4703"
+    },
+    {
+      "path": "Content/ReachContent/SWAT_blue_D_0_L2.xnb",
+      "bytes": 110426,
+      "sha256": "40c72b0af5e5f445d4f9db561ff43a50946afa747c053dc6e6186bcca8aedaea"
+    },
+    {
+      "path": "Content/ReachContent/SWAT_blue_D_0_L3.xnb",
+      "bytes": 30838,
+      "sha256": "e56085ed7768697b7d097ec9a8039f53d617c12fbef303eea1e12c325bce722f"
+    },
+    {
+      "path": "Content/ReachContent/SWAT_N_reach_0.xnb",
+      "bytes": 219,
+      "sha256": "ebb055663320a57af5a0887e962f396362a6c2130b947c61dfaa2baef9497db6"
+    },
+    {
+      "path": "Content/ReachContent/SWAT_N_reach_0_L2.xnb",
+      "bytes": 219,
+      "sha256": "ebb055663320a57af5a0887e962f396362a6c2130b947c61dfaa2baef9497db6"
+    },
+    {
+      "path": "Content/ReachContent/SWAT_N_reach_0_L3.xnb",
+      "bytes": 219,
+      "sha256": "ebb055663320a57af5a0887e962f396362a6c2130b947c61dfaa2baef9497db6"
+    },
+    {
+      "path": "Content/ReachContent/SWAT_S_reach_0.xnb",
+      "bytes": 219,
+      "sha256": "f4582a7ce668c9c9f198d2dfafea08640b54bf68ff0f07db2f8227ee789c6e78"
+    },
+    {
+      "path": "Content/ReachContent/SWAT_S_reach_0_L2.xnb",
+      "bytes": 219,
+      "sha256": "f4582a7ce668c9c9f198d2dfafea08640b54bf68ff0f07db2f8227ee789c6e78"
+    },
+    {
+      "path": "Content/ReachContent/SWAT_S_reach_0_L3.xnb",
+      "bytes": 219,
+      "sha256": "f4582a7ce668c9c9f198d2dfafea08640b54bf68ff0f07db2f8227ee789c6e78"
+    },
+    {
+      "path": "Content/ReachContent/Terrain/Textures.xnb",
+      "bytes": 5087064,
+      "sha256": "7e49988c4df4a40a9309a5a6ef1c9cf98ec5077e4c218be57ec6c33f91d3dcf1"
+    },
+    {
+      "path": "Content/ReachContent/Textures/Skys/ClearSky.xnb",
+      "bytes": 877792,
+      "sha256": "8cced745be0042b253c80d604fa42bf9e57c74f1617133cb66792f45559cd5cc"
+    },
+    {
+      "path": "Content/ReachContent/Textures/Skys/DawnSky.xnb",
+      "bytes": 527944,
+      "sha256": "297cd23af93d51221cd7b81e0d65bea1bda6ca398efb0114a057060f3a3804ce"
+    },
+    {
+      "path": "Content/ReachContent/Textures/Skys/NightSky.xnb",
+      "bytes": 335676,
+      "sha256": "d0531b2957906ee3b5504b8cccd966b66a7d1aaded3a93ada9eac54473bcd7da"
+    },
+    {
+      "path": "Content/ReachContent/Textures/Skys/SunSet.xnb",
+      "bytes": 658322,
+      "sha256": "9ea4e788392d2d9bb6487994b187df2fd4da8ddd95ef8ed5b5a482aa87690e12"
+    },
+    {
+      "path": "Content/ReachContent/TracerShader_0.xnb",
+      "bytes": 944,
+      "sha256": "da9f090b7aba8df30fdb574a7fa53ce9bb247ecf34e487bf4cf1c87e52fde41c"
+    },
+    {
+      "path": "Content/ReachContent/weap_chainsaw_txt_Demonhorn_0.xnb",
+      "bytes": 445522,
+      "sha256": "94de58eaac38c7dae2d02682468207f25cdca61fb2d4d196566d78566fa1aeb4"
+    },
+    {
+      "path": "Content/Reflection_0.xnb",
+      "bytes": 13056,
+      "sha256": "b7f31738fac6cefd896bdae1e7a33ca44dd87d2e5aa06a3ba189e649951267d1"
+    },
+    {
+      "path": "Content/Reflection_1.xnb",
+      "bytes": 13056,
+      "sha256": "b7f31738fac6cefd896bdae1e7a33ca44dd87d2e5aa06a3ba189e649951267d1"
+    },
+    {
+      "path": "Content/Reflection_1_L2.xnb",
+      "bytes": 3892,
+      "sha256": "3b013a05ee3dec4007221adda669ab13ea8ecfce6ec3d076a75ebe8071dd599e"
+    },
+    {
+      "path": "Content/Reflection_1_L3.xnb",
+      "bytes": 1332,
+      "sha256": "441979c5437e019c94d6830cce0e29fd6e1f617d70261dd28b9b7eca7363d698"
+    },
+    {
+      "path": "Content/Reflection_2.xnb",
+      "bytes": 13056,
+      "sha256": "b7f31738fac6cefd896bdae1e7a33ca44dd87d2e5aa06a3ba189e649951267d1"
+    },
+    {
+      "path": "Content/Reflection_2_L2.xnb",
+      "bytes": 3892,
+      "sha256": "3b013a05ee3dec4007221adda669ab13ea8ecfce6ec3d076a75ebe8071dd599e"
+    },
+    {
+      "path": "Content/Reflection_2_L3.xnb",
+      "bytes": 1332,
+      "sha256": "441979c5437e019c94d6830cce0e29fd6e1f617d70261dd28b9b7eca7363d698"
+    },
+    {
+      "path": "Content/Rock CC-1-Diffuse_0.xnb",
+      "bytes": 17390,
+      "sha256": "b480453662fba77c139f6b21bbb8246934417c9e4173d237bb1fd27c9ecc1ca3"
+    },
+    {
+      "path": "Content/Selector.xnb",
+      "bytes": 720,
+      "sha256": "44afb09e1dce8ddadcd85a7172192b288146225c13f8ea9ebaee03bc827fc504"
+    },
+    {
+      "path": "Content/Shaders/TextureSky.xnb",
+      "bytes": 1246,
+      "sha256": "e8d05790eda1b97504ba3fa0694636f11773d9a1f0d7ca742dfe6d064ebf0cea"
+    },
+    {
+      "path": "Content/Shaders/Tracer.xnb",
+      "bytes": 588,
+      "sha256": "f3a0dbd67e00633e2ae67d67571170a1a42837769b1d6d1f9b85cd9788f93eae"
+    },
+    {
+      "path": "Content/Shaders/WaterEffect.xnb",
+      "bytes": 2490,
+      "sha256": "8b7b9681a1017c48898c48001e3b25c1e99cd97df3e019f8b62e56509e36661b"
+    },
+    {
+      "path": "Content/Shadow.xnb",
+      "bytes": 442,
+      "sha256": "1ed5269becede0211ee609a0af362abbd9ec3e56d21b5f97e5016c2b6b2c7831"
+    },
+    {
+      "path": "Content/SkySphere.xnb",
+      "bytes": 726,
+      "sha256": "1978e3de020631ea6055884c229f6c0bf1f30fa35988c595e4f2ed5c0622374c"
+    },
+    {
+      "path": "Content/SnowBallDiffuse_0.xnb",
+      "bytes": 8724,
+      "sha256": "6012efc674cf99fa07f6c20af72ec7674b224cdcc5056745f8329d4f5e929a99"
+    },
+    {
+      "path": "Content/Sounds.xgs",
+      "bytes": 1505,
+      "sha256": "2062f94479ff540a32d0e2a72b5911497506237744568de05722c6eb52441bfd"
+    },
+    {
+      "path": "Content/Sounds.xsb",
+      "bytes": 7835,
+      "sha256": "a09b4fd5d7398ac1e61e97dc1ecd5d9bc19966fc09f403e6bdcb41ee7a25a82a"
+    },
+    {
+      "path": "Content/Sounds.xwb",
+      "bytes": 8452140,
+      "sha256": "e5577f62d59915ac5a31ccab21bb1dcfb31ae173c5e23d8b7e37d0a28c4f271d"
+    },
+    {
+      "path": "Content/SoundsStreaming.xwb",
+      "bytes": 4839424,
+      "sha256": "77bc50d280034412e8a379f26981c1b2fd84d21f11da03704eaf41d491d2f4c3"
+    },
+    {
+      "path": "Content/Sphere.xnb",
+      "bytes": 1262,
+      "sha256": "a14e1f7be94f0033bb816b314959b28a7878756f1344bf16ccd58063d762a0e7"
+    },
+    {
+      "path": "Content/Star.xnb",
+      "bytes": 4280,
+      "sha256": "e4ef7d47c77fd843c00d98f987a890d2156f40b6ddbd2248dc99878798090067"
+    },
+    {
+      "path": "Content/Textures/EnvMaps/envmap0.xnb",
+      "bytes": 8364,
+      "sha256": "c46f229c8653e8beacf3faefd159a4da4be7663ea49c6d3900dd2f6478b32d81"
+    },
+    {
+      "path": "Content/Textures/EnvMaps/envmap1.xnb",
+      "bytes": 14922,
+      "sha256": "ec32366520b2cccd2ca8141dccf0243447ca79db9a4450ee431686cea1bb7abb"
+    },
+    {
+      "path": "Content/Textures/EnvMaps/envmap2.xnb",
+      "bytes": 19116,
+      "sha256": "7c10e328cabcca61d0706a93401d63d7094ead1543ebcf06a455f4f1c0718ca4"
+    },
+    {
+      "path": "Content/Textures/EnvMaps/envmap3.xnb",
+      "bytes": 30942,
+      "sha256": "314121345d00e733cd94d6ed72cae688ffd6790354909006875d748dcbdb6c1b"
+    },
+    {
+      "path": "Content/TracerShader_0.xnb",
+      "bytes": 1044,
+      "sha256": "248783bd4328357ee0ca280c54d4e57cc1e6cba815a905387b0f2cbc52e64996"
+    },
+    {
+      "path": "Content/UI/CMZREAd.xnb",
+      "bytes": 229316,
+      "sha256": "fc3dfe7e6b28919d9c9d31d559859c57240494f65faf6ee1607bdc02391553cd"
+    },
+    {
+      "path": "Content/UI/CMZREAdSelected.xnb",
+      "bytes": 230626,
+      "sha256": "58b9d93970f07c3a8ddf185f2b706e2d8e0fb2c3185b2802af3e848a36a879ef"
+    },
+    {
+      "path": "Content/UI/Screens/DialogBack.xnb",
+      "bytes": 1854,
+      "sha256": "29a591535943360cc5e85879fb79507204ad25a5aab225a660e93ca27b6d70fe"
+    },
+    {
+      "path": "Content/UI/Screens/LoadScreen.xnb",
+      "bytes": 1236770,
+      "sha256": "3c35e9bafedad20c3a0f91a5d5b6341b13ae54b8fccd9202eccff359b299e845"
+    },
+    {
+      "path": "Content/UI/Screens/MenuBack.xnb",
+      "bytes": 813612,
+      "sha256": "07aa881414430042ec649e8ecd7c004de7704d050a737ced89490b5d3665dad1"
+    },
+    {
+      "path": "Content/UI/SmallControlFont.xnb",
+      "bytes": 7726,
+      "sha256": "f834788eb008cd666dc77f523af6adee31687733ff24d6dd745504285fb1140f"
+    },
+    {
+      "path": "Content/UI/SpriteSheet.xnb",
+      "bytes": 365680,
+      "sha256": "62c84ac64ab3f3c4ca96b6ba5d1f9eef802b4bf09bc032c93410785fa6c6ed1b"
+    },
+    {
+      "path": "Content/White_0.xnb",
+      "bytes": 219,
+      "sha256": "acfe57906451ed8a4723ee37dd611648f3b0e244e0cc061477ef0037de6cc937"
+    },
+    {
+      "path": "Content/White_1.xnb",
+      "bytes": 219,
+      "sha256": "acfe57906451ed8a4723ee37dd611648f3b0e244e0cc061477ef0037de6cc937"
+    },
+    {
+      "path": "Content/WhiteBox.xnb",
+      "bytes": 604,
+      "sha256": "d5ba779b80b0e1fccf3b9e347ae481315da6796a96b8bcc23c9abe7e824d5fec"
+    },
+    {
+      "path": "DNA.Common.dll",
+      "bytes": 634368,
+      "sha256": "7e95dd85315ebf21b9256e58e26cb623a81a5cb5a4f4554a9574870ee6f708e8"
+    },
+    {
+      "path": "DNA.Steam.dll",
+      "bytes": 115712,
+      "sha256": "c58b940b4ec956e0c3249284397294aa7f64bc889a7a36a82fbbb6ea48c68be6"
+    },
+    {
+      "path": "HiDefContentLib.dll",
+      "bytes": 4096,
+      "sha256": "610ed074d4b5bc87a3cb58d0ad7ced86ef65a71b2bc52a7588c29277cc72206b"
+    },
+    {
+      "path": "ReachContentLib.dll",
+      "bytes": 4096,
+      "sha256": "da99460196dcca54c884587b178e4cddb093b07eb03dd6589f53bc9cbfd705ba"
+    }
+  ]
+}
