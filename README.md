@@ -1,4 +1,4 @@
-# CastleMiner Z VR Mod (Unofficial PC VR & Meta Quest Crossplay Beta)
+# CastleMiner Z VR Mod (Official GitHub Hub)
 
 Welcome to the official repository for the **CastleMiner Z VR Mod**, developed by ItssnotTristan. This project is a fully functional, unofficial virtual reality (VR) mod for the Steam version of CastleMiner Z, bringing immersive voxel survival, tracked head movement, motion controllers, and crossplay to both PC VR headsets and standalone Meta Quest devices.
 
