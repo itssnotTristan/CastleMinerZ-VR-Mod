@@ -29,6 +29,10 @@ has installed, close the app and rerun the complete setup before playing.
 
 - Existing exact-match v0.58 imports need no receipt migration. The v0.58.1 APK
   continues to accept them. Use an in-place APK update; never uninstall first.
+- The published v0.58 APK contains CRLF checksum-list lines, which its native
+  parser rejects. This candidate packages LF lines. If v0.58 cannot reach the
+  menu, run the complete candidate setup or manually install its verified APK
+  in place; the in-game updater cannot repair an app that cannot start.
 - If v0.58 setup failed at `hud-items.rgba`, run the complete v0.58.1 setup. A newly
   generated GPU variant needs both the new validator APK and its receipt. Do not
   combine the repaired installer with the old v0.58 APK.
