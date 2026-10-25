@@ -1,5 +1,7 @@
 # CastleMiner Z VR — Quest installation
 
+Review candidate: **v0.58.1 installer repair**. Publication is held. Read [candidate changes and existing-install guidance](RELEASE-CANDIDATE-v0.58.1.md) before testing. The public release links below still refer to the previously published version.
+
 This is the standalone Quest build. You use a Windows PC once to install it and import files from your own Steam copy. After setup, the game runs on the headset without Link, Air Link, or a connected PC.
 
 ## What you need
@@ -17,7 +19,7 @@ This is the standalone Quest build. You use a Windows PC once to install it and 
 3. Download Google's official [Android SDK Platform-Tools for Windows](https://developer.android.com/tools/releases/platform-tools) and extract that ZIP too. You will select its `adb.exe` if setup cannot find it automatically. A SideQuest installation can also provide adb.
 4. Connect your Quest by USB. Put on the headset, allow **USB debugging**, and wake both controllers. If the prompt does not appear, check that Developer Mode is on and that the cable supports data.
 5. On the PC, double-click **Setup Quest.cmd**. It finds your Steam installation or asks you to choose the folder containing `CastleMinerZ.exe`. If prompted, select `adb.exe` in the platform-tools folder. Setup uses files on your PC; it does not ask for your Steam password.
-6. Leave the setup window open. It converts your own game files, verifies them, installs the APK, copies and verifies the game data, and installs the original-file check. The audio converter downloads from its official release during the first conversion. The window must finish with **Standalone Quest setup complete**.
+6. Leave the setup window open. It converts your own game files, verifies them, stages and verifies the USB copy, installs the APK in place, and installs the original-file check. The audio converter downloads from its official release during the first conversion. The window must finish with **Standalone Quest setup complete**.
 7. In the Quest app library, choose **Unknown Sources**, then **CastleMiner Z VR - Integration**. The library filter's location can vary with headset software. Keep both controllers awake if the headset shows a controllers-required screen. The DigitalDNA intro lasts about 14 seconds before the main menu.
 
 Once the main menu opens, you can unplug USB. Select **Play Offline**, or use the multiplayer options with players on the matching PC/Quest version.

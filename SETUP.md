@@ -1,5 +1,7 @@
 # Setup and troubleshooting
 
+Review candidate: **v0.58.1 installer repair**. Publication is held. Read [candidate changes and existing-install guidance](RELEASE-CANDIDATE-v0.58.1.md) before testing. The public release links below still refer to the previously published version.
+
 ## Folder layout
 
 Use the folder opened by Steam → CastleMiner Z → Manage → Browse local files. After extracting the mod, it should look like this:

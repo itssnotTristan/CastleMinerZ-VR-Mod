@@ -2,7 +2,8 @@ param(
     [string]$GameDirectory,
     [string]$Adb,
     [string]$Serial,
-    [switch]$CheckOnly
+    [switch]$CheckOnly,
+    [switch]$NoLaunch
 )
 $ErrorActionPreference = 'Stop'
 Set-StrictMode -Version 2
@@ -44,28 +45,28 @@ if (-not $Adb) {
     else { $Adb = Join-Path $env:LOCALAPPDATA 'Android\Sdk\platform-tools\adb.exe' }
 }
 if (-not (Test-Path -LiteralPath $Adb -PathType Leaf)) { throw 'Android platform-tools (adb) was not found. Supply -Adb with the adb.exe used to install the APK.' }
-function Invoke-QuestAdb {param([Parameter(ValueFromRemainingArguments=$true)][string[]]$Arguments)
+function Invoke-QuestAdb {param([Parameter(Mandatory=$true)][string[]]$Arguments)
     $result = & $Adb @Arguments 2>&1
     if ($LASTEXITCODE -ne 0) { throw ('Quest USB command failed: ' + ($result -join "`n")) }
     return ($result -join "`n")
 }
-$devices = Invoke-QuestAdb @('devices','-l')
+$devices = Invoke-QuestAdb -Arguments @('devices','-l')
 $ready = @([regex]::Matches($devices, '(?m)^([^\s]+)\s+device\b') | ForEach-Object { $_.Groups[1].Value } | Where-Object { -not $_.StartsWith('emulator-') })
 if (-not $Serial) {
     if ($ready.Count -ne 1) { throw 'Connect one Quest by USB, allow USB debugging in the headset, or specify -Serial when multiple devices are connected.' }
     $Serial = $ready[0]
 }
 if ($ready -notcontains $Serial) { throw 'The selected Quest is not connected and authorized for USB debugging.' }
-$model = Invoke-QuestAdb @('-s',$Serial,'shell','getprop','ro.product.model')
+$model = Invoke-QuestAdb -Arguments @('-s',$Serial,'shell','getprop','ro.product.model')
 if ($model -notmatch '(?i)quest') { throw 'The selected device is not identified as a Quest headset.' }
-$installed = Invoke-QuestAdb @('-s',$Serial,'shell','pm','path','org.codex.castleminerzvr')
+$installed = Invoke-QuestAdb -Arguments @('-s',$Serial,'shell','pm','path','org.codex.castleminerzvr')
 if ($installed -notmatch 'package:') { throw 'Install the CastleMiner Z VR Quest APK first, then run this helper again.' }
 $remote = '/sdcard/Android/data/org.codex.castleminerzvr/files/owned-game'
-Invoke-QuestAdb @('-s',$Serial,'shell','am','force-stop','org.codex.castleminerzvr') | Out-Null
-Invoke-QuestAdb @('-s',$Serial,'shell','mkdir','-p',$remote) | Out-Null
-Invoke-QuestAdb @('-s',$Serial,'push',$file.FullName,($remote + '/CastleMinerZ.exe.pending')) | Out-Null
-$remoteHash = Invoke-QuestAdb @('-s',$Serial,'shell','sha256sum',($remote + '/CastleMinerZ.exe.pending'))
+if((Invoke-QuestAdb -Arguments @('-s',$Serial,'shell','if pidof org.codex.castleminerzvr >/dev/null; then echo running; fi')).Trim() -eq 'running'){throw 'Close CastleMiner Z VR in the headset, then run setup again. Your game was not interrupted.'}
+Invoke-QuestAdb -Arguments @('-s',$Serial,'shell','mkdir','-p',$remote) | Out-Null
+Invoke-QuestAdb -Arguments @('-s',$Serial,'push',$file.FullName,($remote + '/CastleMinerZ.exe.pending')) | Out-Null
+$remoteHash = Invoke-QuestAdb -Arguments @('-s',$Serial,'shell','sha256sum',($remote + '/CastleMinerZ.exe.pending'))
 if (-not $remoteHash.StartsWith($expected, [StringComparison]::OrdinalIgnoreCase)) { throw 'USB transfer did not match the original file. Run setup again.' }
-Invoke-QuestAdb @('-s',$Serial,'shell','mv',($remote + '/CastleMinerZ.exe.pending'),($remote + '/CastleMinerZ.exe')) | Out-Null
-Invoke-QuestAdb @('-s',$Serial,'shell','am','start','-n','org.codex.castleminerzvr/.VrActivity') | Out-Null
+Invoke-QuestAdb -Arguments @('-s',$Serial,'shell','mv',($remote + '/CastleMinerZ.exe.pending'),($remote + '/CastleMinerZ.exe')) | Out-Null
+if(-not $NoLaunch){Invoke-QuestAdb -Arguments @('-s',$Serial,'shell','am','start','-n','org.codex.castleminerzvr/.VrActivity') | Out-Null}
 Write-Host 'Quest setup complete. The game will verify the file and keep it in private app storage. Normal updates retain it; reinstalling or clearing app data requires setup again.'

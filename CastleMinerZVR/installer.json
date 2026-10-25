@@ -1,0 +1,10 @@
+{
+  "schemaVersion": 1,
+  "installerRevision": "0.58.1",
+  "runtimeVersion": "0.58-shared-gameplay",
+  "runtimeVersionCode": 61,
+  "runtimeSha256": "e9cc638a2738e75612dd02da19e58be04dfafbe257b9e84a06db33ecc37aa190",
+  "gameplayRevision": "shared-v0.58",
+  "networkProtocol": 3,
+  "releaseStatus": "candidate-publication-held"
+}
