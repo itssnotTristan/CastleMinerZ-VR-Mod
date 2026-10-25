@@ -1,8 +1,30 @@
 # CastleMiner Z VR Mod (Official GitHub Hub)
 
-Review candidate: **v0.58.1 installer repair**. Publication is held. Read [candidate changes and existing-install guidance](RELEASE-CANDIDATE-v0.58.1.md) before testing. The public release links below still refer to the previously published version.
+Published **v0.58.1 installer repair**: [downloads and testing limits](https://github.com/itssnotTristan/CastleMinerZ-VR-Mod/releases/tag/v0.58.1-public-beta). The approved ZIPs retain their original Candidate filenames and enclosed review notes.
 
-Welcome to the official repository for the **CastleMiner Z VR Mod**, developed by ItssnotTristan. This project is a fully functional, unofficial virtual reality (VR) mod for the Steam version of CastleMiner Z, bringing immersive voxel survival, tracked head movement, motion controllers, and crossplay to both PC VR headsets and standalone Meta Quest devices.
+Welcome to the official repository for the **CastleMiner Z VR Mod**, developed by ItssnotTristan. This project is an unofficial virtual reality (VR) mod for the Steam version of CastleMiner Z, bringing immersive voxel survival, tracked head movement, motion controllers, and crossplay to both PC VR headsets and standalone Meta Quest devices.
+
+
+## Latest repair: v0.58.1
+
+[Download the PC/Quest installer repair](https://github.com/itssnotTristan/CastleMinerZ-VR-Mod/releases/tag/v0.58.1-public-beta) or
+[the signed Quest update APK](https://github.com/itssnotTristan/CastleMinerZVR-Updates/releases/tag/v0.58.1).
+The Windows installers fix HUD validation and PowerShell 5.1 ADB arguments. Quest
+uses version code 62; PC runtime remains v0.58/code 61 with installer revision
+0.58.1. Both retain shared-v0.58 gameplay and protocol 3. Existing PC users can
+keep their current runtime; fresh installs and setup retries should use the new
+PC ZIP. Fresh Quest installs require the complete Quest setup ZIP, not only APK.
+Do not uninstall or clear app data when updating.
+
+All 12 affected GitHub regression suites, import/setup/rollback checks and hidden
+desktop GPU diagnostics passed. Physical Quest installation/upgrade and save
+preservation, physical PCVR/Quest play, the reporter's or another GPU, live
+headset performance and WAN acceptance remain untested. Simulated checks do not
+establish physical save preservation or full original-game feature parity.
+Generated HUD receipts/statistics provide structural and corruption checks, not
+original-pixel authenticity against regenerated receipts. Read the release notes
+for requirements, exact hashes, credits and limits.
+
 
 ---
 
@@ -21,14 +43,14 @@ Welcome to the official repository for the **CastleMiner Z VR Mod**, developed b
 
 1. **Prerequisites:** Install CastleMiner Z via Steam (supports version 1.9.9.8) and launch the flat game at least once.
 2. **Open Directory:** In Steam, right-click *CastleMiner Z* → **Manage** → **Browse local files**.
-3. **Download Mod:** Download `CastleMinerZ-PCVR-v0.58-PublicBeta.zip` from the **Releases** tab of this GitHub repository.
+3. **Download Mod:** Download `CastleMinerZ-PCVR-v0.58.1-SetupCandidate.zip` from the **Releases** tab of this GitHub repository.
 4. **Extract:** Extract the *entire contents* of the ZIP file directly into your game folder (right next to `CastleMinerZ.exe`).
 5. **Run Setup:** Launch **Setup CastleMiner Z VR.cmd** and keep the window open until the local file asset conversion finishes.
 6. **Launch:** Set Meta Quest Link as your active OpenXR runtime, wake your controllers, and launch **Play CastleMiner Z VR.cmd**.
 
 ### Option B: Standalone Meta Quest Installation
 
-1. **Download Setup:** Grab `CastleMinerZVR-Quest2-v0.58-Setup.zip` from the Releases section.
+1. **Download Setup:** Grab `CastleMinerZVR-Quest2-v0.58.1-SetupCandidate.zip` from the Releases section.
 2. **Extract & View Guide:** Extract the ZIP on a Windows PC holding your Steam files and open **START-HERE.html**.
 3. **Run Installer:** Run **Setup Quest.cmd** to sideload the small APK and safely transfer your locally owned Steam assets to your Quest headset. No PC connection is required for standalone play after setup.
 

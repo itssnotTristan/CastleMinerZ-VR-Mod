@@ -1,7 +1,6 @@
 # v0.58.1 installer repair candidate
 
-This branch is for review. Nothing here publishes a release or changes the live
-update feeds. Gameplay stays at shared-v0.58, network protocol 3.
+The reviewed files were approved and published unchanged on October 25, 2026. [Release page](https://github.com/itssnotTristan/CastleMinerZ-VR-Mod/releases/tag/v0.58.1-public-beta) is authoritative for publication status. The enclosed archive review notes are preserved with the approved bytes. Gameplay stays at shared-v0.58, network protocol 3.
 
 The Windows PC and Quest importers now verify all supported original input files
 before conversion. The original executable check remains an offline file check;
@@ -55,9 +54,9 @@ validator change and uses version code 62, version name `0.58.1-installer-hud`.
 Both retain the same gameplay/content/network revision; this is an installer
 repair, with no graphics or gameplay tuning.
 
-## Publication hold
+## Publication and testing status
 
-Review the exact candidate hashes and private GitHub build report before release.
+The release page records the exact approved hashes and build verification.
 Physical Quest installation/upgrade, existing-world preservation on hardware,
 PCVR headset play, a second GPU, performance and different-home networking remain
 separate acceptance checks. Host tests and an APK build do not establish those.
