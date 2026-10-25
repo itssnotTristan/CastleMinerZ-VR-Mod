@@ -11,9 +11,14 @@ The original game renders the HUD item atlas on the importing PC's GPU. Exact
 pixel hashes can differ between GPUs. Only that generated atlas has a separate
 policy: fixed 512 by 1280 dimensions and byte count, valid transparency, bounded
 coverage/color measurements for each icon, and an exact local SHA-256 receipt.
-The receipt detects later changes; it is not proof of original-game provenance.
+The receipt detects changed bytes while the recorded digest is retained; it is
+not proof of original-game provenance or cryptographic authenticity of the
+generated pixels. Rearranging pixels or changing nonzero alpha can preserve the
+statistics, and a regenerated matching receipt can accept such edits. This is a
+bounded format and transfer-corruption check. Original-input identity is checked
+separately before conversion.
 Every other required output retains its exact supported SHA-256. An unsupported
-source file, malformed/blank atlas, missing icon, or changed receipt is an error.
+source file, malformed/blank atlas, missing icon, or mismatched receipt is an error.
 This candidate has not been tested on the reporter's GPU.
 
 Quest ADB calls pass explicit named string arrays, preserving spaces and compound
