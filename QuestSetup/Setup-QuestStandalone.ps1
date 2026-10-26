@@ -48,7 +48,22 @@ if(-not $Adb){
     }
 }
 $Adb=(Resolve-Path -LiteralPath $Adb).Path
-function Quest {param([Parameter(Mandatory=$true)][string[]]$Arguments) $result=& $Adb @Arguments 2>&1;if($LASTEXITCODE -ne 0){throw ('Quest USB command failed: '+($result -join "`n"))};return ($result -join "`n")}
+function Quest {
+    param([Parameter(Mandatory=$true)][string[]]$Arguments)
+    # Windows PowerShell turns native stderr (including successful ADB startup
+    # notices) into ErrorRecords. Capture it, then decide using the exit code.
+    $previousPreference=$ErrorActionPreference
+    $global:LASTEXITCODE=$null
+    try {
+        $ErrorActionPreference='Continue'
+        $PSNativeCommandUseErrorActionPreference=$false
+        $result=& $Adb @Arguments 2>&1
+        $exitCode=$global:LASTEXITCODE
+    } finally { $ErrorActionPreference=$previousPreference }
+    if($null -eq $exitCode){throw ('Quest USB command could not start: '+($result -join "`n"))}
+    if($exitCode -ne 0){throw ('Quest USB command failed (exit '+$exitCode+'): '+($result -join "`n"))}
+    return ($result -join "`n")
+}
 $devices=Quest -Arguments @('devices','-l');$ready=@([regex]::Matches($devices,'(?m)^([^\s]+)\s+device\b') | ForEach-Object {$_.Groups[1].Value} | Where-Object {-not $_.StartsWith('emulator-')})
 if(-not $Serial){if($ready.Count -ne 1){throw 'Connect one Quest by USB and allow USB debugging inside the headset. See START-HERE.html.'};$Serial=$ready[0]}
 if($ready -notcontains $Serial -or (Quest -Arguments @('-s',$Serial,'shell','getprop','ro.product.model')) -notmatch '(?i)quest'){throw 'The selected Quest is not connected and authorized.'}

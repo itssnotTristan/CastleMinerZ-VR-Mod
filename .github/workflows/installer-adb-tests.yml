@@ -1,0 +1,31 @@
+name: Installer ADB regression
+on:
+  push:
+    paths: ['QuestSetup/*.ps1', 'tests/AdbStub.cs', 'tests/Test-AdbArguments.ps1', '.github/workflows/installer-adb-tests.yml']
+  pull_request:
+    paths: ['QuestSetup/*.ps1', 'tests/AdbStub.cs', 'tests/Test-AdbArguments.ps1', '.github/workflows/installer-adb-tests.yml']
+permissions:
+  contents: read
+jobs:
+  adb-windows:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Compile inert ADB double in a path containing spaces
+        shell: pwsh
+        run: |
+          $dir=Join-Path $env:RUNNER_TEMP 'cmz adb tests'
+          New-Item -ItemType Directory -Path $dir -Force | Out-Null
+          $source=Join-Path $env:GITHUB_WORKSPACE 'tests\AdbStub.cs'
+          & "$env:WINDIR\Microsoft.NET\Framework64\v4.0.30319\csc.exe" /nologo /r:System.Web.Extensions.dll "/out:$dir\adb-stub.exe" $source
+          if($LASTEXITCODE -ne 0){throw 'Stub compilation failed'}
+      - name: Windows PowerShell 5.1 native stdout, stderr and argv
+        shell: powershell
+        run: |
+          $dir=Join-Path $env:RUNNER_TEMP 'cmz adb tests'
+          & ./tests/Test-AdbArguments.ps1 -Stub "$dir\adb-stub.exe" -Log "$dir\ps5.jsonl"
+      - name: PowerShell 7 native stdout, stderr and argv
+        shell: pwsh
+        run: |
+          $dir=Join-Path $env:RUNNER_TEMP 'cmz adb tests'
+          & ./tests/Test-AdbArguments.ps1 -Stub "$dir\adb-stub.exe" -Log "$dir\ps7.jsonl"

@@ -45,9 +45,20 @@ if (-not $Adb) {
     else { $Adb = Join-Path $env:LOCALAPPDATA 'Android\Sdk\platform-tools\adb.exe' }
 }
 if (-not (Test-Path -LiteralPath $Adb -PathType Leaf)) { throw 'Android platform-tools (adb) was not found. Supply -Adb with the adb.exe used to install the APK.' }
-function Invoke-QuestAdb {param([Parameter(Mandatory=$true)][string[]]$Arguments)
-    $result = & $Adb @Arguments 2>&1
-    if ($LASTEXITCODE -ne 0) { throw ('Quest USB command failed: ' + ($result -join "`n")) }
+function Invoke-QuestAdb {
+    param([Parameter(Mandatory=$true)][string[]]$Arguments)
+    # Windows PowerShell turns native stderr (including successful ADB startup
+    # notices) into ErrorRecords. Capture it, then decide using the exit code.
+    $previousPreference=$ErrorActionPreference
+    $global:LASTEXITCODE=$null
+    try {
+        $ErrorActionPreference='Continue'
+        $PSNativeCommandUseErrorActionPreference=$false
+        $result=& $Adb @Arguments 2>&1
+        $exitCode=$global:LASTEXITCODE
+    } finally { $ErrorActionPreference=$previousPreference }
+    if($null -eq $exitCode){throw ('Quest USB command could not start: '+($result -join "`n"))}
+    if($exitCode -ne 0){throw ('Quest USB command failed (exit '+$exitCode+'): '+($result -join "`n"))}
     return ($result -join "`n")
 }
 $devices = Invoke-QuestAdb -Arguments @('devices','-l')

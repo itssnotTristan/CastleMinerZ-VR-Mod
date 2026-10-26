@@ -8,6 +8,9 @@ Compile `AdbStub.cs` with the .NET Framework C# compiler, referencing
 Run `Test-AdbArguments.ps1` with `-Stub` and `-Log` under Windows PowerShell 5.1
 and PowerShell 7. It extracts the actual production wrapper functions, tests native
 argv boundaries, and reproduces the old 5.1 collection-binding defect.
+It also checks successful stdout/stderr, stdout-only success, and the exact exit-7
+failure message with the caller's native error preference both enabled and
+disabled. Stderr alone must not fail a command; a nonzero exit must fail it.
 
 Run `Test-SourceInputs.ps1 -Work <new-workspace-folder>` under both shells. It
 uses synthetic input bytes to check good files, same-size corruption, a stale
@@ -24,10 +27,12 @@ For `test_installers.py`, set these environment variables:
 - `CMZ_TEST_WORK`: a new disposable workspace folder.
 - `CMZ_TEST_PS`: the PowerShell executable to test (defaults to Windows 5.1).
 
-Run the Python unittest script normally. Seven scenario groups execute production
+Run the Python unittest script normally. Eight scenario groups execute production
 scripts for PC fresh install, upgrade, injected commit failure, rollback/retry,
 save/settings/HD preservation, APK corruption, device selection, an active game,
 transfer/install/commit failure, generated checksums and unsupported originals.
+Both Quest entry points must complete with a synthetic startup notice on stderr
+and must reject a true native failure before any device writes.
 All supported original inputs are checked. Transaction fixtures use a two-output
 manifest for speed; a separate real fresh conversion and extracted-package run
 must check all 416 outputs.

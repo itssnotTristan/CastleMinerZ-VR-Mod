@@ -6,7 +6,11 @@ same-signer GitHub artifact referenced by QuestSetup/apk-info.json.
 from pathlib import Path
 import argparse, hashlib, json, shutil, stat, subprocess, zipfile
 ROOT=Path(__file__).resolve().parents[1]
-p=argparse.ArgumentParser();p.add_argument('--output',type=Path,required=True);p.add_argument('--apk',type=Path);a=p.parse_args()
+p=argparse.ArgumentParser();p.add_argument('--output',type=Path,required=True);p.add_argument('--apk',type=Path)
+p.add_argument('--installer-version',default='0.58.1',choices=['0.58.1','0.58.2'])
+p.add_argument('--quest-only',action='store_true',help='Do not repackage unaffected PC files')
+a=p.parse_args()
+assert not a.quest_only or a.apk,'--quest-only requires --apk'
 a.output.mkdir(parents=True,exist_ok=True)
 def sha(data):return hashlib.sha256(data).hexdigest()
 tracked=subprocess.check_output(['git','ls-files','-z'],cwd=ROOT).decode().split('\0')[:-1]
@@ -33,7 +37,7 @@ def package(stem,entries):
     return {'file':target.name,'bytes':len(data),'sha256':digest,'publicSourceCommit':commit,'files':report}
 pc={name:committed(name) for name in tracked if not name.startswith(('QuestSetup/','tests/','tools/','.git'))}
 assert 'CastleMinerZVR/CastleMinerZVR.exe' in pc and 'CastleMinerZVR/THIRD-PARTY-LICENSES.txt' in pc
-reports=[package('CastleMinerZ-PCVR-v0.58.1-SetupCandidate',pc)]
+reports=[] if a.quest_only else [package('CastleMinerZ-PCVR-v'+a.installer_version+'-SetupCandidate',pc)]
 if a.apk:
     info=json.loads((ROOT/'QuestSetup/apk-info.json').read_text());apk=a.apk.read_bytes()
     assert len(apk)==info['bytes'] and sha(apk)==info['sha256'] and a.apk.name==info['apk']
@@ -46,7 +50,7 @@ if a.apk:
     quest={name[len('QuestSetup/'): ]:committed(name) for name in tracked if name.startswith('QuestSetup/')}
     quest[a.apk.name]=apk
     assert 'Tools/THIRD-PARTY-LICENSES.txt' in quest
-    reports.append(package('CastleMinerZVR-Quest2-v0.58.1-SetupCandidate',quest))
+    reports.append(package('CastleMinerZVR-Quest2-v'+a.installer_version+'-SetupCandidate',quest))
     shutil.copy2(a.apk,a.output/a.apk.name)
 (a.output/'candidate-packages.json').write_text(json.dumps({'publication':'held','publicSourceCommit':commit,'packages':reports},indent=2)+'\n')
 for report in reports:print(report['file'],report['bytes'],report['sha256'])
