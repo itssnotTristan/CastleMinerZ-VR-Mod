@@ -16,7 +16,8 @@ jobs:
         run: |
           $dir=Join-Path $env:RUNNER_TEMP 'cmz adb tests'
           New-Item -ItemType Directory -Path $dir -Force | Out-Null
-          & "$env:WINDIR\Microsoft.NET\Framework64\v4.0.30319\csc.exe" /nologo /r:System.Web.Extensions.dll "/out:$dir\adb-stub.exe" tests/AdbStub.cs
+          $source=Join-Path $env:GITHUB_WORKSPACE 'tests\AdbStub.cs'
+          & "$env:WINDIR\Microsoft.NET\Framework64\v4.0.30319\csc.exe" /nologo /r:System.Web.Extensions.dll "/out:$dir\adb-stub.exe" $source
           if($LASTEXITCODE -ne 0){throw 'Stub compilation failed'}
       - name: Windows PowerShell 5.1 native stdout, stderr and argv
         shell: powershell
