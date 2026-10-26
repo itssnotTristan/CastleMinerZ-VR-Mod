@@ -1,6 +1,9 @@
-# v0.58.2 Quest installer hotfix candidate
+# v0.58.2 Quest installer hotfix
 
-This is an unpublished Windows installer revision for [issue #3](https://github.com/itssnotTristan/CastleMinerZ-VR-Mod/issues/3).
+The exact reviewed ZIP was approved and published unchanged on October 26, 2026.
+[Release page](https://github.com/itssnotTristan/CastleMinerZ-VR-Mod/releases/tag/v0.58.2-public-beta) records publication and the approved hash.
+The archived filename and enclosed review notes remain unchanged. This repairs
+the Windows setup behavior tracked in [issue #3](https://github.com/itssnotTristan/CastleMinerZ-VR-Mod/issues/3).
 It fixes setup stopping on ADB's normal daemon-startup notice under Windows
 PowerShell 5.1. Both the standalone installer and original-file helper now capture
 native stdout/stderr and reject explicit nonzero exit codes. Argument arrays,

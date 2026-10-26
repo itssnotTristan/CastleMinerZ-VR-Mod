@@ -69,7 +69,7 @@ Run setup again after installing this release so it imports the original dragon 
 
 ## Quest standalone installation manual
 
-Download **CastleMinerZVR-Quest2-v0.58.1-SetupCandidate.zip** from this release. Extract the complete ZIP and open **START-HERE.html** before running **Setup Quest.cmd**. The setup kit includes the APK and local import tools. A Windows PC with your Steam installation is needed for setup; standalone play afterward does not need Link or a connected PC.
+Download the [v0.58.2 Quest setup ZIP](https://github.com/itssnotTristan/CastleMinerZ-VR-Mod/releases/download/v0.58.2-public-beta/CastleMinerZVR-Quest2-v0.58.2-SetupCandidate.zip). Setup is v0.58.2; its APK remains v0.58.1/code 62. Extract the complete ZIP and open **START-HERE.html** before running **Setup Quest.cmd**. The setup kit includes the APK and local import tools. A Windows PC with your Steam installation is needed for setup; standalone play afterward does not need Link or a connected PC.
 
 The [Quest installation manual](QUEST-INSTALL.md) covers Developer Mode, USB debugging, game-file import, Unknown Sources, updates that preserve saves, and troubleshooting. Installing the small APK alone does not supply original game content.
 

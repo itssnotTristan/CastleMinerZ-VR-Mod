@@ -1,11 +1,11 @@
 # CastleMiner Z VR — Quest installation
 
-Published **v0.58.1 installer repair**: [downloads and testing limits](https://github.com/itssnotTristan/CastleMinerZ-VR-Mod/releases/tag/v0.58.1-public-beta). The approved ZIPs retain their original Candidate filenames and enclosed review notes.
+Published **v0.58.2 Quest installer hotfix**: [download and testing limits](https://github.com/itssnotTristan/CastleMinerZ-VR-Mod/releases/tag/v0.58.2-public-beta). The game APK remains v0.58.1/code 62; the PC setup package remains v0.58.1. The exact approved ZIP retains its Candidate filename and enclosed review notes.
 
-The unpublished **v0.58.2 Quest installer candidate** fixes ADB startup notices
-stopping setup in Windows PowerShell 5.1. It includes the unchanged v0.58.1 APK.
-Read [the hotfix notes and testing limits](RELEASE-CANDIDATE-v0.58.2.md) when using
-that candidate. The previously published release remains available above.
+This fixes normal ADB startup notices stopping Windows PowerShell 5.1 setup.
+Read [the hotfix notes and testing limits](RELEASE-CANDIDATE-v0.58.2.md).
+Existing working v0.58.1 headset installs need no app update; do not uninstall or
+clear app data when retrying setup.
 
 This is the standalone Quest build. You use a Windows PC once to install it and import files from your own Steam copy. After setup, the game runs on the headset without Link, Air Link, or a connected PC.
 
