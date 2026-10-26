@@ -12,7 +12,13 @@ class AdbStub {
         string mode=Environment.GetEnvironmentVariable("CMZ_ADB_MODE")??"ok";
         string joined=string.Join(" ",args);
         if(mode=="stderr"){Console.Error.WriteLine("synthetic USB failure");return 7;}
+        if(mode=="success-stderr"){
+            Console.Error.WriteLine("synthetic daemon startup notice");
+            Console.Out.WriteLine("synthetic stdout success");return 0;
+        }
+        if(mode=="stdout-only"){Console.Out.WriteLine("synthetic stdout success");return 0;}
         if(args.Length==2&&args[0]=="devices"&&args[1]=="-l"){
+            if(mode=="startup-stderr")Console.Error.WriteLine("synthetic daemon startup notice");
             Console.WriteLine("List of devices attached");
             if(mode=="unauthorized")Console.WriteLine("QUEST-STUB unauthorized");
             else if(mode!="none")Console.WriteLine("QUEST-STUB device product:hollywood model:Quest_2");

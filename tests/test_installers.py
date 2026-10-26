@@ -65,6 +65,21 @@ class Installers(unittest.TestCase):
         args=self.quest_args();args['-PrepareOnly']=None
         result=self.run_script(self.quest/'Setup-QuestStandalone.ps1',args)
         self.assertEqual(result.returncode,0,result.stdout+result.stderr);self.assertEqual(self.calls(),[])
+    def test_quest_native_stderr_uses_exit_status_in_both_entry_points(self):
+        for script,args in (
+            (self.quest/'Setup-QuestStandalone.ps1',self.quest_args()),
+            (self.quest/'Setup-QuestGameCheck.ps1',{'-GameDirectory':GAME,'-Adb':STUB,'-NoLaunch':None}),
+        ):
+            result=self.run_script(script,args,'startup-stderr')
+            self.assertEqual(result.returncode,0,result.stdout+result.stderr)
+            self.assertTrue(any(len(x)>2 and x[2]=='push' for x in self.calls()))
+            self.log.unlink()
+            result=self.run_script(script,args,'stderr')
+            self.assertNotEqual(result.returncode,0)
+            self.assertIn('Quest USB command failed (exit 7): synthetic USB failure',result.stdout+result.stderr)
+            self.assertNotIn('NativeCommandError',result.stdout+result.stderr)
+            self.assertFalse(any(len(x)>2 and x[2] in ('push','install') for x in self.calls()))
+            self.log.unlink()
     def test_quest_transfer_install_and_commit_failures_retry(self):
         for mode in ('transfer-fail','install-fail','commit-fail','ok'):
             result=self.run_script(self.quest/'Setup-QuestStandalone.ps1',self.quest_args(),mode)
