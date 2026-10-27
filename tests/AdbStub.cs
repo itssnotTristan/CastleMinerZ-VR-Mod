@@ -18,14 +18,14 @@ class AdbStub {
         }
         if(mode=="stdout-only"){Console.Out.WriteLine("synthetic stdout success");return 0;}
         if(args.Length==2&&args[0]=="devices"&&args[1]=="-l"){
-            if(mode=="startup-stderr")Console.Error.WriteLine("synthetic daemon startup notice");
+            if(mode=="startup-stderr"||mode=="quest3-startup-stderr")Console.Error.WriteLine("synthetic daemon startup notice");
             Console.WriteLine("List of devices attached");
             if(mode=="unauthorized")Console.WriteLine("QUEST-STUB unauthorized");
-            else if(mode!="none")Console.WriteLine("QUEST-STUB device product:hollywood model:Quest_2");
+            else if(mode!="none")Console.WriteLine(mode.StartsWith("quest3")?"QUEST-STUB device product:eureka model:Quest_3":"QUEST-STUB device product:hollywood model:Quest_2");
             if(mode=="multiple")Console.WriteLine("QUEST-OTHER device model:Quest_3");
             Console.WriteLine("emulator-5562 device model:Quest_2");return 0;
         }
-        if(joined.Contains("ro.product.model")){Console.WriteLine(mode=="phone"?"Pixel":"Quest 2");return 0;}
+        if(joined.Contains("ro.product.model")){Console.WriteLine(mode=="phone"?"Pixel":mode.StartsWith("quest3")?"Quest 3":"Quest 2");return 0;}
         if(joined.Contains("pidof")){if(mode=="running")Console.WriteLine("running");return 0;}
         if(args.Length>2&&args[2]=="install"){
             if(mode=="install-fail"){Console.Error.WriteLine("INSTALL_FAILED_UPDATE_INCOMPATIBLE");return 1;}

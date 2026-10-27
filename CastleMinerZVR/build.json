@@ -2,11 +2,11 @@
   "schemaVersion": 1,
   "packageName": "org.codex.castleminerzvr.pc",
   "platform": "windows-x64",
-  "versionCode": 61,
-  "versionName": "0.58-shared-gameplay",
-  "gameplayBaseline": "Quest-v0.53",
+  "versionCode": 63,
+  "versionName": "0.58.3-quest3-pc-eye",
+  "gameplayBaseline": "shared-v0.58",
   "networkProtocol": 3,
-  "privateTest": true,
+  "privateTest": false,
   "graphicsRevision": "HD1",
   "gameplayRevision": "shared-v0.58",
   "guestProgressVersion": 2,
@@ -15,5 +15,7 @@
   "originalInstallRequired": true,
   "supportedOriginalGameVersion": "1.9.9.8",
   "ownershipCheck": "offline-original-files",
-  "steamAccountEntitlement": false
+  "steamAccountEntitlement": false,
+  "renderRevision": "first-frame-sampler-init",
+  "sourceArchiveSha256": "44c9213755da7c4c75786913b95be3c173b768252c527ab2851a93fe8f619318"
 }

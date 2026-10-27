@@ -67,7 +67,7 @@ function Quest {
 $devices=Quest -Arguments @('devices','-l');$ready=@([regex]::Matches($devices,'(?m)^([^\s]+)\s+device\b') | ForEach-Object {$_.Groups[1].Value} | Where-Object {-not $_.StartsWith('emulator-')})
 if(-not $Serial){if($ready.Count -ne 1){throw 'Connect one Quest by USB and allow USB debugging inside the headset. See START-HERE.html.'};$Serial=$ready[0]}
 if($ready -notcontains $Serial -or (Quest -Arguments @('-s',$Serial,'shell','getprop','ro.product.model')) -notmatch '(?i)quest'){throw 'The selected Quest is not connected and authorized.'}
-$apk=Join-Path $PSScriptRoot 'CastleMinerZVR-Quest2-v0.58.1-PublicUpdate.apk'
+$apk=Join-Path $PSScriptRoot 'CastleMinerZVR-Quest2-v0.58.3-PublicUpdate.apk'
 if(-not (Test-Path -LiteralPath $apk -PathType Leaf)){throw 'Extract the complete Quest Setup ZIP. Its APK is missing.'}
 $apkInfo=Get-Content -LiteralPath (Join-Path $PSScriptRoot 'apk-info.json') -Raw | ConvertFrom-Json
 if((Get-Item -LiteralPath $apk).Length -ne $apkInfo.bytes -or (Get-FileHash -LiteralPath $apk -Algorithm SHA256).Hash.ToLowerInvariant() -ne $apkInfo.sha256){throw 'The APK failed its integrity check. Re-extract the complete candidate Setup ZIP.'}

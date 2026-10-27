@@ -1,5 +1,7 @@
 # CastleMiner Z PC VR
 
+Review candidate **v0.58.3/code 63** adds explicit Quest 3 and optional Touch Plus support, preserves Quest 2 and the ADB/HUD repairs, and fixes the reproduced PC intro sampler collision. Physical headset and reporter VirtualDesktopXR acceptance remain untested. [Changes, install/update guidance and evidence](https://github.com/itssnotTristan/CastleMinerZ-VR-Mod/releases/tag/v0.58.3-public-beta).
+
 An unofficial PC VR mod for the Steam version of CastleMiner Z, by ItssnotTristan. Play with tracked head movement, motion controllers, two-handed weapons and VR menus. PC graphics include bloom, dynamic shadows, adjustable block parallax and four quality presets.
 
 **[Download the PC VR beta](https://github.com/itssnotTristan/CastleMinerZ-PCVR/releases/tag/v0.58-public-beta)** · **[Full setup guide](SETUP.md)**

@@ -7,11 +7,11 @@ Read [the hotfix notes and testing limits](RELEASE-CANDIDATE-v0.58.2.md).
 Existing working v0.58.1 headset installs need no app update; do not uninstall or
 clear app data when retrying setup.
 
-This is the standalone Quest build. You use a Windows PC once to install it and import files from your own Steam copy. After setup, the game runs on the headset without Link, Air Link, or a connected PC.
+This is the standalone Quest build. The v0.58.3 candidate declares Quest 2 and Quest 3 with capability-based controller support; physical headset acceptance remains untested. Read [the v0.58.3 changes and limits](RELEASE-CANDIDATE-v0.58.3.md). You use a Windows PC once to install it and import files from your own Steam copy. After setup, the game runs on the headset without Link, Air Link, or a connected PC.
 
 ## What you need
 
-- A Quest 2, both controllers, and a USB cable that supports data.
+- A Quest 2 or Quest 3, both controllers, and a USB cable that supports data.
 - A Windows 10/11 PC with CastleMiner Z installed through Steam. This beta supports the original game version **1.9.9.8**. Launch the original game once so its XNA prerequisites are installed.
 - Developer Mode enabled on the headset, and USB debugging allowed inside the headset.
 - The **complete Quest Setup ZIP** for this release. The small APK alone does not contain the original game textures, models, music, or sounds.
