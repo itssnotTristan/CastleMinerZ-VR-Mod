@@ -36,7 +36,7 @@ class Installers(unittest.TestCase):
         self.imports=self.work/'Private Imports';self.imports.mkdir()
         for name in ('hud-items.rgba','atlas.rgba','hud-items.sha256'):
             shutil.copy2(IMPORTS/name,self.imports/name)
-        self.apk=self.quest/'CastleMinerZVR-Quest2-v0.58.1-PublicUpdate.apk'
+        self.apk=self.quest/'CastleMinerZVR-Quest2-v0.58.3-PublicUpdate.apk'
         self.apk.write_bytes(b'INERT APK TEST DOUBLE - NOT INSTALLABLE')
         (self.quest/'apk-info.json').write_text(json.dumps({'bytes':self.apk.stat().st_size,'sha256':digest(self.apk)}))
         self.log=self.work/'adb.jsonl'
@@ -79,6 +79,13 @@ class Installers(unittest.TestCase):
             self.assertIn('Quest USB command failed (exit 7): synthetic USB failure',result.stdout+result.stderr)
             self.assertNotIn('NativeCommandError',result.stdout+result.stderr)
             self.assertFalse(any(len(x)>2 and x[2] in ('push','install') for x in self.calls()))
+            self.log.unlink()
+    def test_quest3_discovery_and_setup_preserve_quest2(self):
+        for mode in ('ok','quest3','quest3-startup-stderr'):
+            result=self.run_script(self.quest/'Setup-QuestStandalone.ps1',self.quest_args(),mode)
+            self.assertEqual(result.returncode,0,result.stdout+result.stderr)
+            self.assertTrue(any(len(x)>2 and x[2]=='install' for x in self.calls()))
+            self.assertNotIn('uninstall',str(self.calls()));self.assertNotIn('pm clear',str(self.calls()))
             self.log.unlink()
     def test_quest_transfer_install_and_commit_failures_retry(self):
         for mode in ('transfer-fail','install-fail','commit-fail','ok'):

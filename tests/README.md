@@ -27,10 +27,11 @@ For `test_installers.py`, set these environment variables:
 - `CMZ_TEST_WORK`: a new disposable workspace folder.
 - `CMZ_TEST_PS`: the PowerShell executable to test (defaults to Windows 5.1).
 
-Run the Python unittest script normally. Eight scenario groups execute production
+Run the Python unittest script normally. Nine scenario groups execute production
 scripts for PC fresh install, upgrade, injected commit failure, rollback/retry,
 save/settings/HD preservation, APK corruption, device selection, an active game,
 transfer/install/commit failure, generated checksums and unsupported originals.
+Quest 2/Quest 3 discovery is exercised with inert device models.
 Both Quest entry points must complete with a synthetic startup notice on stderr
 and must reject a true native failure before any device writes.
 All supported original inputs are checked. Transaction fixtures use a two-output
