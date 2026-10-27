@@ -1,8 +1,8 @@
-# v0.58.3 PC rendering and Quest 3 support candidate
+# v0.58.3 PC rendering and Quest 3 support
 
 Version code **63**, app version **0.58.3-quest3-pc-eye**, retains shared-v0.58
 gameplay, network protocol 3, existing imports, saves and the original Quest
-signer. This is a review candidate until its release page records publication.
+signer. The exact reviewed packages were approved and published unchanged. [Release page](https://github.com/itssnotTristan/CastleMinerZ-VR-Mod/releases/tag/v0.58.3-public-beta) records the hashes and publication status; the archived Candidate filenames and enclosed notes are preserved.
 
 ## PC first-frame rendering
 

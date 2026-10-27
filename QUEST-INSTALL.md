@@ -1,8 +1,8 @@
 # CastleMiner Z VR — Quest installation
 
-Published **v0.58.2 Quest installer hotfix**: [download and testing limits](https://github.com/itssnotTristan/CastleMinerZ-VR-Mod/releases/tag/v0.58.2-public-beta). The game APK remains v0.58.1/code 62; the PC setup package remains v0.58.1. The exact approved ZIP retains its Candidate filename and enclosed review notes.
+Published **v0.58.3 PC/Quest repair**: [downloads and testing limits](https://github.com/itssnotTristan/CastleMinerZ-VR-Mod/releases/tag/v0.58.3-public-beta). Both apps use version code 63. Quest 2 and Quest 3 are declared targets; physical headset acceptance remains untested. The exact approved ZIPs retain their Candidate filenames and enclosed review notes.
 
-This is the standalone Quest build. The v0.58.3 candidate declares Quest 2 and Quest 3 with capability-based controller support; physical headset acceptance remains untested. Read [the v0.58.3 changes and limits](RELEASE-CANDIDATE-v0.58.3.md). You use a Windows PC once to install it and import files from your own Steam copy. After setup, the game runs on the headset without Link, Air Link, or a connected PC.
+This is the standalone Quest build. The published v0.58.3 build declares Quest 2 and Quest 3 with capability-based controller support; physical headset acceptance remains untested. Read [the v0.58.3 changes and limits](RELEASE-CANDIDATE-v0.58.3.md). You use a Windows PC once to install it and import files from your own Steam copy. After setup, the game runs on the headset without Link, Air Link, or a connected PC.
 
 ## What you need
 

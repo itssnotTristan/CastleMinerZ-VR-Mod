@@ -1,14 +1,33 @@
 # CastleMiner Z VR Mod (Official GitHub Hub)
 If you have any issues please dm me on discord: itssnottristan
 
-Review candidate **v0.58.3/code 63** adds explicit Quest 3 and optional Touch Plus support, preserves Quest 2 and the ADB/HUD repairs, and fixes the reproduced PC intro sampler collision. Physical headset and reporter VirtualDesktopXR acceptance remain untested. [Changes, install/update guidance and evidence](RELEASE-CANDIDATE-v0.58.3.md).
+Published **v0.58.3/code 63** adds explicit Quest 3 and optional Touch Plus support, preserves Quest 2 and the ADB/HUD repairs, and fixes the reproduced PC intro sampler collision. Physical headset and reporter VirtualDesktopXR acceptance remain untested. [Changes, install/update guidance and evidence](RELEASE-CANDIDATE-v0.58.3.md).
 
-Published **v0.58.2 Quest installer hotfix**: [download and testing limits](https://github.com/itssnotTristan/CastleMinerZ-VR-Mod/releases/tag/v0.58.2-public-beta). The game APK remains v0.58.1/code 62; the PC setup package remains v0.58.1. The exact approved ZIP retains its Candidate filename and enclosed review notes.
+Published **v0.58.3 PC/Quest repair**: [downloads and testing limits](https://github.com/itssnotTristan/CastleMinerZ-VR-Mod/releases/tag/v0.58.3-public-beta). Both apps use version code 63. Quest 2 and Quest 3 are declared targets; physical headset acceptance remains untested. The exact approved ZIPs retain their Candidate filenames and enclosed review notes.
 
 Welcome to the official repository for the **CastleMiner Z VR Mod**, developed by ItssnotTristan. This project is an unofficial virtual reality (VR) mod for the Steam version of CastleMiner Z, bringing immersive voxel survival, tracked head movement, motion controllers, and crossplay to both PC VR headsets and standalone Meta Quest devices.
 
 
-## Latest Quest setup: v0.58.2
+## Latest matching PC and Quest release: v0.58.3
+
+[PC setup](https://github.com/itssnotTristan/CastleMinerZ-VR-Mod/releases/download/v0.58.3-public-beta/CastleMinerZ-PCVR-v0.58.3-SetupCandidate.zip) ·
+[Quest 2/3 setup](https://github.com/itssnotTristan/CastleMinerZ-VR-Mod/releases/download/v0.58.3-public-beta/CastleMinerZVR-Quest2-v0.58.3-SetupCandidate.zip) ·
+[Existing-install updates](https://github.com/itssnotTristan/CastleMinerZVR-Updates/releases/tag/v0.58.3).
+
+The reproduced PC intro sampler collision is repaired; Quest 3 and optional
+Touch Plus support are explicit while Quest 2 is retained. ADB startup and HUD
+validation repairs remain included. Both platforms use code63/version
+0.58.3-quest3-pc-eye, shared-v0.58 gameplay and protocol3. Existing compatible
+imports remain valid. Close the game before setup; do not uninstall or clear data.
+Legacy Quest2 filenames serve both declared models.
+
+Passed: 216 actual GPU intro/presentation cases, all16 scene diagnostics,
+all9 installer groups under PowerShell5.1/7, and13 signed-build host suites.
+No Quest was connected. Physical installation/upgrades/save preservation,
+controller/gameplay/headset performance, reporter621.01/VirtualDesktopXR,
+another GPU and WAN acceptance remain untested. [Evidence and limits](https://github.com/itssnotTristan/CastleMinerZ-VR-Mod/releases/tag/v0.58.3-public-beta).
+
+## Earlier Quest installer repair: v0.58.2
 
 [Download the Quest setup ZIP](https://github.com/itssnotTristan/CastleMinerZ-VR-Mod/releases/download/v0.58.2-public-beta/CastleMinerZVR-Quest2-v0.58.2-SetupCandidate.zip) for the Windows ADB startup fix.
 Both scripts and the exact packaged ZIP passed real cold/warm discovery under
@@ -61,14 +80,14 @@ for requirements, exact hashes, credits and limits.
 
 1. **Prerequisites:** Install CastleMiner Z via Steam (supports version 1.9.9.8) and launch the flat game at least once.
 2. **Open Directory:** In Steam, right-click *CastleMiner Z* → **Manage** → **Browse local files**.
-3. **Download Mod:** Download the unchanged [v0.58.1 PC setup ZIP](https://github.com/itssnotTristan/CastleMinerZ-VR-Mod/releases/download/v0.58.1-public-beta/CastleMinerZ-PCVR-v0.58.1-SetupCandidate.zip).
+3. **Download Mod:** Download the [v0.58.3 PC setup ZIP](https://github.com/itssnotTristan/CastleMinerZ-VR-Mod/releases/download/v0.58.3-public-beta/CastleMinerZ-PCVR-v0.58.3-SetupCandidate.zip).
 4. **Extract:** Extract the *entire contents* of the ZIP file directly into your game folder (right next to `CastleMinerZ.exe`).
 5. **Run Setup:** Launch **Setup CastleMiner Z VR.cmd** and keep the window open until the local file asset conversion finishes.
 6. **Launch:** Set Meta Quest Link as your active OpenXR runtime, wake your controllers, and launch **Play CastleMiner Z VR.cmd**.
 
 ### Option B: Standalone Meta Quest Installation
 
-1. **Download Setup:** Download [CastleMinerZVR-Quest2-v0.58.2-SetupCandidate.zip](https://github.com/itssnotTristan/CastleMinerZ-VR-Mod/releases/download/v0.58.2-public-beta/CastleMinerZVR-Quest2-v0.58.2-SetupCandidate.zip). The enclosed APK is unchanged v0.58.1/code 62.
+1. **Download Setup:** Download [CastleMinerZVR-Quest2-v0.58.3-SetupCandidate.zip](https://github.com/itssnotTristan/CastleMinerZ-VR-Mod/releases/download/v0.58.3-public-beta/CastleMinerZVR-Quest2-v0.58.3-SetupCandidate.zip). This includes the Quest 2/3 app v0.58.3/code 63.
 2. **Extract & View Guide:** Extract the ZIP on a Windows PC holding your Steam files and open **START-HERE.html**.
 3. **Run Installer:** Run **Setup Quest.cmd** to sideload the small APK and safely transfer your locally owned Steam assets to your Quest headset. No PC connection is required for standalone play after setup.
 
