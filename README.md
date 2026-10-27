@@ -1,4 +1,5 @@
 # CastleMiner Z VR Mod (Official GitHub Hub)
+If you have any issues please dm me on discord: itssnottristan
 
 Review candidate **v0.58.3/code 63** adds explicit Quest 3 and optional Touch Plus support, preserves Quest 2 and the ADB/HUD repairs, and fixes the reproduced PC intro sampler collision. Physical headset and reporter VirtualDesktopXR acceptance remain untested. [Changes, install/update guidance and evidence](RELEASE-CANDIDATE-v0.58.3.md).
 
