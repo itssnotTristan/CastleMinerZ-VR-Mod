@@ -98,14 +98,16 @@ class Handler(socketserver.BaseRequestHandler):
                 if request=='host:version':self.payload(b'0029');return
                 if request=='host:devices-l':self.payload(b'QUEST-LAB\tdevice product:inert model:Quest_3 device:fixture transport_id:1\n');return
                 if request.endswith(':features') or request=='host:features':self.payload(b'shell_v2');return
+                if request.endswith(':wait-for-any-device'):
+                    s.sendall(b'OKAYOKAY');return
                 if request.startswith('host:transport:') or request.startswith('host:transport-id:'):
                     s.sendall(b'OKAY');continue
                 if request.startswith('host:tport:'):
                     s.sendall(b'OKAY'+struct.pack('<Q',1));continue
                 if request=='sync:':s.sendall(b'OKAY');self.sync();return
-                if request.startswith(('shell:','shell,v2,','exec:')):
+                if request.startswith(('shell:','shell,v2:','shell,v2,','exec:')):
                     s.sendall(b'OKAY');cmd=request.split(':',1)[1];stdout,stderr,code=m.shell(cmd)
-                    if request.startswith('shell,v2,'):
+                    if request.startswith('shell,v2'):
                         for channel,data in ((1,stdout),(2,stderr),(3,bytes([code]))):
                             if data:s.sendall(struct.pack('<BI',channel,len(data))+data)
                     else:s.sendall(stdout+stderr)
