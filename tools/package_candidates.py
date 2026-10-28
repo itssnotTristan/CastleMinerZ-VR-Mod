@@ -7,7 +7,7 @@ from pathlib import Path
 import argparse, hashlib, json, shutil, stat, subprocess, zipfile
 ROOT=Path(__file__).resolve().parents[1]
 p=argparse.ArgumentParser();p.add_argument('--output',type=Path,required=True);p.add_argument('--apk',type=Path)
-p.add_argument('--installer-version',default='0.58.3',choices=['0.58.1','0.58.2','0.58.3'])
+p.add_argument('--installer-version',default='0.58.3',choices=['0.58.1','0.58.2','0.58.3','0.58.4'])
 p.add_argument('--quest-only',action='store_true',help='Do not repackage unaffected PC files')
 a=p.parse_args()
 assert not a.quest_only or a.apk,'--quest-only requires --apk'
@@ -41,7 +41,7 @@ reports=[] if a.quest_only else [package('CastleMinerZ-PCVR-v'+a.installer_versi
 if a.apk:
     info=json.loads((ROOT/'QuestSetup/apk-info.json').read_text());apk=a.apk.read_bytes()
     assert len(apk)==info['bytes'] and sha(apk)==info['sha256'] and a.apk.name==info['apk']
-    expected=(63,'0.58.3-quest3-pc-eye') if a.installer_version=='0.58.3' else (62,'0.58.1-installer-hud')
+    expected=(63,'0.58.3-quest3-pc-eye') if a.installer_version in ('0.58.3','0.58.4') else (62,'0.58.1-installer-hud')
     assert (info['versionCode'],info['versionName'])==expected
     assert info['signerSha256']=='90feab64d6f679f199c4e39a9407e25f17d038de58ff3a047dcecae01ae1e737'
     with zipfile.ZipFile(a.apk) as z:

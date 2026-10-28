@@ -11,6 +11,32 @@ Set-StrictMode -Version 2
 $package='org.codex.castleminerzvr'
 $tools=Join-Path $PSScriptRoot 'Tools'
 $manifest=Get-Content -LiteralPath (Join-Path $tools 'import-manifest.json') -Raw | ConvertFrom-Json
+function Get-QuestImportDirectories {
+    param([Parameter(Mandatory=$true)][object[]]$Assets)
+    $directories=@{}
+    $files=@{}
+    foreach($asset in $Assets){
+        $path=[string]$asset.path
+        # Only manifest-relative, shell-safe paths may reach the headset.
+        if($path -cnotmatch '^game/.+' -or $path -match '[\x00-\x1f\x7f\\:]' -or $files.ContainsKey($path)){
+            throw "Invalid or duplicate Quest import manifest path: $path"
+        }
+        $files[$path]=$true
+        $parts=$path.Substring(5).Split('/')
+        foreach($part in $parts){if(-not $part -or $part -eq '.' -or $part -eq '..'){throw "Invalid or duplicate Quest import manifest path: $path"}}
+        for($i=1;$i -lt $parts.Length;$i++){
+            # Leaf filenames (including the original audio names with spaces
+            # and semicolons) go through ADB sync/checksum data, never shell.
+            if($parts[$i-1] -cnotmatch '^[A-Za-z0-9][A-Za-z0-9._-]*$'){throw "Invalid or duplicate Quest import manifest path: $path"}
+            $directories[($parts[0..($i-1)] -join '/')]=$true
+        }
+    }
+    foreach($directory in $directories.Keys){
+        if($files.ContainsKey('game/'+$directory)){throw "Quest import manifest file/directory conflict: $directory"}
+    }
+    return @($directories.Keys | Sort-Object Length,{$_})
+}
+$importDirectories=@(Get-QuestImportDirectories -Assets @($manifest.assets))
 if(-not $GameDirectory){
     $roots=@('C:\Program Files (x86)\Steam')
     $steam=Get-ItemProperty -LiteralPath 'HKCU:\Software\Valve\Steam' -ErrorAction SilentlyContinue
@@ -64,6 +90,21 @@ function Quest {
     if($exitCode -ne 0){throw ('Quest USB command failed (exit '+$exitCode+'): '+($result -join "`n"))}
     return ($result -join "`n")
 }
+function Copy-QuestImports {
+    param([string]$ImportDirectory,[string]$Incoming,[string]$Serial,[string[]]$Directories)
+    # adbd secure_mkdirs may attempt ownership changes when creating a missing
+    # parent in app external storage. Let the checked shell mkdir create the
+    # complete manifest tree first; never change permissions or ownership.
+    foreach($relative in (@('')+@($Directories))){
+        $destination=$Incoming
+        if($relative){$destination+='/'+$relative}
+        try { Quest -Arguments @('-s',$Serial,'shell','mkdir','-p',$destination) | Out-Null }
+        catch { throw ("Quest staging directory could not be prepared: $destination. No APK installation or import commit was attempted. Keep the headset connected and unlocked, close the game and check free storage, then retry this Setup ZIP. Do not uninstall or clear app data. "+$_.Exception.Message) }
+    }
+    Write-Host 'Copying your converted game files. Keep the USB cable connected.'
+    try { Quest -Arguments @('-s',$Serial,'push',($ImportDirectory.TrimEnd('\','/')+'/.'),$Incoming) | Out-Host }
+    catch { throw ('Quest game-file copy failed before APK installation or import commit. Existing imports and saves were not changed. Check the USB connection and free headset storage, then retry this Setup ZIP; retry uses a new staging folder. Do not uninstall or clear app data. '+$_.Exception.Message) }
+}
 $devices=Quest -Arguments @('devices','-l');$ready=@([regex]::Matches($devices,'(?m)^([^\s]+)\s+device\b') | ForEach-Object {$_.Groups[1].Value} | Where-Object {-not $_.StartsWith('emulator-')})
 if(-not $Serial){if($ready.Count -ne 1){throw 'Connect one Quest by USB and allow USB debugging inside the headset. See START-HERE.html.'};$Serial=$ready[0]}
 if($ready -notcontains $Serial -or (Quest -Arguments @('-s',$Serial,'shell','getprop','ro.product.model')) -notmatch '(?i)quest'){throw 'The selected Quest is not connected and authorized.'}
@@ -76,9 +117,7 @@ $remote='/sdcard/Android/data/'+$package+'/files'
 $token=[Guid]::NewGuid().ToString('N')
 $incoming=$remote+'/game-incoming-'+$token
 $backup=$remote+'/game-before-setup-'+$token
-Quest -Arguments @('-s',$Serial,'shell','mkdir','-p',$incoming) | Out-Null
-Write-Host 'Copying your converted game files. Keep the USB cable connected.'
-Quest -Arguments @('-s',$Serial,'push',($ImportDirectory.TrimEnd('\','/')+'/.'),$incoming) | Out-Host
+Copy-QuestImports -ImportDirectory $ImportDirectory -Incoming $incoming -Serial $Serial -Directories $importDirectories
 [IO.Directory]::CreateDirectory($cache) | Out-Null
 $hashFile=Join-Path $cache ('checksums-'+$token+'.txt')
 $checks=($manifest.assets | ForEach-Object {
