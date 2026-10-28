@@ -1,7 +1,7 @@
 # CastleMiner Z VR Mod (Official GitHub Hub)
 If you have any issues please dm me on discord: itssnottristan
 
-Quest setup **v0.58.4** prepares and checks the complete asset directory tree
+Published [Quest setup **v0.58.4**](https://github.com/itssnotTristan/CastleMinerZ-VR-Mod/releases/download/v0.58.4-public-beta/CastleMinerZVR-Quest2-v0.58.4-SetupCandidate.zip) prepares and checks the complete asset directory tree
 before copying, addressing the missing-audio-parent transfer failure. The app
 stays **v0.58.3/code 63**; PC packages and in-game feeds are unchanged.
 [Installer changes, tests and hardware limits](RELEASE-CANDIDATE-v0.58.4.md).
@@ -19,7 +19,7 @@ Welcome to the official repository for the **CastleMiner Z VR Mod**, developed b
 ## Latest matching PC and Quest release: v0.58.3
 
 [PC setup](https://github.com/itssnotTristan/CastleMinerZ-VR-Mod/releases/download/v0.58.3-public-beta/CastleMinerZ-PCVR-v0.58.3-SetupCandidate.zip) ·
-[Quest 2/3 setup](https://github.com/itssnotTristan/CastleMinerZ-VR-Mod/releases/download/v0.58.3-public-beta/CastleMinerZVR-Quest2-v0.58.3-SetupCandidate.zip) ·
+[Quest 2/3 setup](https://github.com/itssnotTristan/CastleMinerZ-VR-Mod/releases/download/v0.58.4-public-beta/CastleMinerZVR-Quest2-v0.58.4-SetupCandidate.zip) ·
 [Existing-install updates](https://github.com/itssnotTristan/CastleMinerZVR-Updates/releases/tag/v0.58.3).
 
 The reproduced PC intro sampler collision is repaired; Quest 3 and optional
@@ -95,7 +95,7 @@ for requirements, exact hashes, credits and limits.
 
 ### Option B: Standalone Meta Quest Installation
 
-1. **Download Setup:** Download [CastleMinerZVR-Quest2-v0.58.3-SetupCandidate.zip](https://github.com/itssnotTristan/CastleMinerZ-VR-Mod/releases/download/v0.58.3-public-beta/CastleMinerZVR-Quest2-v0.58.3-SetupCandidate.zip). This includes the Quest 2/3 app v0.58.3/code 63.
+1. **Download Setup:** Download [CastleMinerZVR-Quest2-v0.58.4-SetupCandidate.zip](https://github.com/itssnotTristan/CastleMinerZ-VR-Mod/releases/download/v0.58.4-public-beta/CastleMinerZVR-Quest2-v0.58.4-SetupCandidate.zip). This includes the Quest 2/3 app v0.58.3/code 63.
 2. **Extract & View Guide:** Extract the ZIP on a Windows PC holding your Steam files and open **START-HERE.html**.
 3. **Run Installer:** Run **Setup Quest.cmd** to sideload the small APK and safely transfer your locally owned Steam assets to your Quest headset. No PC connection is required for standalone play after setup.
 

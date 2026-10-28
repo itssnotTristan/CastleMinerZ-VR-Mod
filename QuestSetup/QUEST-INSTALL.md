@@ -1,6 +1,6 @@
 # CastleMiner Z VR — Quest installation
 
-Quest setup **v0.58.4** prepares and checks the complete asset directory tree
+Published [Quest setup **v0.58.4**](https://github.com/itssnotTristan/CastleMinerZ-VR-Mod/releases/download/v0.58.4-public-beta/CastleMinerZVR-Quest2-v0.58.4-SetupCandidate.zip) prepares and checks the complete asset directory tree
 before copying, addressing the missing-audio-parent transfer failure. The app
 stays **v0.58.3/code 63**; PC packages and in-game feeds are unchanged.
 [Installer changes, tests and hardware limits](RELEASE-CANDIDATE-v0.58.4.md).

@@ -1,5 +1,7 @@
 # Quest setup v0.58.4: checked asset directories
 
+[Published release, exact hashes and test evidence](https://github.com/itssnotTristan/CastleMinerZ-VR-Mod/releases/tag/v0.58.4-public-beta). The reviewed ZIP keeps its SetupCandidate filename and enclosed notes; its verified bytes were published unchanged.
+
 This installer-only hotfix keeps app **v0.58.3/code 63**, its original signer,
 Quest 2/3 declarations, PC renderer and existing update feeds unchanged.
 Working installations need no new APK. For failed imports, extract the complete
