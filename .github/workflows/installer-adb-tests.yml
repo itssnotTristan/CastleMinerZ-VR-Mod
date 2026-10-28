@@ -1,9 +1,9 @@
 name: Installer ADB regression
 on:
   push:
-    paths: ['QuestSetup/*.ps1', 'tests/AdbStub.cs', 'tests/Test-AdbArguments.ps1', '.github/workflows/installer-adb-tests.yml']
+    paths: ['QuestSetup/*.ps1', 'tests/**', '.github/workflows/installer-adb-tests.yml']
   pull_request:
-    paths: ['QuestSetup/*.ps1', 'tests/AdbStub.cs', 'tests/Test-AdbArguments.ps1', '.github/workflows/installer-adb-tests.yml']
+    paths: ['QuestSetup/*.ps1', 'tests/**', '.github/workflows/installer-adb-tests.yml']
 permissions:
   contents: read
 jobs:
@@ -29,3 +29,19 @@ jobs:
         run: |
           $dir=Join-Path $env:RUNNER_TEMP 'cmz adb tests'
           & ./tests/Test-AdbArguments.ps1 -Stub "$dir\adb-stub.exe" -Log "$dir\ps7.jsonl"
+      - name: Manifest directory safety under both shells
+        shell: pwsh
+        run: |
+          & "$env:WINDIR\System32\WindowsPowerShell\v1.0\powershell.exe" -NoProfile -ExecutionPolicy Bypass -File ./tests/Test-QuestTransferPaths.ps1
+          if($LASTEXITCODE -ne 0){throw 'PS5 transfer paths failed'}
+          & ./tests/Test-QuestTransferPaths.ps1
+      - name: Real installed ADB against isolated sync protocol fixture
+        shell: pwsh
+        run: |
+          $adb=Join-Path $env:ANDROID_HOME 'platform-tools\adb.exe'
+          if(-not (Test-Path -LiteralPath $adb)){throw 'Runner trusted Android platform-tools missing'}
+          & $adb version
+          python tests/test_quest_transfer.py --adb "$adb" --ps "$env:WINDIR\System32\WindowsPowerShell\v1.0\powershell.exe" --work "$env:RUNNER_TEMP\transfer5"
+          if($LASTEXITCODE -ne 0){throw 'PS5 real ADB transfer protocol tests failed'}
+          python tests/test_quest_transfer.py --adb "$adb" --ps (Get-Command pwsh).Source --work "$env:RUNNER_TEMP\transfer7"
+          if($LASTEXITCODE -ne 0){throw 'PS7 real ADB transfer protocol tests failed'}

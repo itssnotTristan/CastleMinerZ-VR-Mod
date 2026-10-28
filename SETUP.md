@@ -1,5 +1,13 @@
 # Setup and troubleshooting
 
+Quest setup **v0.58.4** prepares and checks the complete asset directory tree
+before copying, addressing the missing-audio-parent transfer failure. The app
+stays **v0.58.3/code 63**; PC packages and in-game feeds are unchanged.
+[Installer changes, tests and hardware limits](RELEASE-CANDIDATE-v0.58.4.md).
+No physical Quest acceptance is claimed. Use the complete Setup ZIP for a failed
+import; APK sideloading alone cannot supply game assets. Do not uninstall or clear data.
+
+
 Published **v0.58.3 PC/Quest repair**: [downloads and testing limits](https://github.com/itssnotTristan/CastleMinerZ-VR-Mod/releases/tag/v0.58.3-public-beta). Both apps use code 63; Quest 2 and Quest 3 are declared targets. Physical headset acceptance remains untested. Approved ZIPs retain their Candidate filenames and enclosed notes.
 
 ## Folder layout

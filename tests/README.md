@@ -47,3 +47,25 @@ or physical save-preservation acceptance.
 The private GitHub source workflow additionally runs the native generated policy
 under ASan/UBSan and complete affected import, Java ZIP/download/installer,
 JNI/JVM, startup, update menu, Android API and shutdown suites before signing.
+
+`Test-QuestTransferPaths.ps1` exercises the actual manifest-directory function:
+all416 supported files, nested parents, original audio leaf names with spaces
+and semicolons, traversal, unsafe directories, duplicates and path conflicts.
+
+`test_quest_transfer.py --adb <trusted-installed-adb.exe> --ps <shell.exe>
+--work <new-workspace>` executes production transfer functions with the real
+native client against `adb_transfer_server.py`, a loopback-only smart-socket,
+sync and shell model. It injects failure of ADB's best-effort bulk mkdir,
+rejects missing parents with the reported secure_mkdirs failure, and checks the
+old exit1 path, corrected exact bytes, checked directory failures and partial
+push failure. This is protocol/transaction evidence, NOT Android permission
+reproduction or headset acceptance. The fixture never executes an Android shell
+or connects to an Android device. It holds transfer bytes only in process memory.
+
+For private full-entry tests, additionally pass `--full-entry <supported-game>
+--imports <verified-private-imports> --script <extracted-setup-script>
+--old-script <released-old-script>`. Both complete production entries retain
+their original input/APK validation. Cases cover directory denial, partial push,
+checksum mismatch, install failure, exact transferred bytes, backup/saves and
+retry isolation with fresh GUIDs. Run both shells against the exact extracted
+final package. Do not put original inputs or private logs in public CI/artifacts.

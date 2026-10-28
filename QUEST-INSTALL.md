@@ -1,5 +1,13 @@
 # CastleMiner Z VR — Quest installation
 
+Quest setup **v0.58.4** prepares and checks the complete asset directory tree
+before copying, addressing the missing-audio-parent transfer failure. The app
+stays **v0.58.3/code 63**; PC packages and in-game feeds are unchanged.
+[Installer changes, tests and hardware limits](RELEASE-CANDIDATE-v0.58.4.md).
+No physical Quest acceptance is claimed. Use the complete Setup ZIP for a failed
+import; APK sideloading alone cannot supply game assets. Do not uninstall or clear data.
+
+
 Published **v0.58.3 PC/Quest repair**: [downloads and testing limits](https://github.com/itssnotTristan/CastleMinerZ-VR-Mod/releases/tag/v0.58.3-public-beta). Both apps use version code 63. Quest 2 and Quest 3 are declared targets; physical headset acceptance remains untested. The exact approved ZIPs retain their Candidate filenames and enclosed review notes.
 
 This is the standalone Quest build. The published v0.58.3 build declares Quest 2 and Quest 3 with capability-based controller support; physical headset acceptance remains untested. Read [the v0.58.3 changes and limits](RELEASE-CANDIDATE-v0.58.3.md). You use a Windows PC once to install it and import files from your own Steam copy. After setup, the game runs on the headset without Link, Air Link, or a connected PC.
@@ -36,6 +44,7 @@ If the release adds or changes original game assets, download its complete Quest
 
 | Message or symptom | What to do |
 | --- | --- |
+| Copy fails with `secure_mkdirs`, Operation not permitted, or EOF / app asks to select game after only APK sideloading | Use the complete Quest setup v0.58.4 ZIP and retry after closing the game and checking USB/free storage. Setup checks all parent directories before transfer and stops on a directory denial. Keep the complete error if it persists; do not force permissions, uninstall or clear app data. APK-only installation does not supply game content. |
 | No Quest detected / unauthorized | Keep the headset awake, allow USB debugging inside it, and use a data cable. Disconnect other Android devices or specify the Quest serial. |
 | adb.exe not found | Extract Google's Platform-Tools ZIP and select the `adb.exe` inside it. Keep its DLLs beside it. |
 | Original game missing or unsupported | Install and verify CastleMiner Z through Steam. Select the original game folder, not the mod folder. Supported original version: 1.9.9.8. |

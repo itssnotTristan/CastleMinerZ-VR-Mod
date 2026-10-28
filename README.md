@@ -1,6 +1,14 @@
 # CastleMiner Z VR Mod (Official GitHub Hub)
 If you have any issues please dm me on discord: itssnottristan
 
+Quest setup **v0.58.4** prepares and checks the complete asset directory tree
+before copying, addressing the missing-audio-parent transfer failure. The app
+stays **v0.58.3/code 63**; PC packages and in-game feeds are unchanged.
+[Installer changes, tests and hardware limits](RELEASE-CANDIDATE-v0.58.4.md).
+No physical Quest acceptance is claimed. Use the complete Setup ZIP for a failed
+import; APK sideloading alone cannot supply game assets. Do not uninstall or clear data.
+
+
 Published **v0.58.3/code 63** adds explicit Quest 3 and optional Touch Plus support, preserves Quest 2 and the ADB/HUD repairs, and fixes the reproduced PC intro sampler collision. Physical headset and reporter VirtualDesktopXR acceptance remain untested. [Changes, install/update guidance and evidence](RELEASE-CANDIDATE-v0.58.3.md).
 
 Published **v0.58.3 PC/Quest repair**: [downloads and testing limits](https://github.com/itssnotTristan/CastleMinerZ-VR-Mod/releases/tag/v0.58.3-public-beta). Both apps use version code 63. Quest 2 and Quest 3 are declared targets; physical headset acceptance remains untested. The exact approved ZIPs retain their Candidate filenames and enclosed review notes.
