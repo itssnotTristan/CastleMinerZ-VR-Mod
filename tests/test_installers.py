@@ -36,7 +36,7 @@ class Installers(unittest.TestCase):
         self.imports=self.work/'Private Imports';self.imports.mkdir()
         for name in ('hud-items.rgba','atlas.rgba','hud-items.sha256'):
             shutil.copy2(IMPORTS/name,self.imports/name)
-        self.apk=self.quest/'CastleMinerZVR-Quest2-v0.58.3-PublicUpdate.apk'
+        self.apk=self.quest/'CastleMinerZVR-Quest-v0.60-PublicUpdate.apk'
         self.apk.write_bytes(b'INERT APK TEST DOUBLE - NOT INSTALLABLE')
         (self.quest/'apk-info.json').write_text(json.dumps({'bytes':self.apk.stat().st_size,'sha256':digest(self.apk)}))
         self.log=self.work/'adb.jsonl'

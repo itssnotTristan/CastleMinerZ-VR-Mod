@@ -1,0 +1,70 @@
+{
+  "versionCode": 64,
+  "versionName": "0.60-quest-avatar-graphics",
+  "gameplayRevision": "shared-v0.58",
+  "networkProtocol": 3,
+  "contentFingerprint": "15070507204261208425",
+  "declaredDevices": [
+    "quest2",
+    "quest3",
+    "quest3s"
+  ],
+  "enhancedQuestParallaxDevices": [
+    "quest3",
+    "quest3s"
+  ],
+  "fullPrivateAssets": 579,
+  "publicChecklistAssets": 416,
+  "publicHasOriginalAssets": false,
+  "nativeAvatarGpu": true,
+  "originalGlovePixelsUnchanged": true,
+  "originalRigAnchorsUnchanged": true,
+  "localPeerAvatarTransfer": true,
+  "questShaderDesktopGpu": true,
+  "enemyDefinitionsGpu": 53,
+  "reportedBlackEnemyReproduced": false,
+  "headsetTested": false,
+  "questInstalled": false,
+  "wanTested": false,
+  "published": false,
+  "artifacts": [
+    {
+      "file": "CastleMinerZVR-Quest-v0.60-PublicUpdate.apk",
+      "bytes": 12038215,
+      "sha256": "c106afbccf8ace350e52b78860433b7f3602852c36360383d46930fb3f4bd7a7"
+    },
+    {
+      "file": "CastleMinerZ-PCVR-v0.60-CodeUpdate.zip",
+      "bytes": 3344079,
+      "sha256": "f70f228813aab9444a00ba9305cdba8cb69f5eec433ae9188a709b0c3998dab8"
+    },
+    {
+      "file": "CastleMinerZ-PCVR-v0.60-Setup.zip",
+      "bytes": 3509565,
+      "sha256": "81cddd308cc9c946d6c7e764f346372daabafb0868747475a23b7eae6153dbaf"
+    },
+    {
+      "file": "CastleMinerZVR-Quest-v0.60-Setup.zip",
+      "bytes": 4826676,
+      "sha256": "2b52c1f67fcb2cce22e46644952f67e21e784a1a6ebc5a4e1f2b2ce7a79c360d"
+    }
+  ],
+  "pcInstalled": true,
+  "pcGraphicsSceneChecks": 16,
+  "pcEyePresetsGpu": 4,
+  "pcStorageFramesGpu": 120,
+  "pcHdFilesPreserved": 148,
+  "personalZipRoundtrip": true,
+  "sourceParitySharedFiles": 179,
+  "sourceParityPassed": true,
+  "avatarExportBridgeByteExact": true,
+  "avatarLiveWebviewAccepted": false,
+  "installerScenarioGroups": 9,
+  "installerScenarioShell": "PowerShell7",
+  "adbArgumentChecksPerShell": 21,
+  "questDirectoryChecksPerShell": 19,
+  "installerTargetedShells": [
+    "PowerShell5.1",
+    "PowerShell7"
+  ]
+}

@@ -1,25 +1,10 @@
-# CastleMiner Z VR â€” Quest installation
+# CastleMiner Z VR — Quest 2, Quest 3, and Quest 3S
 
-Published [Quest setup **v0.58.4**](https://github.com/itssnotTristan/CastleMinerZ-VR-Mod/releases/download/v0.58.4-public-beta/CastleMinerZVR-Quest2-v0.58.4-SetupCandidate.zip) prepares and checks the complete asset directory tree
-before copying, addressing the missing-audio-parent transfer failure. The app
-stays **v0.58.3/code 63**; PC packages and in-game feeds are unchanged.
-[Installer changes, tests and hardware limits](RELEASE-CANDIDATE-v0.58.4.md).
-No physical Quest acceptance is claimed. Use the complete Setup ZIP for a failed
-import; APK sideloading alone cannot supply game assets. Do not uninstall or clear data.
-
-
-Published **v0.58.3 PC/Quest repair**: [downloads and testing limits](https://github.com/itssnotTristan/CastleMinerZ-VR-Mod/releases/tag/v0.58.3-public-beta). Both apps use version code 63. Quest 2 and Quest 3 are declared targets; physical headset acceptance remains untested. The exact approved ZIPs retain their Candidate filenames and enclosed review notes.
-
-This fixes normal ADB startup notices stopping Windows PowerShell 5.1 setup.
-Read [the hotfix notes and testing limits](RELEASE-CANDIDATE-v0.58.2.md).
-Existing working v0.58.1 headset installs need no app update; do not uninstall or
-clear app data when retrying setup.
-
-This is the standalone Quest build. The published v0.58.3 build declares Quest 2 and Quest 3 with capability-based controller support; physical headset acceptance remains untested. Read [the v0.58.3 changes and limits](RELEASE-CANDIDATE-v0.58.3.md). You use a Windows PC once to install it and import files from your own Steam copy. After setup, the game runs on the headset without Link, Air Link, or a connected PC.
+Use the complete **v0.60 Quest Setup ZIP**, build64. Startup now checks files in a visible panel before entering VR. [Changes and testing limits](RELEASE-NOTES-v0.60.md).
 
 ## What you need
 
-- A Quest 2 or Quest 3, both controllers, and a USB cable that supports data.
+- A Quest 2, Quest 3, or Quest 3S, both controllers, and a USB cable that supports data.
 - A Windows 10/11 PC with CastleMiner Z installed through Steam. This beta supports the original game version **1.9.9.8**. Launch the original game once so its XNA prerequisites are installed.
 - Developer Mode enabled on the headset, and USB debugging allowed inside the headset.
 - The **complete Quest Setup ZIP** for this release. The small APK alone does not contain the original game textures, models, music, or sounds.
@@ -49,7 +34,7 @@ If the release adds or changes original game assets, download its complete Quest
 
 | Message or symptom | What to do |
 | --- | --- |
-| Copy fails with `secure_mkdirs`, Operation not permitted, or EOF / app asks to select game after only APK sideloading | Use the complete Quest setup v0.58.4 ZIP and retry after closing the game and checking USB/free storage. Setup checks all parent directories before transfer and stops on a directory denial. Keep the complete error if it persists; do not force permissions, uninstall or clear app data. APK-only installation does not supply game content. |
+| Copy fails with `secure_mkdirs`, Operation not permitted, or EOF / app asks to select game after only APK sideloading | Use the complete Quest setup v0.60 ZIP and retry after closing the game and checking USB/free storage. Setup checks all parent directories before transfer and stops on a directory denial. Keep the complete error if it persists; do not force permissions, uninstall or clear app data. APK-only installation does not supply game content. |
 | No Quest detected / unauthorized | Keep the headset awake, allow USB debugging inside it, and use a data cable. Disconnect other Android devices or specify the Quest serial. |
 | adb.exe not found | Extract Google's Platform-Tools ZIP and select the `adb.exe` inside it. Keep its DLLs beside it. |
 | Original game missing or unsupported | Install and verify CastleMiner Z through Steam. Select the original game folder, not the mod folder. Supported original version: 1.9.9.8. |
@@ -75,3 +60,15 @@ Use `-Serial` when more than one Android device is connected. `-PrepareOnly` con
 ## Original-game requirement
 
 Own CastleMiner Z and import files from your own Steam installation. Public downloads do not include the original game content. The app verifies the supported original executable file; it does **not** log in to Steam or verify account entitlement. Do not share your converted game-data folder or an APK repacked with original assets. This project is unofficial and is not endorsed by the game's developers.
+
+## Recovering a file-selection loop
+
+Selecting `CastleMinerZ.exe` verifies the original file; the small public APK also needs all converted game content. The setup panel reports which file is missing. Run the complete **Setup Quest.cmd** package once, or choose **Import game-data ZIP** to import a personal converted data ZIP already copied to Downloads. An EXE or APK is not a game-data ZIP. Keep the app installed to preserve saves.
+
+To export your own previously converted data on Windows, run `Export-QuestGameData.ps1 -ImportDirectory 'C:\YourImports\game'`. To prepare a fresh conversion without USB, use `Setup-QuestStandalone.ps1 -PrepareOnly` first. Copy the resulting personal ZIP to your own headset. The export verifies each expected file and includes the optional generated HUD receipt. Keep the converted original content private.
+
+## Graphics and avatars
+
+Quest 3/3S: **Options > Quest graphics** offers parallax Off/Low/Medium and strength. Quest 2 retains the standard profiles. Start with Off or Low if you need more frame rate. These settings do not change eye projection.
+
+**Options > Player Avatar > Create avatar (360sona)** opens the online creator in a headset panel. Export GLB in T-pose with embedded textures; conversion runs locally. [Full avatar instructions](AVATARS.md). The live editor flow and physical headset performance still require testing.

@@ -1,18 +1,16 @@
 {
-  "apk": "CastleMinerZVR-Quest2-v0.58.3-PublicUpdate.apk",
+  "apk": "CastleMinerZVR-Quest-v0.60-PublicUpdate.apk",
   "package": "org.codex.castleminerzvr",
-  "versionCode": 63,
-  "versionName": "0.58.3-quest3-pc-eye",
+  "versionCode": 64,
+  "versionName": "0.60-quest-avatar-graphics",
   "signerSha256": "90feab64d6f679f199c4e39a9407e25f17d038de58ff3a047dcecae01ae1e737",
-  "commit": "263b2a0f9eea0def6de85a43ada092d60f65c2b1",
-  "runId": "40439813182",
-  "bytes": 11731918,
-  "sha256": "dc689ce80f2abbbca314b74f707de8717d172058142a587fcc63c8edc7e9f7bb",
-  "sourceArchiveSha256": "1e227a3f2f9509c1f4105ce4c9b103df0dc9a1864ea52e5d6338108aa41cf06e",
+  "bytes": 12038215,
+  "sha256": "c106afbccf8ace350e52b78860433b7f3602852c36360383d46930fb3f4bd7a7",
   "assetChecklistSha256": "2c1334c9778f52d93b251461519577b717d6ead737d249c9033db8a185e984fa",
   "declaredDevices": [
     "quest2",
-    "quest3"
+    "quest3",
+    "quest3s"
   ],
   "physicalHeadsetAcceptance": false
 }
