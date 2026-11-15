@@ -1836,7 +1836,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
 
-cgltf v1.15 — https://github.com/jkuhlmann/cgltf
+cgltf v1.15 â€” https://github.com/jkuhlmann/cgltf
 
  *
  * Copyright (c) 2018-2021 Johannes Kuhlmann
@@ -1859,7 +1859,7 @@ cgltf v1.15 — https://github.com/jkuhlmann/cgltf
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
  * SOFTWARE.
 
-stb_image (9600522de53973336fa033a289858a4354cbb04c) — https://github.com/nothings/stb
+stb_image (9600522de53973336fa033a289858a4354cbb04c) â€” https://github.com/nothings/stb
 
 Copyright (c) 2017 Sean Barrett
 Permission is hereby granted, free of charge, to any person obtaining a copy of

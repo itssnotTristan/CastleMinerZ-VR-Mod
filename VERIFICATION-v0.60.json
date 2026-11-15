@@ -35,18 +35,18 @@
     },
     {
       "file": "CastleMinerZ-PCVR-v0.60-CodeUpdate.zip",
-      "bytes": 3344079,
-      "sha256": "f70f228813aab9444a00ba9305cdba8cb69f5eec433ae9188a709b0c3998dab8"
+      "bytes": 3344574,
+      "sha256": "b2bd9c79eb8ef408ddb1031c638218434b1acdb627870aecdef0b97a6e6954f7"
     },
     {
       "file": "CastleMinerZ-PCVR-v0.60-Setup.zip",
-      "bytes": 3509565,
-      "sha256": "81cddd308cc9c946d6c7e764f346372daabafb0868747475a23b7eae6153dbaf"
+      "bytes": 3510078,
+      "sha256": "834fca75a003fff42494bcf9d21895048302c958598e214a893b242155b3c62f"
     },
     {
       "file": "CastleMinerZVR-Quest-v0.60-Setup.zip",
-      "bytes": 4826676,
-      "sha256": "2b52c1f67fcb2cce22e46644952f67e21e784a1a6ebc5a4e1f2b2ce7a79c360d"
+      "bytes": 4827180,
+      "sha256": "b4cab38e9d9fecd51d5537e822c568910ccae69b7f14a3dc972db01b1e21ded6"
     }
   ],
   "pcInstalled": true,

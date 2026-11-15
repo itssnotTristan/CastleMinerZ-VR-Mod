@@ -1,4 +1,4 @@
-# CastleMiner Z VR — Quest 2, Quest 3, and Quest 3S
+# CastleMiner Z VR â€” Quest 2, Quest 3, and Quest 3S
 
 Use the complete **v0.60 Quest Setup ZIP**, build64. Startup now checks files in a visible panel before entering VR. [Changes and testing limits](RELEASE-NOTES-v0.60.md).
 

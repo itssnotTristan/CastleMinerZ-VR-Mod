@@ -2,9 +2,9 @@
 
 Unofficial PC VR and standalone Quest port by ItssnotTristan. For support, message **itssnottristan** on Discord and include the version, headset model, and exact error.
 
-## v0.60 — matching PC and Quest update
+## v0.60 â€” matching PC and Quest update
 
-[PC VR setup](https://github.com/itssnotTristan/CastleMinerZ-VR-Mod/releases/download/v0.60/CastleMinerZ-PCVR-v0.60-Setup.zip) · [Quest 2 / 3 / 3S setup](https://github.com/itssnotTristan/CastleMinerZ-VR-Mod/releases/download/v0.60/CastleMinerZVR-Quest-v0.60-Setup.zip) · [Release notes and testing limits](RELEASE-NOTES-v0.60.md)
+[PC VR setup](https://github.com/itssnotTristan/CastleMinerZ-VR-Mod/releases/download/v0.60/CastleMinerZ-PCVR-v0.60-Setup.zip) Â· [Quest 2 / 3 / 3S setup](https://github.com/itssnotTristan/CastleMinerZ-VR-Mod/releases/download/v0.60/CastleMinerZVR-Quest-v0.60-Setup.zip) Â· [Release notes and testing limits](RELEASE-NOTES-v0.60.md)
 
 Both platforms use build64 / **0.60-quest-avatar-graphics**, shared-v0.58 gameplay and protocol3. Existing PC HD textures, bloom, shadows, and parallax remain. Quest 3/3S get optional adjustable block parallax; Quest 2 keeps its existing graphics profiles. The avatar picker supports local GLB conversion, with a 360sona editor panel on Quest. [Avatar instructions](AVATARS.md).
 
@@ -28,6 +28,6 @@ Left stick moves; right stick turns. Right trigger uses the selected item. Grips
 
 Desktop GPU, native conversion, file recovery, updater, and local peer checks passed. No physical Quest is connected: Quest 2/3/3S installation, live editor export, tracking, frame rate, comfort, and this release's physical PC VR/WAN play remain unaccepted. Original-game feature parity remains incomplete. See the release notes for exact scope.
 
-[Possible future features](FEATURE-IDEAS.md) · [Credits and licenses](CastleMinerZVR/THIRD-PARTY-LICENSES.txt)
+[Possible future features](FEATURE-IDEAS.md) Â· [Credits and licenses](CastleMinerZVR/THIRD-PARTY-LICENSES.txt)
 
 CastleMiner Z and its original assets belong to DigitalDNA Games. This project is unofficial and is not affiliated with or endorsed by the original developers. 360sona remains an external service.
